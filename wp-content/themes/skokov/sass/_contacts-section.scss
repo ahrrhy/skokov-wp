@@ -1,0 +1,210 @@
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../fonts/CenturyGothic/CenturyGothic.eot?#iefix') format('embedded-opentype'),  url('../fonts/CenturyGothic/CenturyGothic.woff') format('woff'), url('../fonts/CenturyGothic/CenturyGothic.ttf')  format('truetype'), url('../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url('../fonts/Code-Light/Code-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Code-Light/Code-Light.otf')  format('opentype'),
+  url('../fonts/Code-Light/Code-Light.woff') format('woff'), url('../fonts/Code-Light/Code-Light.ttf')  format('truetype'), url('../fonts/Code-Light/Code-Light.svg#Code-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$century : 'CenturyGothic';
+$code    : 'Code-Light';
+$yellow  : #ffeb00;
+$black   : #000000;
+$white   : #ffffff;
+$background : #f6f6f6;
+
+#contacts{
+  background-color: #3f3f44;
+  font-family: $century;
+  font-size: 0.8em;
+  color: $white;
+  .article-header{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 0.9em;
+    margin: 5% 0;
+  }
+
+  .article-paragraph{
+    margin: 0 0 2% 0;
+  }
+  .link-holder{
+    margin: 10% 0;
+    .button-link{
+      text-decoration: none;
+      color: $white;
+      padding: 2% 3%;
+      background-color: $black;
+      border-bottom: 3px solid $yellow;
+      &:hover{
+        background-color: $yellow;
+        transition: 0.5s;
+      }
+    }
+  }
+  .some-photo{
+    display: inline-block;
+    margin: 2% 0 3%;
+    &>li{
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+  .tweet-holder{
+    & .posts{
+      line-height: 1.25em;
+      padding-left: 55px;
+      background: url("../img/twitter-birs-icon-1.png") 0 10%/auto no-repeat;
+    }
+    & .yellow-link{
+      color: $yellow;
+      text-decoration: none;
+    }
+    & .date{
+      display: block;
+      font-size: 0.7em;
+      margin-bottom: 2%;
+    }
+  }
+  .for-social-header{
+    margin-right: 5%;
+  }
+  .for-social-links{
+    & .social-links{
+      display: inline-block;
+      font-size: 1.2em;
+      width: 25px;
+      height: 25px;
+      margin: 2px 0;
+      background-color: $black;
+      & a{
+        & .fa{
+          color: $white;
+          padding: 5px;
+        }
+      }
+      &:hover .fa{
+        color: $yellow;
+      }
+    }
+  }
+  .for-feedback-icons{
+    float: left;
+    background-color: $black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 5px 0 0 0;
+  }
+  .for-information{
+    line-height: 1.3em;
+    margin: 5px 0 5px 35px;
+    padding: 5px 0;
+    & a{
+      text-decoration: none;
+      color: $white;
+    }
+    & .mail-link{
+      color: $yellow;
+    }
+    & .second-number{
+      display: block;
+      padding: 0 0 0 50px;
+    }
+  }
+  .feedback{
+    margin-bottom: 15%;
+  }
+  .monkey-input{
+    width: 60%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid $yellow;
+    float: left;
+    margin: 3px 0 0 0;
+  }
+  .monkey-button{
+    border: none;
+    background-color: $black;
+    width: 25px;
+    height: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #contacts {
+    .link-holder {
+      margin: 15% 0;
+    }
+    .for-social-header {
+      display: inline-block;
+      float: left;
+      margin-right: 5%;
+    }
+    .for-social-links{
+      padding: 3.5% 0 0 0;
+      margin:0 0 5% 15%;
+      & .social-links{
+        display: inline-block;
+        font-size: 1.2em;
+        width: 25px;
+        height: 25px;
+        margin: 2px 0;
+        background-color: $black;
+        & a{
+          & .fa{
+            color: $white;
+            padding: 5px;
+           }
+        }
+      }
+    }
+  }
+}
+  @media screen and (min-width: 767px) and (max-width: 991px) {
+    #contacts {
+      .link-holder {
+        margin: 15% 0;
+      }
+      .for-social-header {
+        display: inline-block;
+        float: left;
+        margin-right: 5%;
+      }
+
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+   #contacts{
+     .link-holder {
+       margin: 10% 0;
+     }
+     .for-social-header {
+       display: inline-block;
+       float: left;
+       margin-right: 5%;
+     }
+
+   }
+
+  }
+  @media screen and (min-width: 1200px) {
+    #contacts{
+      .link-holder {
+        margin: 10% 0;
+      }
+      .for-social-header {
+        display: inline-block;
+        float: left;
+        margin-right: 5%;
+      }
+
+    }
+
+  }

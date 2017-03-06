@@ -1,0 +1,845 @@
+/* line 5, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 23, ../sass/_contacts-section.scss */
+#contacts {
+  background-color: #3f3f44;
+  font-family: "CenturyGothic";
+  font-size: 0.8em;
+  color: #ffffff;
+}
+/* line 28, ../sass/_contacts-section.scss */
+#contacts .article-header {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 0.9em;
+  margin: 5% 0;
+}
+/* line 35, ../sass/_contacts-section.scss */
+#contacts .article-paragraph {
+  margin: 0 0 2% 0;
+}
+/* line 38, ../sass/_contacts-section.scss */
+#contacts .link-holder {
+  margin: 10% 0;
+}
+/* line 40, ../sass/_contacts-section.scss */
+#contacts .link-holder .button-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2% 3%;
+  background-color: #000000;
+  border-bottom: 3px solid #ffeb00;
+}
+/* line 46, ../sass/_contacts-section.scss */
+#contacts .link-holder .button-link:hover {
+  background-color: #ffeb00;
+  transition: 0.5s;
+}
+/* line 52, ../sass/_contacts-section.scss */
+#contacts .some-photo {
+  display: inline-block;
+  margin: 2% 0 3%;
+}
+/* line 55, ../sass/_contacts-section.scss */
+#contacts .some-photo > li {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 61, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .posts {
+  line-height: 1.25em;
+  padding-left: 55px;
+  background: url("../img/twitter-birs-icon-1.png") 0 10%/auto no-repeat;
+}
+/* line 66, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .yellow-link {
+  color: #ffeb00;
+  text-decoration: none;
+}
+/* line 70, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .date {
+  display: block;
+  font-size: 0.7em;
+  margin-bottom: 2%;
+}
+/* line 76, ../sass/_contacts-section.scss */
+#contacts .for-social-header {
+  margin-right: 5%;
+}
+/* line 80, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links {
+  display: inline-block;
+  font-size: 1.2em;
+  width: 25px;
+  height: 25px;
+  margin: 2px 0;
+  background-color: #000000;
+}
+/* line 88, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links a .fa {
+  color: #ffffff;
+  padding: 5px;
+}
+/* line 93, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links:hover .fa {
+  color: #ffeb00;
+}
+/* line 98, ../sass/_contacts-section.scss */
+#contacts .for-feedback-icons {
+  float: left;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+/* line 106, ../sass/_contacts-section.scss */
+#contacts .for-information {
+  line-height: 1.3em;
+  margin: 5px 0 5px 35px;
+  padding: 5px 0;
+}
+/* line 110, ../sass/_contacts-section.scss */
+#contacts .for-information a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 114, ../sass/_contacts-section.scss */
+#contacts .for-information .mail-link {
+  color: #ffeb00;
+}
+/* line 117, ../sass/_contacts-section.scss */
+#contacts .for-information .second-number {
+  display: block;
+  padding: 0 0 0 50px;
+}
+/* line 122, ../sass/_contacts-section.scss */
+#contacts .feedback {
+  margin-bottom: 15%;
+}
+/* line 125, ../sass/_contacts-section.scss */
+#contacts .monkey-input {
+  width: 60%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ffeb00;
+  float: left;
+  margin: 3px 0 0 0;
+}
+/* line 133, ../sass/_contacts-section.scss */
+#contacts .monkey-button {
+  border: none;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 142, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 15% 0;
+  }
+  /* line 145, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+  /* line 150, ../sass/_contacts-section.scss */
+  #contacts .for-social-links {
+    padding: 3.5% 0 0 0;
+    margin: 0 0 5% 15%;
+  }
+  /* line 153, ../sass/_contacts-section.scss */
+  #contacts .for-social-links .social-links {
+    display: inline-block;
+    font-size: 1.2em;
+    width: 25px;
+    height: 25px;
+    margin: 2px 0;
+    background-color: #000000;
+  }
+  /* line 161, ../sass/_contacts-section.scss */
+  #contacts .for-social-links .social-links a .fa {
+    color: #ffffff;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  /* line 172, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 15% 0;
+  }
+  /* line 175, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 185, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 10% 0;
+  }
+  /* line 188, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 199, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 10% 0;
+  }
+  /* line 202, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_footer.scss */
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* line 26, ../sass/_footer.scss */
+#footer .copy {
+  padding-top: 20px;
+  font: 400 0.85em/1em "CenturyGothic";
+}
+/* line 30, ../sass/_footer.scss */
+#footer .nav-footer {
+  padding-top: 20px;
+}
+/* line 32, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 7%;
+}
+/* line 36, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:hover {
+  background-color: #ffeb00;
+}
+/* line 39, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:hover a {
+  color: #000000;
+}
+/* line 42, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:last-child {
+  margin-right: 0;
+}
+/* line 45, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells a {
+  font: 300 1em/1.3em "Code-Light";
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 56, ../sass/_footer.scss */
+  #footer {
+    padding-top: 20px;
+  }
+  /* line 58, ../sass/_footer.scss */
+  #footer .nav-footer {
+    padding-top: 20px;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_nav.scss */
+.custom-nav {
+  margin: 0;
+  border-bottom: none;
+  background-color: #f6f6f6;
+  background-image: none;
+  box-shadow: none;
+}
+/* line 28, ../sass/_nav.scss */
+.custom-nav .header-logo {
+  padding: 10px 0 120px 0;
+}
+/* line 31, ../sass/_nav.scss */
+.custom-nav .nav-links-right {
+  padding: 40px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 34, ../sass/_nav.scss */
+.custom-nav .nav-links-right a {
+  font: 300 1em/1.5em "Code-Light";
+  color: #000000;
+  transition: all 0.5s;
+}
+/* line 40, ../sass/_nav.scss */
+.custom-nav .custom-nav .nav-links-right a:active {
+  background-color: #ffeb00;
+}
+/* line 43, ../sass/_nav.scss */
+.custom-nav .nav-links-right > li > a:hover {
+  background-color: #ffeb00;
+}
+/* line 47, ../sass/_nav.scss */
+.custom-nav .nav-button {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 54, ../sass/_nav.scss */
+  #navigation .nav-links-right {
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+  }
+  /* line 57, ../sass/_nav.scss */
+  #navigation .nav-links-right a {
+    font: 300 1.5em/1em "Code-Light";
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 66, ../sass/_nav.scss */
+  #navigation .nav-links-right {
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+  }
+  /* line 69, ../sass/_nav.scss */
+  #navigation .nav-links-right a {
+    font: 400 1.5em/1em "Code-Light";
+    color: #000000;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 28, ../sass/_for-page-header.scss */
+#for-page-header {
+  margin-bottom: 3%;
+  background: url("../img/portfolio/slider-bg-portfolio.png") 0 0/auto no-repeat;
+  padding: 2% 0;
+}
+/* line 32, ../sass/_for-page-header.scss */
+#for-page-header .page-header-port {
+  display: inline-block;
+  font: 400 1.8em/1.2em "CenturyGothic";
+  color: #ffeb00;
+  background-color: #403f44;
+  text-transform: uppercase;
+  padding: 10px 40px 10px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 45, ../sass/_for-page-header.scss */
+  #for-page-header {
+    padding: 2% 0;
+  }
+}
+/* line 28, ../sass/blog.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 32, ../sass/blog.scss */
+.grid-item, .grid-sizer {
+  width: 100%;
+}
+
+/* line 35, ../sass/blog.scss */
+.ability {
+  background-color: #ffeb00;
+  font: 500 0.8em/1em "CenturyGothic";
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+/* line 41, ../sass/blog.scss */
+.ability .author {
+  text-align: right;
+  font: 400 0.6em/0.8em "CenturyGothic";
+  padding-top: 5px;
+}
+
+/* line 47, ../sass/blog.scss */
+.news-list li {
+  margin-bottom: 30px;
+}
+/* line 49, ../sass/blog.scss */
+.news-list li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 54, ../sass/blog.scss */
+.news-description-holder {
+  background-color: #ffeb00;
+  padding: 15px;
+}
+/* line 57, ../sass/blog.scss */
+.news-description-holder .news-header {
+  font: 700 1.3em/1em "CenturyGothic";
+  text-transform: uppercase;
+  color: #000000;
+}
+/* line 62, ../sass/blog.scss */
+.news-description-holder .arrow_box {
+  position: relative;
+}
+/* line 66, ../sass/blog.scss */
+.news-description-holder .arrow_box:after, .news-description-holder .arrow_box:before {
+  bottom: 115%;
+  right: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 77, ../sass/blog.scss */
+.news-description-holder .arrow_box:after {
+  border-color: rgba(213, 130, 66, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -15px;
+}
+/* line 83, ../sass/blog.scss */
+.news-description-holder .arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -16px;
+}
+/* line 89, ../sass/blog.scss */
+.news-description-holder .news-description {
+  color: #5e5e5e;
+  font: 400 1em/1em "CenturyGothic";
+  margin: 10px 0;
+}
+/* line 94, ../sass/blog.scss */
+.news-description-holder .news-info {
+  color: #5e5e5e;
+  font: 700 0.7em/0.8em "CenturyGothic";
+}
+/* line 97, ../sass/blog.scss */
+.news-description-holder .news-info span {
+  color: #000000;
+}
+
+/* line 105, ../sass/blog.scss */
+.blog-aside {
+  margin-top: 30px;
+}
+/* line 107, ../sass/blog.scss */
+.blog-aside section {
+  padding: 25px;
+  margin: 0 0 30px 0;
+  background-color: #403f46;
+}
+/* line 112, ../sass/blog.scss */
+.blog-aside .aside-section-header {
+  color: #ffeb00;
+  font: 600 1.1em/1.3em "CenturyGothic";
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+/* line 119, ../sass/blog.scss */
+.blog-aside .details-list .details-content {
+  list-style: none inside url("../img/project/arrow.png");
+}
+/* line 123, ../sass/blog.scss */
+.blog-aside .aside-links {
+  color: #ffffff;
+  font: 400 1em/1.5em "CenturyGothic";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 129, ../sass/blog.scss */
+.blog-aside .popular-post {
+  margin-bottom: 35px;
+}
+/* line 131, ../sass/blog.scss */
+.blog-aside .popular-post .post-img {
+  width: 100%;
+}
+/* line 137, ../sass/blog.scss */
+.blog-aside .popular-post .post-date {
+  color: #ffeb00;
+  font: 400 0.8em/1.2em "CenturyGothic";
+  float: right;
+  padding: 10px 0 0 0;
+}
+/* line 145, ../sass/blog.scss */
+.blog-aside .tags-list li {
+  display: inline-block;
+  background-color: #ffeb00;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 3px;
+}
+/* line 151, ../sass/blog.scss */
+.blog-aside .tags-list li > a {
+  font: 400 1em/1em "CenturyGothic";
+  text-decoration: none;
+  color: #424147;
+}
+
+/* line 160, ../sass/blog.scss */
+.pagination .pagination .previous-page {
+  float: left;
+}
+/* line 164, ../sass/blog.scss */
+.pagination .pagination .next-page {
+  float: right;
+}
+
+/* line 168, ../sass/blog.scss */
+.pagination li > a, .pagination li > span {
+  border: none;
+  background-color: inherit;
+  text-transform: uppercase;
+  color: #000000;
+  font: 700 1em/1em "CenturyGothic";
+}
+
+/* line 175, ../sass/blog.scss */
+.pagination > .active > a, .pagination > .active > span {
+  background-color: #ffeb00;
+}
+
+/* line 179, ../sass/blog.scss */
+.pagination li {
+  text-align: center;
+}
+
+/* line 182, ../sass/blog.scss */
+.category, .archive-name {
+  list-style: none inside url("../img/project/arrow.png");
+}
+
+/* line 186, ../sass/blog.scss */
+.search-form .search-input {
+  border: 1px solid #403f46;
+  border-radius: 18px;
+  font: 400 1em/1.6em "CenturyGothic";
+}
+/* line 190, ../sass/blog.scss */
+.search-form .search-input::-webkit-input-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 194, ../sass/blog.scss */
+.search-form .search-input::-moz-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 198, ../sass/blog.scss */
+.search-form .search-input:-moz-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 202, ../sass/blog.scss */
+.search-form .search-input:-ms-input-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 211, ../sass/blog.scss */
+  .news-description-holder .arrow_box {
+    position: relative;
+  }
+  /* line 215, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after, .news-description-holder .arrow_box:before {
+    bottom: 115%;
+    right: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  /* line 226, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after {
+    border-color: rgba(213, 130, 66, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -15px;
+  }
+  /* line 232, ../sass/blog.scss */
+  .news-description-holder .arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -16px;
+  }
+
+  /* line 239, ../sass/blog.scss */
+  .grid-item, .grid-sizer {
+    width: 50%;
+  }
+
+  /* line 242, ../sass/blog.scss */
+  .ability {
+    background-color: #ffeb00;
+    font: 500 1.3em/1.5em "CenturyGothic";
+    color: #000000;
+    padding: 15px;
+  }
+
+  /* line 248, ../sass/blog.scss */
+  .news-preview {
+    width: 100%;
+  }
+
+  /* line 251, ../sass/blog.scss */
+  .news-info {
+    color: #5e5e5e;
+    font: 700 0.8em/0.8em "CenturyGothic";
+  }
+  /* line 254, ../sass/blog.scss */
+  .news-info span {
+    color: #000000;
+  }
+
+  /* line 258, ../sass/blog.scss */
+  #blog-aside {
+    margin-top: 30px;
+  }
+  /* line 260, ../sass/blog.scss */
+  #blog-aside .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 266, ../sass/blog.scss */
+  #blog-aside .popular-post {
+    margin-bottom: 25px;
+  }
+  /* line 268, ../sass/blog.scss */
+  #blog-aside .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  /* line 272, ../sass/blog.scss */
+  #blog-aside .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 275, ../sass/blog.scss */
+  #blog-aside .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+
+  /* line 283, ../sass/blog.scss */
+  .search-form {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 296, ../sass/blog.scss */
+  .news-description-holder .arrow_box {
+    position: relative;
+  }
+  /* line 300, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after, .news-description-holder .arrow_box:before {
+    bottom: 135%;
+    right: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  /* line 311, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after {
+    border-color: rgba(213, 130, 66, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -15px;
+  }
+  /* line 317, ../sass/blog.scss */
+  .news-description-holder .arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -16px;
+  }
+
+  /* line 324, ../sass/blog.scss */
+  .pagination .previous-page {
+    float: left;
+  }
+
+  /* line 327, ../sass/blog.scss */
+  .pagination .next-page {
+    float: right;
+  }
+
+  /* line 330, ../sass/blog.scss */
+  .pagination .previous-page {
+    margin-right: 33%;
+  }
+
+  /* line 334, ../sass/blog.scss */
+  #blog-aside .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 340, ../sass/blog.scss */
+  #blog-aside .popular-post {
+    max-height: 70px;
+    margin-bottom: 25px;
+  }
+  /* line 343, ../sass/blog.scss */
+  #blog-aside .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  /* line 348, ../sass/blog.scss */
+  #blog-aside .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 352, ../sass/blog.scss */
+  #blog-aside .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+
+  /* line 360, ../sass/blog.scss */
+  .news-info {
+    color: #5e5e5e;
+    font: 700 0.8em/0.8em "CenturyGothic";
+  }
+  /* line 363, ../sass/blog.scss */
+  .news-info span {
+    color: #000000;
+    float: right;
+  }
+}

@@ -1,0 +1,30 @@
+.site-footer{
+  .active{
+    background-color: $yellow;
+  }
+  & .site-nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: none;
+    & ul{
+      width: 100%;
+      & li{
+        font: 300 1em/1.3em "Code-Light";
+        text-transform: uppercase;
+        text-align: center;
+        word-spacing: -0.05rem;
+        letter-spacing: -0.05rem;
+        padding: 20px 3px;
+        color: #000000;
+        &:hover{
+          background-color: $yellow;
+        }
+        display: inline-block;
+        & a{
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+  }
+}

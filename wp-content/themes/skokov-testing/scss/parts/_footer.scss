@@ -1,0 +1,156 @@
+.site-footer{
+  .footer-widget-area{
+    background-color: #403f46;
+    font-family: $century;
+    font-size: 0.8em;
+    color: #ffffff;
+  }
+  .site-info{
+    background-color: $black;
+    padding: 15px 3px;
+    color: $white;
+
+  }
+  .copyright{
+    font: 400 14px/32px $century;
+  }
+  .footer-menu{
+    & ul{
+      display: flex;
+      justify-content: space-between;
+      & li{
+        font: 400 16px/32px "Code-Light";
+        text-transform: uppercase;
+        text-align: center;
+        &:hover{
+          background-color: $yellow * 0.5;
+        }
+        & a{
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+  }
+}
+.article-header{
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 0.9em;
+  margin: 5% 0;
+}
+.link-holder{
+  margin: 10% 0;
+  .button-link{
+    text-decoration: none;
+    color: $white;
+    padding: 2% 3%;
+    background-color: $black;
+    border-bottom: 3px solid $yellow;
+    &:hover{
+      background-color: $yellow;
+      transition: 0.5s;
+    }
+  }
+}
+.article-paragraph{
+  margin: 0 0 2% 0;
+}
+.widget_twitter_timeline{
+  .aside-section-header{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 0.9em;
+    margin: 5% 0;
+  }
+}
+#wpcom_social_media_icons_widget-2{
+  & h2.aside-section-header{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 0.9em;
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+
+  }
+  & ul > li{
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+    background-color: #000000;
+    & > a{
+      color: $white;
+      font-size: 1.2em;
+      line-height: 1.2em;
+    }
+  }
+}
+#bwp_gallery-2{
+  & h2.aside-section-header{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 0.9em;
+    margin: 5% 0;
+  }
+  & img{
+    width: 30%;
+  }
+}
+.for-feedback-icons{
+  float: left;
+  background-color: $black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+.for-information{
+  line-height: 1.3em;
+  margin: 5px 0 5px 35px;
+  padding: 5px 0;
+  & a{
+    text-decoration: none;
+    color: $white;
+  }
+  & .mail-link{
+    color: $yellow;
+  }
+  & .second-number{
+    display: block;
+    padding: 0 0 0 50px;
+  }
+}
+.feedback{
+  margin-bottom: 15%;
+}
+#mc4wp_form_widget-3{
+  & h2.aside-section-header{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 0.9em;
+    margin: 5% 0;
+  }
+}
+#mc4wp-form-1{
+  .mc4wp-form-fields{
+    p.article-paragraph{
+      margin: 0 0 2% 0;
+    }
+  }
+  .monkey-input{
+    width: 60%;
+    background: none;
+    border: none ;
+    border-bottom: 2px solid $yellow;
+    float: left;
+    margin: 3px 0 0 0;
+  }
+  .monkey-button{
+    border: none;
+    background-color: $black;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+  }
+}

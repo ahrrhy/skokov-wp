@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../fonts/CenturyGothic/CenturyGothic.eot?#iefix') format('embedded-opentype'),  url('../fonts/CenturyGothic/CenturyGothic.woff') format('woff'), url('../fonts/CenturyGothic/CenturyGothic.ttf')  format('truetype'), url('../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url('../fonts/Code-Light/Code-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Code-Light/Code-Light.otf')  format('opentype'),
+  url('../fonts/Code-Light/Code-Light.woff') format('woff'), url('../fonts/Code-Light/Code-Light.ttf')  format('truetype'), url('../fonts/Code-Light/Code-Light.svg#Code-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$century : 'CenturyGothic';
+$code    : 'Code-Light';
+$yellow  : #ffeb00;
+$black   : #000000;
+$white   : #ffffff;
+$background : #f6f6f6;
+
+
+// slider controls//
+.welcome-slider{
+  & .indication{
+    & >li {
+      border-radius: 0;
+      border: 1px solid #3f3f44;
+      background: #3f3f44;
+      margin: 0;
+    }
+    & .active{
+      background: $yellow;
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  & .control-arrows{
+    background-color: $black;
+    height: 19%;
+    width: 8%;
+    top: 45%;
+    opacity: 1;
+    &:hover{
+      opacity: .7;
+      transition: 0.5s;
+    }
+  }
+  // content//
+
+  .for-content{
+    position: static;
+    text-align: left;
+  }
+  .welcome-header{
+    margin:  3% 0 1%;
+    display: inline-block;
+    color: $black;
+    font: 700 2.2em/1em $century;
+    padding: 0 0 0 5px;
+    text-transform: uppercase;
+    background-color: $yellow;
+
+  }
+  .welcome-header-big{
+    display: none;
+    font: 700 2.2em/1em $century;
+    text-align: left;
+    color: $black;
+    text-transform: uppercase;
+    background-color: $yellow;
+    margin: 2% 0;
+    padding: 0 0 0 5px;
+  }
+  & .welcome-description{
+    display: block;
+    font: 400 0.8em/0.8em $century;
+    margin: 2px 0;
+    padding: 5px 20px 5px 0;
+    text-transform: capitalize;
+    color: $white;
+    text-align: left;
+    background-color: #3f3f44;
+  }
+  & .fof-link{
+    margin: 5% 0 1% 5%;
+    & .order-link{
+      padding: 5px 2px;
+      border-bottom: 2px solid $yellow;
+      font: 400 .9em/.8em $century;
+      background-color: $black;
+      text-transform: capitalize;
+      color: $white;
+      text-decoration: none;
+      &:hover{
+        background-color: $yellow;
+        transition: 0.5s;
+      }
+    }
+  }
+  & .hidden-one{
+    display: none;
+  }
+  & .for-background{
+    background: url("../img/slider-1-bg-1.png") center/100% 100% no-repeat;
+    margin: 0 5%;
+    padding: 0 0 5%;
+  }
+  //  --  Galery  --  //
+
+  & .people{
+    margin: 5% 0;
+
+    & .people-holder {
+      padding: 0;
+    }
+  }
+
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+  #welcome {
+
+    .for-content {
+      text-align: left;
+    }
+
+    & .for-background{
+      margin: 0;
+      padding: 0;
+    }
+    .welcome-header{
+      display: inline-block;
+      font: 700 2.5em/1.4em $century;
+
+      margin: 15% 0 0 10%;
+    }
+    .welcome-header-big {
+      display: inline-block;
+      padding: 0 5% 0 0;
+      font: 700 2.5em/1.4em $century;
+      margin: 3% -18% 2% 10% ;
+    }
+    & .hidden-one{
+      display: inline-block;
+    }
+    & .welcome-description{
+      display: inline-block;
+      font: 400 1em/1em $century;
+      margin: 1% 0 0 5%;
+      padding: 5px 20px 5px 0;
+      text-transform: capitalize;
+      color: $white;
+      text-align: left;
+      background-color: #3f3f44;
+    }
+    & .fof-link{
+      margin: 8% 0 0 25%;
+      & .order-link{
+        padding: 5px 2px;
+        border-bottom: 3px solid $yellow;
+        font: 400 1.05em/0.9em $century;
+      }
+    }
+    & .indication {
+      & > li {
+        border-radius: 0;
+        border: 1px solid #3f3f44;
+        background: #3f3f44;
+        margin: 0;
+      }
+      & .active {
+        background: $yellow;
+        width: 10px;
+        height: 10px;
+      }
+    }
+    & .control-arrows{
+      background-color: $black;
+      height: 15%;
+      width: 3%;
+      top: 50%;
+      opacity: 1;
+      &:hover{
+        opacity: .7;
+      }
+    }
+    // content//
+
+    //  --  Galery  --  //
+
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+  #welcome {
+
+    .welcome-header {
+      display: inline-block;
+      font: 700 3em/1.5em $century;
+      margin: 15% 0 0 8%;
+    }
+    .welcome-header-big {
+      display: inline-block;
+      font: 700 3em/1.5em $century;
+      margin: 3% -18% 2% 8%;
+    }
+    & .hidden-one {
+      display: inline-block;
+    }
+    & .welcome-description {
+      display: inline-block;
+      font: 400 1em/1em $century;
+      margin: 1% 0 0 8%;
+      padding: 5px 20px 5px 0;
+      text-transform: capitalize;
+      color: $white;
+      text-align: left;
+      background-color: #3f3f44;
+    }
+    & .fof-link {
+      margin: 8% 0 0 25%;
+      & .order-link {
+        padding: 5px 2px;
+        border-bottom: 3px solid $yellow;
+        font: 400 1.05em/0.9em $century;
+      }
+    }
+    .for-content {
+      text-align: left;
+    }
+    .people {
+      padding: 0 4% 0 0;
+    }
+  }
+  /* Large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    #welcome{
+      .welcome-header{
+        display: inline-block;
+        font: 700 4em/1.4em $century;
+
+        margin: 15% 0 1% 3%;
+      }
+      .welcome-header-big {
+        display: inline-block;
+
+        font: 700 4em/1.4em $century;
+        margin: 0 -18% 2% 3% ;
+      }
+      .hidden-one{
+        display: inline-block;
+      }
+      .welcome-description{
+        display: inline-block;
+        font: 400 2em/1em $century;
+        margin: 1% 0 0 10%;
+        padding: 5px 20px 5px 0;
+        text-transform: capitalize;
+        color: $white;
+        text-align: left;
+        background-color: #3f3f44;
+      }
+      & .fof-link{
+        margin: 8% 0 0 25%;
+        & .order-link{
+          padding: 2% 1%;
+          border-bottom: 3px solid $yellow;
+          font: 400 2em/1em $century;
+        }
+      }
+    }
+
+  }
+}

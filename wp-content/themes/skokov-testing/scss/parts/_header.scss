@@ -1,0 +1,40 @@
+.site-header{
+  padding-top: 15px;
+  .active{
+    background-color: $yellow;
+  }
+  .main-navigation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: none;
+    & ul{
+      display: flex;
+      justify-content: space-between;
+      & li{
+        font: 400 1.5em/1em "Code-Light";
+        text-transform: uppercase;
+        text-align: center;
+        padding: 20px 3px;
+        color: #000000;
+        &:hover{
+          background-color: $yellow;
+        }
+        & a{
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+  }
+}
+li.main-nav-item{
+}
+.word-bg{
+  display: inline-block;
+  font: 400 1.8em/1.2em "CenturyGothic";
+  color: $yellow;
+  background-color: #403f44;
+  text-transform: uppercase;
+  padding: 10px 40px 10px 10px;
+  margin: 20px 0;
+}

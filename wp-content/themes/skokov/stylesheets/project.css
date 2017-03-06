@@ -1,0 +1,645 @@
+/* line 5, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 23, ../sass/_contacts-section.scss */
+#contacts {
+  background-color: #3f3f44;
+  font-family: "CenturyGothic";
+  font-size: 0.8em;
+  color: #ffffff;
+}
+/* line 28, ../sass/_contacts-section.scss */
+#contacts .article-header {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 0.9em;
+  margin: 5% 0;
+}
+/* line 35, ../sass/_contacts-section.scss */
+#contacts .article-paragraph {
+  margin: 0 0 2% 0;
+}
+/* line 38, ../sass/_contacts-section.scss */
+#contacts .link-holder {
+  margin: 10% 0;
+}
+/* line 40, ../sass/_contacts-section.scss */
+#contacts .link-holder .button-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2% 3%;
+  background-color: #000000;
+  border-bottom: 3px solid #ffeb00;
+}
+/* line 46, ../sass/_contacts-section.scss */
+#contacts .link-holder .button-link:hover {
+  background-color: #ffeb00;
+  transition: 0.5s;
+}
+/* line 52, ../sass/_contacts-section.scss */
+#contacts .some-photo {
+  display: inline-block;
+  margin: 2% 0 3%;
+}
+/* line 55, ../sass/_contacts-section.scss */
+#contacts .some-photo > li {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 61, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .posts {
+  line-height: 1.25em;
+  padding-left: 55px;
+  background: url("../img/twitter-birs-icon-1.png") 0 10%/auto no-repeat;
+}
+/* line 66, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .yellow-link {
+  color: #ffeb00;
+  text-decoration: none;
+}
+/* line 70, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .date {
+  display: block;
+  font-size: 0.7em;
+  margin-bottom: 2%;
+}
+/* line 76, ../sass/_contacts-section.scss */
+#contacts .for-social-header {
+  margin-right: 5%;
+}
+/* line 80, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links {
+  display: inline-block;
+  font-size: 1.2em;
+  width: 25px;
+  height: 25px;
+  margin: 2px 0;
+  background-color: #000000;
+}
+/* line 88, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links a .fa {
+  color: #ffffff;
+  padding: 5px;
+}
+/* line 93, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links:hover .fa {
+  color: #ffeb00;
+}
+/* line 98, ../sass/_contacts-section.scss */
+#contacts .for-feedback-icons {
+  float: left;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+/* line 106, ../sass/_contacts-section.scss */
+#contacts .for-information {
+  line-height: 1.3em;
+  margin: 5px 0 5px 35px;
+  padding: 5px 0;
+}
+/* line 110, ../sass/_contacts-section.scss */
+#contacts .for-information a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 114, ../sass/_contacts-section.scss */
+#contacts .for-information .mail-link {
+  color: #ffeb00;
+}
+/* line 117, ../sass/_contacts-section.scss */
+#contacts .for-information .second-number {
+  display: block;
+  padding: 0 0 0 50px;
+}
+/* line 122, ../sass/_contacts-section.scss */
+#contacts .feedback {
+  margin-bottom: 15%;
+}
+/* line 125, ../sass/_contacts-section.scss */
+#contacts .monkey-input {
+  width: 60%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ffeb00;
+  float: left;
+  margin: 3px 0 0 0;
+}
+/* line 133, ../sass/_contacts-section.scss */
+#contacts .monkey-button {
+  border: none;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 142, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 15% 0;
+  }
+  /* line 145, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+  /* line 150, ../sass/_contacts-section.scss */
+  #contacts .for-social-links {
+    padding: 3.5% 0 0 0;
+    margin: 0 0 5% 15%;
+  }
+  /* line 153, ../sass/_contacts-section.scss */
+  #contacts .for-social-links .social-links {
+    display: inline-block;
+    font-size: 1.2em;
+    width: 25px;
+    height: 25px;
+    margin: 2px 0;
+    background-color: #000000;
+  }
+  /* line 161, ../sass/_contacts-section.scss */
+  #contacts .for-social-links .social-links a .fa {
+    color: #ffffff;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  /* line 172, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 15% 0;
+  }
+  /* line 175, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 185, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 10% 0;
+  }
+  /* line 188, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 199, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 10% 0;
+  }
+  /* line 202, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_footer.scss */
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* line 26, ../sass/_footer.scss */
+#footer .copy {
+  padding-top: 20px;
+  font: 400 0.85em/1em "CenturyGothic";
+}
+/* line 30, ../sass/_footer.scss */
+#footer .nav-footer {
+  padding-top: 20px;
+}
+/* line 32, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 7%;
+}
+/* line 36, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:hover {
+  background-color: #ffeb00;
+}
+/* line 39, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:hover a {
+  color: #000000;
+}
+/* line 42, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:last-child {
+  margin-right: 0;
+}
+/* line 45, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells a {
+  font: 300 1em/1.3em "Code-Light";
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 56, ../sass/_footer.scss */
+  #footer {
+    padding-top: 20px;
+  }
+  /* line 58, ../sass/_footer.scss */
+  #footer .nav-footer {
+    padding-top: 20px;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_nav.scss */
+.custom-nav {
+  margin: 0;
+  border-bottom: none;
+  background-color: #f6f6f6;
+  background-image: none;
+  box-shadow: none;
+}
+/* line 28, ../sass/_nav.scss */
+.custom-nav .header-logo {
+  padding: 10px 0 120px 0;
+}
+/* line 31, ../sass/_nav.scss */
+.custom-nav .nav-links-right {
+  padding: 40px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 34, ../sass/_nav.scss */
+.custom-nav .nav-links-right a {
+  font: 300 1em/1.5em "Code-Light";
+  color: #000000;
+  transition: all 0.5s;
+}
+/* line 40, ../sass/_nav.scss */
+.custom-nav .custom-nav .nav-links-right a:active {
+  background-color: #ffeb00;
+}
+/* line 43, ../sass/_nav.scss */
+.custom-nav .nav-links-right > li > a:hover {
+  background-color: #ffeb00;
+}
+/* line 47, ../sass/_nav.scss */
+.custom-nav .nav-button {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 54, ../sass/_nav.scss */
+  #navigation .nav-links-right {
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+  }
+  /* line 57, ../sass/_nav.scss */
+  #navigation .nav-links-right a {
+    font: 300 1.5em/1em "Code-Light";
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 66, ../sass/_nav.scss */
+  #navigation .nav-links-right {
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+  }
+  /* line 69, ../sass/_nav.scss */
+  #navigation .nav-links-right a {
+    font: 400 1.5em/1em "Code-Light";
+    color: #000000;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 28, ../sass/_for-page-header.scss */
+#for-page-header {
+  margin-bottom: 3%;
+  background: url("../img/portfolio/slider-bg-portfolio.png") 0 0/auto no-repeat;
+  padding: 2% 0;
+}
+/* line 32, ../sass/_for-page-header.scss */
+#for-page-header .page-header-port {
+  display: inline-block;
+  font: 400 1.8em/1.2em "CenturyGothic";
+  color: #ffeb00;
+  background-color: #403f44;
+  text-transform: uppercase;
+  padding: 10px 40px 10px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 45, ../sass/_for-page-header.scss */
+  #for-page-header {
+    padding: 2% 0;
+  }
+}
+/* line 28, ../sass/project.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 32, ../sass/project.scss */
+#projects-slider .my-flex {
+  margin: 0;
+}
+
+/* line 36, ../sass/project.scss */
+.article-header {
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #403f46;
+  display: inline-block;
+  font: 600 1.1em/1em "CenturyGothic";
+  padding: 10px;
+  margin: 4% 0;
+}
+
+/* line 45, ../sass/project.scss */
+.work-holder {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+/* line 49, ../sass/project.scss */
+.work-holder:hover .overlay {
+  display: block;
+}
+
+/* line 53, ../sass/project.scss */
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 3.5%;
+  width: 85.5%;
+  height: 100%;
+  background-color: rgba(255, 235, 0, 0.6);
+}
+/* line 61, ../sass/project.scss */
+.overlay .icon-holder {
+  position: inherit;
+  top: 45%;
+  left: 45%;
+}
+/* line 65, ../sass/project.scss */
+.overlay .icon-holder a {
+  color: white;
+  font: 100 1.2em/0.8em "Code-Light";
+  padding: 20px;
+  background-color: rgba(10, 10, 10, 0.6);
+}
+
+/* line 74, ../sass/project.scss */
+.project-description {
+  border-bottom: 1px solid #cacaca;
+  padding-bottom: 4%;
+  margin: 0 2%;
+}
+
+/* line 80, ../sass/project.scss */
+.main-content p {
+  color: #424147;
+  font: 500 1em/2em "CenturyGothic";
+}
+
+/* line 85, ../sass/project.scss */
+.recent-projects {
+  margin: 0 2% 5% 2%;
+}
+
+/* line 89, ../sass/project.scss */
+.aside-articles section {
+  padding: 25px;
+  margin: 0 0 30px 0;
+  background-color: #403f46;
+}
+/* line 94, ../sass/project.scss */
+.aside-articles .aside-section-header {
+  color: #ffeb00;
+  font: 600 1.1em/1.3em "CenturyGothic";
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+/* line 101, ../sass/project.scss */
+.aside-articles .details-list .details-content {
+  list-style: none inside url("../img/project/arrow.png");
+}
+/* line 105, ../sass/project.scss */
+.aside-articles .aside-links {
+  color: #ffffff;
+  font: 400 1em/1.5em "CenturyGothic";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 111, ../sass/project.scss */
+.aside-articles .popular-post {
+  margin-bottom: 35px;
+}
+/* line 113, ../sass/project.scss */
+.aside-articles .popular-post .post-img {
+  width: 100%;
+}
+/* line 117, ../sass/project.scss */
+.aside-articles .popular-post .post-date {
+  color: #ffeb00;
+  font: 400 0.8em/1.2em "CenturyGothic";
+  float: right;
+  padding: 10px 0 0 0;
+}
+/* line 125, ../sass/project.scss */
+.aside-articles .tags-list li {
+  display: inline-block;
+  background-color: #ffeb00;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 3px;
+}
+/* line 131, ../sass/project.scss */
+.aside-articles .tags-list li > a {
+  font: 400 1em/1em "CenturyGothic";
+  text-decoration: none;
+  color: #424147;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 141, ../sass/project.scss */
+  #aside-articles .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 147, ../sass/project.scss */
+  #aside-articles .popular-post {
+    margin-bottom: 25px;
+  }
+  /* line 149, ../sass/project.scss */
+  #aside-articles .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  /* line 153, ../sass/project.scss */
+  #aside-articles .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 157, ../sass/project.scss */
+  #aside-articles .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 172, ../sass/project.scss */
+  #aside-articles .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 178, ../sass/project.scss */
+  #aside-articles .popular-post {
+    max-height: 70px;
+    margin-bottom: 25px;
+  }
+  /* line 181, ../sass/project.scss */
+  #aside-articles .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  /* line 186, ../sass/project.scss */
+  #aside-articles .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 190, ../sass/project.scss */
+  #aside-articles .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+}

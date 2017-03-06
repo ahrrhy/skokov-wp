@@ -1,0 +1,2880 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* line 22, ../sass/_nav.scss */
+.custom-nav {
+  margin: 0;
+  border-bottom: none;
+  background-color: #f6f6f6;
+  background-image: none;
+  box-shadow: none;
+}
+/* line 28, ../sass/_nav.scss */
+.custom-nav .header-logo {
+  padding: 10px 0 120px 0;
+}
+/* line 31, ../sass/_nav.scss */
+.custom-nav .nav-links-right {
+  padding: 40px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 34, ../sass/_nav.scss */
+.custom-nav .nav-links-right a {
+  font: 300 1em/1.5em "Code-Light";
+  color: #000000;
+  transition: all 0.5s;
+}
+/* line 40, ../sass/_nav.scss */
+.custom-nav .custom-nav .nav-links-right a:active {
+  background-color: #ffeb00;
+}
+/* line 43, ../sass/_nav.scss */
+.custom-nav .nav-links-right > li > a:hover {
+  background-color: #ffeb00;
+}
+/* line 47, ../sass/_nav.scss */
+.custom-nav .nav-button {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 54, ../sass/_nav.scss */
+  #navigation .nav-links-right {
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+  }
+  /* line 57, ../sass/_nav.scss */
+  #navigation .nav-links-right a {
+    font: 300 1.5em/1em "Code-Light";
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 66, ../sass/_nav.scss */
+  #navigation .nav-links-right {
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+  }
+  /* line 69, ../sass/_nav.scss */
+  #navigation .nav-links-right a {
+    font: 400 1.5em/1em "Code-Light";
+    color: #000000;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_footer.scss */
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* line 26, ../sass/_footer.scss */
+#footer .copy {
+  padding-top: 20px;
+  font: 400 0.85em/1em "CenturyGothic";
+}
+/* line 30, ../sass/_footer.scss */
+#footer .nav-footer {
+  padding-top: 20px;
+}
+/* line 32, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 7%;
+}
+/* line 36, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:hover {
+  background-color: #ffeb00;
+}
+/* line 39, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:hover a {
+  color: #000000;
+}
+/* line 42, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells:last-child {
+  margin-right: 0;
+}
+/* line 45, ../sass/_footer.scss */
+#footer .nav-footer .nav-cells a {
+  font: 300 1em/1.3em "Code-Light";
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 56, ../sass/_footer.scss */
+  #footer {
+    padding-top: 20px;
+  }
+  /* line 58, ../sass/_footer.scss */
+  #footer .nav-footer {
+    padding-top: 20px;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_partners.scss */
+#partners {
+  background: #f6f6f6;
+}
+/* line 24, ../sass/_partners.scss */
+#partners .partners-header {
+  font: 400 0.8em/1em "CenturyGothic";
+  color: #ffeb00;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5% 0 3% 0;
+  position: relative;
+}
+/* line 31, ../sass/_partners.scss */
+#partners .partners-header::after {
+  content: '';
+  display: block;
+  width: 36%;
+  height: 1px;
+  background-color: #cbcbcb;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: 3px;
+  z-index: 0;
+}
+/* line 43, ../sass/_partners.scss */
+#partners .partners-header::before {
+  content: '';
+  display: block;
+  width: 36%;
+  height: 1px;
+  background-color: #cbcbcb;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: 3px;
+  z-index: 0;
+}
+/* line 55, ../sass/_partners.scss */
+#partners .partners-header span {
+  background-color: #403f46;
+  padding: 1% 2%;
+}
+/* line 60, ../sass/_partners.scss */
+#partners .partners-description {
+  font: 400 1em/1em "CenturyGothic";
+  color: #403f46;
+  margin: 0 0 5% 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 79, ../sass/_partners.scss */
+  #partners .partners-header::after {
+    width: 42%;
+    margin-top: 10px;
+  }
+  /* line 83, ../sass/_partners.scss */
+  #partners .partners-header::before {
+    width: 42%;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 93, ../sass/_partners.scss */
+  #partners .partners-header::after {
+    width: 43%;
+    margin-top: 12px;
+  }
+  /* line 97, ../sass/_partners.scss */
+  #partners .partners-header::before {
+    width: 43%;
+    margin-top: 12px;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_portfolio-section.scss */
+#portfolio {
+  background-color: #f6f6f6;
+}
+/* line 24, ../sass/_portfolio-section.scss */
+#portfolio .portfolio-header {
+  font: 400 0.8em/1em "CenturyGothic";
+  color: #ffeb00;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5% 0 3% 0;
+  position: relative;
+}
+/* line 32, ../sass/_portfolio-section.scss */
+#portfolio .portfolio-header::after {
+  content: '';
+  display: block;
+  width: 36%;
+  height: 1px;
+  background-color: #cbcbcb;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: 3px;
+  z-index: 0;
+}
+/* line 44, ../sass/_portfolio-section.scss */
+#portfolio .portfolio-header::before {
+  content: '';
+  display: block;
+  width: 36%;
+  height: 1px;
+  background-color: #cbcbcb;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: 3px;
+  z-index: 0;
+}
+/* line 56, ../sass/_portfolio-section.scss */
+#portfolio .portfolio-header span {
+  background-color: #403f46;
+  padding: 1% 2%;
+}
+/* line 62, ../sass/_portfolio-section.scss */
+#portfolio .portfolio-description {
+  font: 400 1em/1em "CenturyGothic";
+  color: #403f46;
+  margin: 0 0 5% 0;
+}
+/* line 67, ../sass/_portfolio-section.scss */
+#portfolio .masonry {
+  margin: 0 15%;
+  padding: 0;
+  -moz-column-gap: 0;
+  -webkit-column-gap: 0;
+  column-gap: 0;
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+}
+/* line 77, ../sass/_portfolio-section.scss */
+#portfolio .portfolio-cells {
+  display: inline-block;
+  background: #f6f6f6;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 91, ../sass/_portfolio-section.scss */
+  #portfolio .masonry {
+    /* Masonry container */
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  /* line 100, ../sass/_portfolio-section.scss */
+  #portfolio .masonry {
+    /* Masonry container */
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 110, ../sass/_portfolio-section.scss */
+  #portfolio .portfolio-header::after {
+    width: 42%;
+    margin-top: 10px;
+  }
+  /* line 114, ../sass/_portfolio-section.scss */
+  #portfolio .portfolio-header::before {
+    width: 42%;
+    margin-top: 10px;
+  }
+  /* line 119, ../sass/_portfolio-section.scss */
+  #portfolio .masonry {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 128, ../sass/_portfolio-section.scss */
+  #portfolio .masonry {
+    /* Masonry container */
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+  /* line 134, ../sass/_portfolio-section.scss */
+  #portfolio .portfolio-header::after {
+    width: 43%;
+    margin-top: 12px;
+  }
+  /* line 138, ../sass/_portfolio-section.scss */
+  #portfolio .portfolio-header::before {
+    width: 43%;
+    margin-top: 12px;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 26, ../sass/_welcome.scss */
+.welcome-slider .indication > li {
+  border-radius: 0;
+  border: 1px solid #3f3f44;
+  background: #3f3f44;
+  margin: 0;
+}
+/* line 32, ../sass/_welcome.scss */
+.welcome-slider .indication .active {
+  background: #ffeb00;
+  width: 10px;
+  height: 10px;
+}
+/* line 39, ../sass/_welcome.scss */
+.welcome-slider .control-arrows {
+  background-color: #000000;
+  height: 19%;
+  width: 8%;
+  top: 45%;
+  opacity: 1;
+}
+/* line 45, ../sass/_welcome.scss */
+.welcome-slider .control-arrows:hover {
+  opacity: .7;
+  transition: 0.5s;
+}
+/* line 52, ../sass/_welcome.scss */
+.welcome-slider .for-content {
+  position: static;
+  text-align: left;
+}
+/* line 56, ../sass/_welcome.scss */
+.welcome-slider .welcome-header {
+  margin: 3% 0 1%;
+  display: inline-block;
+  color: #000000;
+  font: 700 2.2em/1em "CenturyGothic";
+  padding: 0 0 0 5px;
+  text-transform: uppercase;
+  background-color: #ffeb00;
+}
+/* line 66, ../sass/_welcome.scss */
+.welcome-slider .welcome-header-big {
+  display: none;
+  font: 700 2.2em/1em "CenturyGothic";
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffeb00;
+  margin: 2% 0;
+  padding: 0 0 0 5px;
+}
+/* line 76, ../sass/_welcome.scss */
+.welcome-slider .welcome-description {
+  display: block;
+  font: 400 0.8em/0.8em "CenturyGothic";
+  margin: 2px 0;
+  padding: 5px 20px 5px 0;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-align: left;
+  background-color: #3f3f44;
+}
+/* line 86, ../sass/_welcome.scss */
+.welcome-slider .fof-link {
+  margin: 5% 0 1% 5%;
+}
+/* line 88, ../sass/_welcome.scss */
+.welcome-slider .fof-link .order-link {
+  padding: 5px 2px;
+  border-bottom: 2px solid #ffeb00;
+  font: 400 0.9em/0.8em "CenturyGothic";
+  background-color: #000000;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 96, ../sass/_welcome.scss */
+.welcome-slider .fof-link .order-link:hover {
+  background-color: #ffeb00;
+  transition: 0.5s;
+}
+/* line 102, ../sass/_welcome.scss */
+.welcome-slider .hidden-one {
+  display: none;
+}
+/* line 105, ../sass/_welcome.scss */
+.welcome-slider .for-background {
+  background: url("../img/slider-1-bg-1.png") center/100% 100% no-repeat;
+  margin: 0 5%;
+  padding: 0 0 5%;
+}
+/* line 112, ../sass/_welcome.scss */
+.welcome-slider .people {
+  margin: 5% 0;
+}
+/* line 115, ../sass/_welcome.scss */
+.welcome-slider .people .people-holder {
+  padding: 0;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  /* line 129, ../sass/_welcome.scss */
+  #welcome .for-content {
+    text-align: left;
+  }
+  /* line 133, ../sass/_welcome.scss */
+  #welcome .for-background {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 137, ../sass/_welcome.scss */
+  #welcome .welcome-header {
+    display: inline-block;
+    font: 700 2.5em/1.4em "CenturyGothic";
+    margin: 15% 0 0 10%;
+  }
+  /* line 143, ../sass/_welcome.scss */
+  #welcome .welcome-header-big {
+    display: inline-block;
+    padding: 0 5% 0 0;
+    font: 700 2.5em/1.4em "CenturyGothic";
+    margin: 3% -18% 2% 10%;
+  }
+  /* line 149, ../sass/_welcome.scss */
+  #welcome .hidden-one {
+    display: inline-block;
+  }
+  /* line 152, ../sass/_welcome.scss */
+  #welcome .welcome-description {
+    display: inline-block;
+    font: 400 1em/1em "CenturyGothic";
+    margin: 1% 0 0 5%;
+    padding: 5px 20px 5px 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: left;
+    background-color: #3f3f44;
+  }
+  /* line 162, ../sass/_welcome.scss */
+  #welcome .fof-link {
+    margin: 8% 0 0 25%;
+  }
+  /* line 164, ../sass/_welcome.scss */
+  #welcome .fof-link .order-link {
+    padding: 5px 2px;
+    border-bottom: 3px solid #ffeb00;
+    font: 400 1.05em/0.9em "CenturyGothic";
+  }
+  /* line 171, ../sass/_welcome.scss */
+  #welcome .indication > li {
+    border-radius: 0;
+    border: 1px solid #3f3f44;
+    background: #3f3f44;
+    margin: 0;
+  }
+  /* line 177, ../sass/_welcome.scss */
+  #welcome .indication .active {
+    background: #ffeb00;
+    width: 10px;
+    height: 10px;
+  }
+  /* line 183, ../sass/_welcome.scss */
+  #welcome .control-arrows {
+    background-color: #000000;
+    height: 15%;
+    width: 3%;
+    top: 50%;
+    opacity: 1;
+  }
+  /* line 189, ../sass/_welcome.scss */
+  #welcome .control-arrows:hover {
+    opacity: .7;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  /* line 205, ../sass/_welcome.scss */
+  #welcome .welcome-header {
+    display: inline-block;
+    font: 700 3em/1.5em "CenturyGothic";
+    margin: 15% 0 0 8%;
+  }
+  /* line 210, ../sass/_welcome.scss */
+  #welcome .welcome-header-big {
+    display: inline-block;
+    font: 700 3em/1.5em "CenturyGothic";
+    margin: 3% -18% 2% 8%;
+  }
+  /* line 215, ../sass/_welcome.scss */
+  #welcome .hidden-one {
+    display: inline-block;
+  }
+  /* line 218, ../sass/_welcome.scss */
+  #welcome .welcome-description {
+    display: inline-block;
+    font: 400 1em/1em "CenturyGothic";
+    margin: 1% 0 0 8%;
+    padding: 5px 20px 5px 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: left;
+    background-color: #3f3f44;
+  }
+  /* line 228, ../sass/_welcome.scss */
+  #welcome .fof-link {
+    margin: 8% 0 0 25%;
+  }
+  /* line 230, ../sass/_welcome.scss */
+  #welcome .fof-link .order-link {
+    padding: 5px 2px;
+    border-bottom: 3px solid #ffeb00;
+    font: 400 1.05em/0.9em "CenturyGothic";
+  }
+  /* line 236, ../sass/_welcome.scss */
+  #welcome .for-content {
+    text-align: left;
+  }
+  /* line 239, ../sass/_welcome.scss */
+  #welcome .people {
+    padding: 0 4% 0 0;
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+}
+@media screen and (min-width: 992px) and (min-width: 1200px) {
+  /* line 246, ../sass/_welcome.scss */
+  #welcome .welcome-header {
+    display: inline-block;
+    font: 700 4em/1.4em "CenturyGothic";
+    margin: 15% 0 1% 3%;
+  }
+  /* line 252, ../sass/_welcome.scss */
+  #welcome .welcome-header-big {
+    display: inline-block;
+    font: 700 4em/1.4em "CenturyGothic";
+    margin: 0 -18% 2% 3%;
+  }
+  /* line 258, ../sass/_welcome.scss */
+  #welcome .hidden-one {
+    display: inline-block;
+  }
+  /* line 261, ../sass/_welcome.scss */
+  #welcome .welcome-description {
+    display: inline-block;
+    font: 400 2em/1em "CenturyGothic";
+    margin: 1% 0 0 10%;
+    padding: 5px 20px 5px 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: left;
+    background-color: #3f3f44;
+  }
+  /* line 271, ../sass/_welcome.scss */
+  #welcome .fof-link {
+    margin: 8% 0 0 25%;
+  }
+  /* line 273, ../sass/_welcome.scss */
+  #welcome .fof-link .order-link {
+    padding: 2% 1%;
+    border-bottom: 3px solid #ffeb00;
+    font: 400 2em/1em "CenturyGothic";
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../sass/_about-section.scss */
+#about {
+  background-color: #f6f6f6;
+}
+/* line 24, ../sass/_about-section.scss */
+#about .about-header {
+  margin: 5% 0 0 0;
+  font: 400 2.2em/1em "CenturyGothic";
+  color: #424147;
+  text-transform: uppercase;
+}
+/* line 30, ../sass/_about-section.scss */
+#about .about-description {
+  margin: 5% 0;
+  font: 400 0.8em/1em "CenturyGothic";
+  color: #424147;
+}
+/* line 35, ../sass/_about-section.scss */
+#about .icon-description {
+  background: #ffeb00 url("../img/graphic-design-icon-1.png") center/50% 50% no-repeat;
+  font: 400 0.8em/1.1em "Code-Light";
+  color: #111000;
+  padding: 70% 0 0 0;
+  margin: 5% 0 0 0;
+}
+/* line 42, ../sass/_about-section.scss */
+#about .icon-description-second {
+  background: #ffeb00 url("../img/web-development.png") center/50% 50% no-repeat;
+  font: 400 0.8em/1.1em "Code-Light";
+  color: #111000;
+  padding: 70% 0 0 0;
+  margin: 5% 0 0 0;
+}
+/* line 49, ../sass/_about-section.scss */
+#about .icon-description-third {
+  background: #ffeb00 url("../img/web-design-icon-3.png") center/50% 50% no-repeat;
+  font: 400 0.8em/1.1em "Code-Light";
+  color: #111000;
+  padding: 70% 0 0 0;
+  margin: 5% 0 0 0;
+}
+/* line 56, ../sass/_about-section.scss */
+#about .icon-description-fourth {
+  background: #ffeb00 url("../img/graphic-design-icon-1.png") center/50% 50% no-repeat;
+  font: 400 0.8em/1.1em "Code-Light";
+  color: #111000;
+  padding: 70% 0 0 0;
+  margin: 5% 0 0 0;
+}
+/* line 63, ../sass/_about-section.scss */
+#about .desc {
+  background-color: #3f3f44;
+  font: 400 0.7em/1.2em "CenturyGothic";
+  color: #ffffff;
+  padding: 12% 0;
+}
+/* line 69, ../sass/_about-section.scss */
+#about .goods-holder {
+  position: absolute;
+  top: 0;
+  width: inherit;
+  display: none;
+}
+/* line 74, ../sass/_about-section.scss */
+#about .goods-holder .goods-describer {
+  position: relative;
+  color: #ffffff;
+  background-color: #3f3f44;
+  padding: 1.5% 0 1.5% 1.5%;
+  font: 400 0.9em/1.2em "Code-Light";
+  text-align: left;
+}
+/* line 81, ../sass/_about-section.scss */
+#about .goods-holder .goods-describer::after {
+  content: '';
+  position: absolute;
+  right: 15px;
+  top: -20px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #3f3f44;
+}
+/* line 89, ../sass/_about-section.scss */
+#about .goods-holder .link {
+  text-align: right;
+  color: #ffffff;
+  background-color: #3f3f44;
+  font: 400 0.7em/1.2em "CenturyGothic";
+  padding: 0 1.5% 1.5% 0;
+}
+/* line 95, ../sass/_about-section.scss */
+#about .goods-holder .link a {
+  color: #ffeb00;
+}
+/* line 100, ../sass/_about-section.scss */
+#about .icoholder {
+  position: relative;
+}
+/* line 103, ../sass/_about-section.scss */
+#about .ico-cells {
+  position: relative;
+}
+/* line 105, ../sass/_about-section.scss */
+#about .ico-cells:hover .goods-holder {
+  display: block;
+}
+/* line 108, ../sass/_about-section.scss */
+#about .ico-cells .goods {
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 400px) {
+  /* line 115, ../sass/_about-section.scss */
+  #about .icon-description {
+    background: #ffeb00 url("../img/graphic-design-icon-1.png") center/50% 50% no-repeat;
+    font: 400 0.7em/1.1em "Code-Light";
+  }
+  /* line 119, ../sass/_about-section.scss */
+  #about .icon-description-second {
+    background: #ffeb00 url("../img/web-development.png") center/50% 50% no-repeat;
+    font: 400 0.7em/1.1em "Code-Light";
+  }
+  /* line 123, ../sass/_about-section.scss */
+  #about .icon-description-third {
+    background: #ffeb00 url("../img/web-design-icon-3.png") center/50% 50% no-repeat;
+    font: 400 0.7em/1.1em "Code-Light";
+  }
+  /* line 127, ../sass/_about-section.scss */
+  #about .icon-description-fourth {
+    background: #ffeb00 url("../img/graphic-design-icon-1.png") center/50% 50% no-repeat;
+    font: 400 0.7em/1.1em "Code-Light";
+  }
+}
+@media screen and (min-width: 413px) and (max-width: 767px) {
+  /* line 135, ../sass/_about-section.scss */
+  #about .ico-cells {
+    width: 42%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 142, ../sass/_about-section.scss */
+  #about .about-description {
+    margin: 2% 0 5% 0;
+    font: 400 1.2em/1em "CenturyGothic";
+    color: #424147;
+  }
+  /* line 147, ../sass/_about-section.scss */
+  #about .icon-description {
+    padding: 70% 0 0 0;
+  }
+  /* line 150, ../sass/_about-section.scss */
+  #about .icon-description-second {
+    padding: 70% 0 0 0;
+  }
+  /* line 153, ../sass/_about-section.scss */
+  #about .icon-description-third {
+    padding: 70% 0 0 0;
+  }
+  /* line 156, ../sass/_about-section.scss */
+  #about .icon-description-fourth {
+    padding: 70% 0 0 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 164, ../sass/_about-section.scss */
+  #about .about-description {
+    margin: 2% 0 5% 0;
+    font: 400 1.2em/1em "CenturyGothic";
+    color: #424147;
+  }
+  /* line 169, ../sass/_about-section.scss */
+  #about .icon-description {
+    padding: 70% 0 0 0;
+  }
+  /* line 172, ../sass/_about-section.scss */
+  #about .icon-description-second {
+    padding: 70% 0 0 0;
+  }
+  /* line 175, ../sass/_about-section.scss */
+  #about .icon-description-third {
+    padding: 70% 0 0 0;
+  }
+  /* line 178, ../sass/_about-section.scss */
+  #about .icon-description-fourth {
+    padding: 70% 0 0 0;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 23, ../sass/_contacts-section.scss */
+#contacts {
+  background-color: #3f3f44;
+  font-family: "CenturyGothic";
+  font-size: 0.8em;
+  color: #ffffff;
+}
+/* line 28, ../sass/_contacts-section.scss */
+#contacts .article-header {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 0.9em;
+  margin: 5% 0;
+}
+/* line 35, ../sass/_contacts-section.scss */
+#contacts .article-paragraph {
+  margin: 0 0 2% 0;
+}
+/* line 38, ../sass/_contacts-section.scss */
+#contacts .link-holder {
+  margin: 10% 0;
+}
+/* line 40, ../sass/_contacts-section.scss */
+#contacts .link-holder .button-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2% 3%;
+  background-color: #000000;
+  border-bottom: 3px solid #ffeb00;
+}
+/* line 46, ../sass/_contacts-section.scss */
+#contacts .link-holder .button-link:hover {
+  background-color: #ffeb00;
+  transition: 0.5s;
+}
+/* line 52, ../sass/_contacts-section.scss */
+#contacts .some-photo {
+  display: inline-block;
+  margin: 2% 0 3%;
+}
+/* line 55, ../sass/_contacts-section.scss */
+#contacts .some-photo > li {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 61, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .posts {
+  line-height: 1.25em;
+  padding-left: 55px;
+  background: url("../img/twitter-birs-icon-1.png") 0 10%/auto no-repeat;
+}
+/* line 66, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .yellow-link {
+  color: #ffeb00;
+  text-decoration: none;
+}
+/* line 70, ../sass/_contacts-section.scss */
+#contacts .tweet-holder .date {
+  display: block;
+  font-size: 0.7em;
+  margin-bottom: 2%;
+}
+/* line 76, ../sass/_contacts-section.scss */
+#contacts .for-social-header {
+  margin-right: 5%;
+}
+/* line 80, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links {
+  display: inline-block;
+  font-size: 1.2em;
+  width: 25px;
+  height: 25px;
+  margin: 2px 0;
+  background-color: #000000;
+}
+/* line 88, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links a .fa {
+  color: #ffffff;
+  padding: 5px;
+}
+/* line 93, ../sass/_contacts-section.scss */
+#contacts .for-social-links .social-links:hover .fa {
+  color: #ffeb00;
+}
+/* line 98, ../sass/_contacts-section.scss */
+#contacts .for-feedback-icons {
+  float: left;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+/* line 106, ../sass/_contacts-section.scss */
+#contacts .for-information {
+  line-height: 1.3em;
+  margin: 5px 0 5px 35px;
+  padding: 5px 0;
+}
+/* line 110, ../sass/_contacts-section.scss */
+#contacts .for-information a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 114, ../sass/_contacts-section.scss */
+#contacts .for-information .mail-link {
+  color: #ffeb00;
+}
+/* line 117, ../sass/_contacts-section.scss */
+#contacts .for-information .second-number {
+  display: block;
+  padding: 0 0 0 50px;
+}
+/* line 122, ../sass/_contacts-section.scss */
+#contacts .feedback {
+  margin-bottom: 15%;
+}
+/* line 125, ../sass/_contacts-section.scss */
+#contacts .monkey-input {
+  width: 60%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ffeb00;
+  float: left;
+  margin: 3px 0 0 0;
+}
+/* line 133, ../sass/_contacts-section.scss */
+#contacts .monkey-button {
+  border: none;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 142, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 15% 0;
+  }
+  /* line 145, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+  /* line 150, ../sass/_contacts-section.scss */
+  #contacts .for-social-links {
+    padding: 3.5% 0 0 0;
+    margin: 0 0 5% 15%;
+  }
+  /* line 153, ../sass/_contacts-section.scss */
+  #contacts .for-social-links .social-links {
+    display: inline-block;
+    font-size: 1.2em;
+    width: 25px;
+    height: 25px;
+    margin: 2px 0;
+    background-color: #000000;
+  }
+  /* line 161, ../sass/_contacts-section.scss */
+  #contacts .for-social-links .social-links a .fa {
+    color: #ffffff;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  /* line 172, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 15% 0;
+  }
+  /* line 175, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 185, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 10% 0;
+  }
+  /* line 188, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 199, ../sass/_contacts-section.scss */
+  #contacts .link-holder {
+    margin: 10% 0;
+  }
+  /* line 202, ../sass/_contacts-section.scss */
+  #contacts .for-social-header {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 28, ../sass/_for-page-header.scss */
+#for-page-header {
+  margin-bottom: 3%;
+  background: url("../img/portfolio/slider-bg-portfolio.png") 0 0/auto no-repeat;
+  padding: 2% 0;
+}
+/* line 32, ../sass/_for-page-header.scss */
+#for-page-header .page-header-port {
+  display: inline-block;
+  font: 400 1.8em/1.2em "CenturyGothic";
+  color: #ffeb00;
+  background-color: #403f44;
+  text-transform: uppercase;
+  padding: 10px 40px 10px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 45, ../sass/_for-page-header.scss */
+  #for-page-header {
+    padding: 2% 0;
+  }
+}
+/* line 28, ../sass/blog.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 32, ../sass/blog.scss */
+.grid-item, .grid-sizer {
+  width: 100%;
+}
+
+/* line 35, ../sass/blog.scss */
+.ability {
+  background-color: #ffeb00;
+  font: 500 0.8em/1em "CenturyGothic";
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+/* line 41, ../sass/blog.scss */
+.ability .author {
+  text-align: right;
+  font: 400 0.6em/0.8em "CenturyGothic";
+  padding-top: 5px;
+}
+
+/* line 47, ../sass/blog.scss */
+.news-list li {
+  margin-bottom: 30px;
+}
+/* line 49, ../sass/blog.scss */
+.news-list li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 54, ../sass/blog.scss */
+.news-description-holder {
+  background-color: #ffeb00;
+  padding: 15px;
+}
+/* line 57, ../sass/blog.scss */
+.news-description-holder .news-header {
+  font: 700 1.3em/1em "CenturyGothic";
+  text-transform: uppercase;
+  color: #000000;
+}
+/* line 62, ../sass/blog.scss */
+.news-description-holder .arrow_box {
+  position: relative;
+}
+/* line 66, ../sass/blog.scss */
+.news-description-holder .arrow_box:after, .news-description-holder .arrow_box:before {
+  bottom: 115%;
+  right: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 77, ../sass/blog.scss */
+.news-description-holder .arrow_box:after {
+  border-color: rgba(213, 130, 66, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -15px;
+}
+/* line 83, ../sass/blog.scss */
+.news-description-holder .arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -16px;
+}
+/* line 89, ../sass/blog.scss */
+.news-description-holder .news-description {
+  color: #5e5e5e;
+  font: 400 1em/1em "CenturyGothic";
+  margin: 10px 0;
+}
+/* line 94, ../sass/blog.scss */
+.news-description-holder .news-info {
+  color: #5e5e5e;
+  font: 700 0.7em/0.8em "CenturyGothic";
+}
+/* line 97, ../sass/blog.scss */
+.news-description-holder .news-info span {
+  color: #000000;
+}
+
+/* line 105, ../sass/blog.scss */
+.blog-aside {
+  margin-top: 30px;
+}
+/* line 107, ../sass/blog.scss */
+.blog-aside section {
+  padding: 25px;
+  margin: 0 0 30px 0;
+  background-color: #403f46;
+}
+/* line 112, ../sass/blog.scss */
+.blog-aside .aside-section-header {
+  color: #ffeb00;
+  font: 600 1.1em/1.3em "CenturyGothic";
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+/* line 119, ../sass/blog.scss */
+.blog-aside .details-list .details-content {
+  list-style: none inside url("../img/project/arrow.png");
+}
+/* line 123, ../sass/blog.scss */
+.blog-aside .aside-links {
+  color: #ffffff;
+  font: 400 1em/1.5em "CenturyGothic";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 129, ../sass/blog.scss */
+.blog-aside .popular-post {
+  margin-bottom: 35px;
+}
+/* line 131, ../sass/blog.scss */
+.blog-aside .popular-post .post-img {
+  width: 100%;
+}
+/* line 137, ../sass/blog.scss */
+.blog-aside .popular-post .post-date {
+  color: #ffeb00;
+  font: 400 0.8em/1.2em "CenturyGothic";
+  float: right;
+  padding: 10px 0 0 0;
+}
+/* line 145, ../sass/blog.scss */
+.blog-aside .tags-list li {
+  display: inline-block;
+  background-color: #ffeb00;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 3px;
+}
+/* line 151, ../sass/blog.scss */
+.blog-aside .tags-list li > a {
+  font: 400 1em/1em "CenturyGothic";
+  text-decoration: none;
+  color: #424147;
+}
+
+/* line 160, ../sass/blog.scss */
+.pagination .pagination .previous-page {
+  float: left;
+}
+/* line 164, ../sass/blog.scss */
+.pagination .pagination .next-page {
+  float: right;
+}
+
+/* line 168, ../sass/blog.scss */
+.pagination li > a, .pagination li > span {
+  border: none;
+  background-color: inherit;
+  text-transform: uppercase;
+  color: #000000;
+  font: 700 1em/1em "CenturyGothic";
+}
+
+/* line 175, ../sass/blog.scss */
+.pagination > .active > a, .pagination > .active > span {
+  background-color: #ffeb00;
+}
+
+/* line 179, ../sass/blog.scss */
+.pagination li {
+  text-align: center;
+}
+
+/* line 182, ../sass/blog.scss */
+.category, .archive-name {
+  list-style: none inside url("../img/project/arrow.png");
+}
+
+/* line 186, ../sass/blog.scss */
+.search-form .search-input {
+  border: 1px solid #403f46;
+  border-radius: 18px;
+  font: 400 1em/1.6em "CenturyGothic";
+}
+/* line 190, ../sass/blog.scss */
+.search-form .search-input::-webkit-input-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 194, ../sass/blog.scss */
+.search-form .search-input::-moz-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 198, ../sass/blog.scss */
+.search-form .search-input:-moz-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 202, ../sass/blog.scss */
+.search-form .search-input:-ms-input-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 211, ../sass/blog.scss */
+  .news-description-holder .arrow_box {
+    position: relative;
+  }
+  /* line 215, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after, .news-description-holder .arrow_box:before {
+    bottom: 115%;
+    right: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  /* line 226, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after {
+    border-color: rgba(213, 130, 66, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -15px;
+  }
+  /* line 232, ../sass/blog.scss */
+  .news-description-holder .arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -16px;
+  }
+
+  /* line 239, ../sass/blog.scss */
+  .grid-item, .grid-sizer {
+    width: 50%;
+  }
+
+  /* line 242, ../sass/blog.scss */
+  .ability {
+    background-color: #ffeb00;
+    font: 500 1.3em/1.5em "CenturyGothic";
+    color: #000000;
+    padding: 15px;
+  }
+
+  /* line 248, ../sass/blog.scss */
+  .news-preview {
+    width: 100%;
+  }
+
+  /* line 251, ../sass/blog.scss */
+  .news-info {
+    color: #5e5e5e;
+    font: 700 0.8em/0.8em "CenturyGothic";
+  }
+  /* line 254, ../sass/blog.scss */
+  .news-info span {
+    color: #000000;
+  }
+
+  /* line 258, ../sass/blog.scss */
+  #blog-aside {
+    margin-top: 30px;
+  }
+  /* line 260, ../sass/blog.scss */
+  #blog-aside .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 266, ../sass/blog.scss */
+  #blog-aside .popular-post {
+    margin-bottom: 25px;
+  }
+  /* line 268, ../sass/blog.scss */
+  #blog-aside .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  /* line 272, ../sass/blog.scss */
+  #blog-aside .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 275, ../sass/blog.scss */
+  #blog-aside .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+
+  /* line 283, ../sass/blog.scss */
+  .search-form {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 296, ../sass/blog.scss */
+  .news-description-holder .arrow_box {
+    position: relative;
+  }
+  /* line 300, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after, .news-description-holder .arrow_box:before {
+    bottom: 135%;
+    right: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  /* line 311, ../sass/blog.scss */
+  .news-description-holder .arrow_box:after {
+    border-color: rgba(213, 130, 66, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -15px;
+  }
+  /* line 317, ../sass/blog.scss */
+  .news-description-holder .arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #ffeb00;
+    border-width: 15px;
+    margin-left: -16px;
+  }
+
+  /* line 324, ../sass/blog.scss */
+  .pagination .previous-page {
+    float: left;
+  }
+
+  /* line 327, ../sass/blog.scss */
+  .pagination .next-page {
+    float: right;
+  }
+
+  /* line 330, ../sass/blog.scss */
+  .pagination .previous-page {
+    margin-right: 33%;
+  }
+
+  /* line 334, ../sass/blog.scss */
+  #blog-aside .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 340, ../sass/blog.scss */
+  #blog-aside .popular-post {
+    max-height: 70px;
+    margin-bottom: 25px;
+  }
+  /* line 343, ../sass/blog.scss */
+  #blog-aside .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  /* line 348, ../sass/blog.scss */
+  #blog-aside .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 352, ../sass/blog.scss */
+  #blog-aside .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+
+  /* line 360, ../sass/blog.scss */
+  .news-info {
+    color: #5e5e5e;
+    font: 700 0.8em/0.8em "CenturyGothic";
+  }
+  /* line 363, ../sass/blog.scss */
+  .news-info span {
+    color: #000000;
+    float: right;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 28, ../sass/blog-single.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 32, ../sass/blog-single.scss */
+#single-content-holder .single-article {
+  border-bottom: 1px solid #cacaca;
+}
+/* line 35, ../sass/blog-single.scss */
+#single-content-holder .single-article-header {
+  background-color: #ffeb00;
+  margin-bottom: 20px;
+}
+/* line 39, ../sass/blog-single.scss */
+#single-content-holder .header-description {
+  display: block;
+  font: 700 1.3em/1em "CenturyGothic";
+  text-transform: uppercase;
+  color: #000000;
+  padding: 20px 0 10px 20px;
+}
+/* line 46, ../sass/blog-single.scss */
+#single-content-holder .header-info {
+  display: block;
+  text-align: right;
+  padding: 0 15px 15px 0;
+  font: 700 0.9em/1em "CenturyGothic";
+}
+/* line 51, ../sass/blog-single.scss */
+#single-content-holder .header-info a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 56, ../sass/blog-single.scss */
+#single-content-holder .arrow_box {
+  position: relative;
+}
+/* line 60, ../sass/blog-single.scss */
+#single-content-holder .arrow_box:after, #single-content-holder .arrow_box:before {
+  bottom: 100%;
+  right: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 71, ../sass/blog-single.scss */
+#single-content-holder .arrow_box:after {
+  border-color: rgba(213, 130, 66, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -15px;
+}
+/* line 77, ../sass/blog-single.scss */
+#single-content-holder .arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -16px;
+}
+/* line 83, ../sass/blog-single.scss */
+#single-content-holder .article-paragraph {
+  color: #424147;
+  font: 400 1em/2em "CenturyGothic";
+}
+/* line 87, ../sass/blog-single.scss */
+#single-content-holder .illustration {
+  padding: 15px;
+}
+/* line 90, ../sass/blog-single.scss */
+#single-content-holder .illustration-description {
+  color: #424147;
+  font: 400 1em/2em "CenturyGothic";
+}
+/* line 94, ../sass/blog-single.scss */
+#single-content-holder .in-text-photo {
+  padding: 15px;
+}
+/* line 97, ../sass/blog-single.scss */
+#single-content-holder .share-it {
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #403f46;
+  font: 600 1.1em/1em "CenturyGothic";
+  padding: 5px 10px;
+  margin: 10px 0;
+  text-align: center;
+}
+/* line 106, ../sass/blog-single.scss */
+#single-content-holder .social-follow-holder {
+  display: inline-block;
+  font: 600 0.9em/1.3em "CenturyGothic";
+  background-color: #ffeb00;
+  width: 60px;
+  margin-bottom: 20px;
+}
+/* line 112, ../sass/blog-single.scss */
+#single-content-holder .social-follow-holder .social-follow {
+  padding: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+/* line 119, ../sass/blog-single.scss */
+#single-content-holder .social-follow-holder .social-follow a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 122, ../sass/blog-single.scss */
+#single-content-holder .social-follow-holder .social-follow a:hover {
+  color: #ffeb00;
+}
+/* line 128, ../sass/blog-single.scss */
+#single-content-holder .related-posts-header {
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #403f46;
+  font: 600 1.1em/1em "CenturyGothic";
+  padding: 5px 10px;
+  margin: 20px 0;
+  display: inline-block;
+}
+/* line 137, ../sass/blog-single.scss */
+#single-content-holder .related-post {
+  margin: 20px 0;
+  position: relative;
+}
+/* line 140, ../sass/blog-single.scss */
+#single-content-holder .related-post:hover .overlay {
+  display: block;
+}
+/* line 143, ../sass/blog-single.scss */
+#single-content-holder .related-post .related-post-description {
+  background-color: #ffeb00;
+  font: 700 0.9em/1em "CenturyGothic";
+  color: #000000;
+  padding: 10px;
+}
+/* line 150, ../sass/blog-single.scss */
+#single-content-holder .overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 5.5%;
+  width: 89%;
+  height: 100%;
+  background-color: rgba(255, 235, 0, 0.6);
+}
+/* line 158, ../sass/blog-single.scss */
+#single-content-holder .overlay .icon-holder {
+  position: inherit;
+  top: 45%;
+  left: 40%;
+}
+/* line 162, ../sass/blog-single.scss */
+#single-content-holder .overlay .icon-holder a {
+  color: white;
+  font: 100 1.2em/0.8em "Code-Light";
+  padding: 20px;
+  background-color: rgba(10, 10, 10, 0.6);
+}
+/* line 170, ../sass/blog-single.scss */
+#single-content-holder .related-posts {
+  border-bottom: 1px solid #cacaca;
+}
+/* line 174, ../sass/blog-single.scss */
+#single-content-holder .commentaries-list .commentary-holder {
+  margin: 10px 0;
+}
+/* line 176, ../sass/blog-single.scss */
+#single-content-holder .commentaries-list .commentary-holder:nth-child(4) {
+  margin-bottom: 20px;
+}
+/* line 180, ../sass/blog-single.scss */
+#single-content-holder .commentaries-list .avatar {
+  width: 50px;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+/* line 185, ../sass/blog-single.scss */
+#single-content-holder .commentaries-list .commentary-header {
+  color: #000000;
+  font: 500 0.9em/1em "CenturyGothic";
+  margin: 0 0 10px 0;
+}
+/* line 190, ../sass/blog-single.scss */
+#single-content-holder .commentaries-list .comment {
+  margin: 0 0 0 55px;
+  color: #424147;
+  font: 400 0.88em/0.9em "CenturyGothic";
+}
+/* line 196, ../sass/blog-single.scss */
+#single-content-holder .commentaries {
+  border-bottom: 1px solid #cacaca;
+}
+
+/* line 201, ../sass/blog-single.scss */
+.leave-comment input, .leave-comment textarea {
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 5px 5px 5px 0;
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+  background-color: #ffffff;
+}
+/* line 210, ../sass/blog-single.scss */
+.leave-comment .firstname, .leave-comment .text-area {
+  outline: none;
+  width: 100%;
+}
+/* line 213, ../sass/blog-single.scss */
+.leave-comment .firstname::-webkit-input-placeholder, .leave-comment .text-area::-webkit-input-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 217, ../sass/blog-single.scss */
+.leave-comment .firstname::-moz-placeholder, .leave-comment .text-area::-moz-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 221, ../sass/blog-single.scss */
+.leave-comment .firstname:-moz-placeholder, .leave-comment .text-area:-moz-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 225, ../sass/blog-single.scss */
+.leave-comment .firstname:-ms-input-placeholder, .leave-comment .text-area:-ms-input-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 230, ../sass/blog-single.scss */
+.leave-comment .text-area {
+  padding-bottom: 40px;
+  outline: none;
+}
+/* line 234, ../sass/blog-single.scss */
+.leave-comment .submit {
+  outline: none;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}
+/* line 239, ../sass/blog-single.scss */
+.leave-comment .submit:hover {
+  background-color: #ffeb00;
+  color: #000000;
+}
+
+/* line 246, ../sass/blog-single.scss */
+.blog-aside {
+  margin-top: 30px;
+}
+/* line 248, ../sass/blog-single.scss */
+.blog-aside section {
+  padding: 25px;
+  margin: 0 0 30px 0;
+  background-color: #403f46;
+}
+/* line 253, ../sass/blog-single.scss */
+.blog-aside .aside-section-header {
+  color: #ffeb00;
+  font: 600 1.1em/1.3em "CenturyGothic";
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+/* line 260, ../sass/blog-single.scss */
+.blog-aside .details-list .details-content {
+  list-style: none inside url("../img/project/arrow.png");
+}
+/* line 264, ../sass/blog-single.scss */
+.blog-aside .aside-links {
+  color: #ffffff;
+  font: 400 1em/1.5em "CenturyGothic";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 270, ../sass/blog-single.scss */
+.blog-aside .popular-post {
+  margin-bottom: 35px;
+}
+/* line 272, ../sass/blog-single.scss */
+.blog-aside .popular-post .post-img {
+  width: 100%;
+}
+/* line 275, ../sass/blog-single.scss */
+.blog-aside .popular-post .post-date {
+  color: #ffeb00;
+  font: 400 0.8em/1.2em "CenturyGothic";
+  float: right;
+  padding: 10px 0 0 0;
+}
+/* line 283, ../sass/blog-single.scss */
+.blog-aside .tags-list li {
+  display: inline-block;
+  background-color: #ffeb00;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 3px;
+}
+/* line 289, ../sass/blog-single.scss */
+.blog-aside .tags-list li > a {
+  font: 400 1em/1em "CenturyGothic";
+  text-decoration: none;
+  color: #424147;
+}
+
+/* line 297, ../sass/blog-single.scss */
+.category, .archive-name {
+  list-style: none inside url("../img/project/arrow.png");
+}
+
+/* line 301, ../sass/blog-single.scss */
+.search-form .search-input {
+  border: 1px solid #403f46;
+  border-radius: 18px;
+  font: 400 1em/1.6em "CenturyGothic";
+}
+/* line 305, ../sass/blog-single.scss */
+.search-form .search-input::-webkit-input-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 308, ../sass/blog-single.scss */
+.search-form .search-input::-moz-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 311, ../sass/blog-single.scss */
+.search-form .search-input:-moz-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+/* line 314, ../sass/blog-single.scss */
+.search-form .search-input:-ms-input-placeholder {
+  background: url("../img/blog/search-icon.png") 97% 0/23px 22px no-repeat;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 322, ../sass/blog-single.scss */
+  #single-content-holder .related-post img {
+    width: 100%;
+  }
+  /* line 326, ../sass/blog-single.scss */
+  #single-content-holder .header-description {
+    font: 700 1.8em/1.2em "CenturyGothic";
+    text-transform: uppercase;
+    color: #000000;
+  }
+  /* line 331, ../sass/blog-single.scss */
+  #single-content-holder .share-it {
+    text-transform: uppercase;
+    color: #ffeb00;
+    background-color: #403f46;
+    font: 600 1.1em/1em "CenturyGothic";
+    padding: 5px 10px;
+    margin: 20px 0;
+    text-align: center;
+    display: inline-block;
+    float: left;
+  }
+  /* line 342, ../sass/blog-single.scss */
+  #single-content-holder .social-follow-holder {
+    float: right;
+    font: 600 1.1em/1em "CenturyGothic";
+    background-color: #ffeb00;
+    width: 60px;
+    height: 30px;
+    margin: 20px 0 20px 10px;
+  }
+  /* line 349, ../sass/blog-single.scss */
+  #single-content-holder .social-follow-holder .social-follow {
+    padding: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* line 359, ../sass/blog-single.scss */
+  #blog-aside {
+    margin-top: 0;
+  }
+  /* line 361, ../sass/blog-single.scss */
+  #blog-aside .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 367, ../sass/blog-single.scss */
+  #blog-aside .popular-post {
+    margin-bottom: 25px;
+  }
+  /* line 369, ../sass/blog-single.scss */
+  #blog-aside .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  /* line 373, ../sass/blog-single.scss */
+  #blog-aside .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 376, ../sass/blog-single.scss */
+  #blog-aside .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+
+  /* line 384, ../sass/blog-single.scss */
+  .search-form {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 393, ../sass/blog-single.scss */
+  .related-post img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 400, ../sass/blog-single.scss */
+  #single-content-holder .header-img {
+    width: 100%;
+  }
+  /* line 403, ../sass/blog-single.scss */
+  #single-content-holder .header-description {
+    font: 700 2em/1.2em "CenturyGothic";
+    text-transform: uppercase;
+    color: #000000;
+  }
+  /* line 408, ../sass/blog-single.scss */
+  #single-content-holder .social-follow-holder {
+    margin: 20px 0 20px 30px;
+  }
+  /* line 412, ../sass/blog-single.scss */
+  #single-content-holder .related-post img {
+    width: 100%;
+  }
+  /* line 416, ../sass/blog-single.scss */
+  #single-content-holder .overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 3.5%;
+    width: 92.75%;
+    height: 100%;
+    background-color: rgba(255, 235, 0, 0.6);
+  }
+  /* line 424, ../sass/blog-single.scss */
+  #single-content-holder .overlay .icon-holder {
+    position: inherit;
+    top: 45%;
+    left: 40%;
+  }
+  /* line 428, ../sass/blog-single.scss */
+  #single-content-holder .overlay .icon-holder a {
+    color: white;
+    font: 100 1.2em/0.8em "Code-Light";
+    padding: 20px;
+    background-color: rgba(10, 10, 10, 0.6);
+  }
+  /* line 437, ../sass/blog-single.scss */
+  #single-content-holder .leave-comment input, #single-content-holder .leave-comment textarea {
+    border: none;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    font: 500 0.9em/1em "CenturyGothic";
+    color: #000000;
+    background-color: #ffffff;
+  }
+  /* line 445, ../sass/blog-single.scss */
+  #single-content-holder .leave-comment .firstname, #single-content-holder .leave-comment .text-area {
+    width: 100%;
+  }
+  /* line 448, ../sass/blog-single.scss */
+  #single-content-holder .leave-comment .text-area {
+    padding-bottom: 140px;
+  }
+  /* line 451, ../sass/blog-single.scss */
+  #single-content-holder .leave-comment .submit {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  /* line 455, ../sass/blog-single.scss */
+  #single-content-holder .leave-comment .submit:hover {
+    background-color: #ffeb00;
+    color: #000000;
+  }
+
+  /* line 463, ../sass/blog-single.scss */
+  #blog-aside {
+    margin-top: 0;
+  }
+  /* line 465, ../sass/blog-single.scss */
+  #blog-aside .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 471, ../sass/blog-single.scss */
+  #blog-aside .popular-post {
+    max-height: 70px;
+    margin-bottom: 25px;
+  }
+  /* line 474, ../sass/blog-single.scss */
+  #blog-aside .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  /* line 479, ../sass/blog-single.scss */
+  #blog-aside .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 483, ../sass/blog-single.scss */
+  #blog-aside .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 28, ../sass/project.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 32, ../sass/project.scss */
+#projects-slider .my-flex {
+  margin: 0;
+}
+
+/* line 36, ../sass/project.scss */
+.article-header {
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #403f46;
+  display: inline-block;
+  font: 600 1.1em/1em "CenturyGothic";
+  padding: 10px;
+  margin: 4% 0;
+}
+
+/* line 45, ../sass/project.scss */
+.work-holder {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+/* line 49, ../sass/project.scss */
+.work-holder:hover .overlay {
+  display: block;
+}
+
+/* line 53, ../sass/project.scss */
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 3.5%;
+  width: 85.5%;
+  height: 100%;
+  background-color: rgba(255, 235, 0, 0.6);
+}
+/* line 61, ../sass/project.scss */
+.overlay .icon-holder {
+  position: inherit;
+  top: 45%;
+  left: 45%;
+}
+/* line 65, ../sass/project.scss */
+.overlay .icon-holder a {
+  color: white;
+  font: 100 1.2em/0.8em "Code-Light";
+  padding: 20px;
+  background-color: rgba(10, 10, 10, 0.6);
+}
+
+/* line 74, ../sass/project.scss */
+.project-description {
+  border-bottom: 1px solid #cacaca;
+  padding-bottom: 4%;
+  margin: 0 2%;
+}
+
+/* line 80, ../sass/project.scss */
+.main-content p {
+  color: #424147;
+  font: 500 1em/2em "CenturyGothic";
+}
+
+/* line 85, ../sass/project.scss */
+.recent-projects {
+  margin: 0 2% 5% 2%;
+}
+
+/* line 89, ../sass/project.scss */
+.aside-articles section {
+  padding: 25px;
+  margin: 0 0 30px 0;
+  background-color: #403f46;
+}
+/* line 94, ../sass/project.scss */
+.aside-articles .aside-section-header {
+  color: #ffeb00;
+  font: 600 1.1em/1.3em "CenturyGothic";
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+/* line 101, ../sass/project.scss */
+.aside-articles .details-list .details-content {
+  list-style: none inside url("../img/project/arrow.png");
+}
+/* line 105, ../sass/project.scss */
+.aside-articles .aside-links {
+  color: #ffffff;
+  font: 400 1em/1.5em "CenturyGothic";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 111, ../sass/project.scss */
+.aside-articles .popular-post {
+  margin-bottom: 35px;
+}
+/* line 113, ../sass/project.scss */
+.aside-articles .popular-post .post-img {
+  width: 100%;
+}
+/* line 117, ../sass/project.scss */
+.aside-articles .popular-post .post-date {
+  color: #ffeb00;
+  font: 400 0.8em/1.2em "CenturyGothic";
+  float: right;
+  padding: 10px 0 0 0;
+}
+/* line 125, ../sass/project.scss */
+.aside-articles .tags-list li {
+  display: inline-block;
+  background-color: #ffeb00;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 3px;
+}
+/* line 131, ../sass/project.scss */
+.aside-articles .tags-list li > a {
+  font: 400 1em/1em "CenturyGothic";
+  text-decoration: none;
+  color: #424147;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 141, ../sass/project.scss */
+  #aside-articles .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 147, ../sass/project.scss */
+  #aside-articles .popular-post {
+    margin-bottom: 25px;
+  }
+  /* line 149, ../sass/project.scss */
+  #aside-articles .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  /* line 153, ../sass/project.scss */
+  #aside-articles .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 157, ../sass/project.scss */
+  #aside-articles .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 172, ../sass/project.scss */
+  #aside-articles .aside-links {
+    color: #ffffff;
+    font: 400 1em/2em "CenturyGothic";
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 178, ../sass/project.scss */
+  #aside-articles .popular-post {
+    max-height: 70px;
+    margin-bottom: 25px;
+  }
+  /* line 181, ../sass/project.scss */
+  #aside-articles .popular-post .post-img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  /* line 186, ../sass/project.scss */
+  #aside-articles .popular-post .post-header {
+    word-spacing: 0.3em;
+  }
+  /* line 190, ../sass/project.scss */
+  #aside-articles .popular-post .post-date {
+    color: #ffeb00;
+    font: 400 0.8em/1.2em "CenturyGothic";
+    float: right;
+    padding: 24px 0 0 0;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 30, ../sass/404.scss */
+#massage {
+  background-color: #f6f6f6;
+}
+/* line 32, ../sass/404.scss */
+#massage .massage-header {
+  margin: 10% 0 0 0;
+  font: 400 5em/1.2em "CenturyGothic";
+  color: #3f3f44;
+}
+/* line 37, ../sass/404.scss */
+#massage .massage-paragraph {
+  font: 600 2em/0.8em "CenturyGothic";
+  color: #ffeb00;
+  display: inline-block;
+  background-color: #3f3f44;
+  padding: 0 20px 10px 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 45, ../sass/404.scss */
+#massage .massage-paragraph span {
+  font: 600 2.2em/0.8em "CenturyGothic";
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+/* line 52, ../sass/404.scss */
+#massage .buttons-paragraph {
+  font: 400 0.8em/0.8em "CenturyGothic";
+  margin-bottom: 11%;
+}
+/* line 55, ../sass/404.scss */
+#massage .buttons-paragraph a {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 7px;
+  margin: 0 15px;
+}
+/* line 60, ../sass/404.scss */
+#massage .buttons-paragraph a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffeb00;
+}
+/* line 66, ../sass/404.scss */
+#massage .buttons-paragraph span {
+  color: #000000;
+  background-color: #ffeb00;
+  padding: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 74, ../sass/404.scss */
+  #massage {
+    background-color: #f6f6f6;
+  }
+  /* line 76, ../sass/404.scss */
+  #massage .massage-header {
+    margin: 10% 0 0 0;
+    font: 400 6em/1.2em "CenturyGothic";
+    color: #3f3f44;
+  }
+  /* line 81, ../sass/404.scss */
+  #massage .massage-paragraph {
+    font: 600 2.4em/0.8em "CenturyGothic";
+    color: #ffeb00;
+    display: inline-block;
+    background-color: #3f3f44;
+    padding: 0 25px 10px 0;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  /* line 89, ../sass/404.scss */
+  #massage .massage-paragraph span {
+    font: 600 2em/0.8em "CenturyGothic";
+    position: absolute;
+    top: -30px;
+    right: 0;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 28, ../sass/about-us.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 32, ../sass/about-us.scss */
+#about-us-main-section .welcome-to-team-header {
+  color: #424146;
+  font: 400 1.5rem/1.5rem "CenturyGothic";
+  text-transform: uppercase;
+}
+/* line 37, ../sass/about-us.scss */
+#about-us-main-section .a-small-header {
+  color: #424146;
+  font: 400 1.1rem/1.5rem "CenturyGothic";
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+/* line 43, ../sass/about-us.scss */
+#about-us-main-section .about-us-paragraph {
+  color: #424146;
+  font: 400 1.1rem/1.6rem "CenturyGothic";
+}
+/* line 47, ../sass/about-us.scss */
+#about-us-main-section .with-bg {
+  background: url("../img/about-us/our-team.png") 0 100%/100% no-repeat;
+  min-height: 650px;
+}
+/* line 51, ../sass/about-us.scss */
+#about-us-main-section .skills-header {
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #403f46;
+  font: 600 1.1em/1em "CenturyGothic";
+  padding: 5px 10px;
+  margin: 20px auto;
+  display: inline-block;
+}
+/* line 60, ../sass/about-us.scss */
+#about-us-main-section .skills-paragraph {
+  color: #424146;
+  font: 400 1rem/1.2rem "CenturyGothic";
+}
+/* line 64, ../sass/about-us.scss */
+#about-us-main-section .skill-holder {
+  margin: 20px 0;
+}
+/* line 66, ../sass/about-us.scss */
+#about-us-main-section .skill-holder:hover .skill {
+  background-color: #000000;
+}
+/* line 70, ../sass/about-us.scss */
+#about-us-main-section .skill {
+  transition: all ease 0.5s;
+  background-color: #403f46;
+}
+/* line 74, ../sass/about-us.scss */
+#about-us-main-section .percent-span {
+  color: #ffea00;
+  font: 400 1.2rem/1.5rem "CenturyGothic";
+  text-transform: uppercase;
+  background-color: #000000;
+  padding: 2%;
+  margin-right: 1px;
+  display: inline-block;
+}
+/* line 83, ../sass/about-us.scss */
+#about-us-main-section .making-inline {
+  display: inline-block;
+  padding: 2%;
+  color: #424146;
+  font: 400 1.2rem/1.5rem "CenturyGothic";
+  text-transform: uppercase;
+  background-color: #ffeb00;
+}
+/* line 91, ../sass/about-us.scss */
+#about-us-main-section .photoshop {
+  width: 70%;
+}
+/* line 94, ../sass/about-us.scss */
+#about-us-main-section .html {
+  width: 67%;
+}
+/* line 97, ../sass/about-us.scss */
+#about-us-main-section .wordpress {
+  width: 50%;
+  font: 400 1.1rem/1.5rem "CenturyGothic";
+}
+/* line 101, ../sass/about-us.scss */
+#about-us-main-section .javascript {
+  width: 55%;
+}
+/* line 104, ../sass/about-us.scss */
+#about-us-main-section .illustrator {
+  width: 60%;
+}
+/* line 107, ../sass/about-us.scss */
+#about-us-main-section .php {
+  width: 56%;
+}
+/* line 110, ../sass/about-us.scss */
+#about-us-main-section .joomla {
+  width: 45%;
+}
+/* line 113, ../sass/about-us.scss */
+#about-us-main-section .mysql {
+  width: 65%;
+}
+/* line 116, ../sass/about-us.scss */
+#about-us-main-section .team-holder {
+  margin: 5% 0;
+}
+/* line 120, ../sass/about-us.scss */
+#about-us-main-section .mate-photo {
+  margin: 0 auto;
+  border: 1px solid #ffeb00;
+  border-radius: 50%;
+  transition: all 1s;
+}
+/* line 125, ../sass/about-us.scss */
+#about-us-main-section .mate-photo:hover {
+  filter: contrast(125%) saturate(3);
+  -webkit-filter: contrast(125%) saturate(3);
+}
+/* line 130, ../sass/about-us.scss */
+#about-us-main-section .mate-name {
+  padding: 1%;
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #403f46;
+  font: 600 0.9em/1em "CenturyGothic";
+  margin: 20px auto;
+}
+/* line 138, ../sass/about-us.scss */
+#about-us-main-section .front-end {
+  letter-spacing: -0.1rem;
+  word-spacing: -0.15rem;
+  font: 600 0.9em/1em "CenturyGothic";
+}
+/* line 143, ../sass/about-us.scss */
+#about-us-main-section .career {
+  padding: 1%;
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #000000;
+  font: 600 0.9em/1em "CenturyGothic";
+  margin: 20px auto;
+  transition: all 0.5s;
+}
+/* line 151, ../sass/about-us.scss */
+#about-us-main-section .career:hover {
+  background-color: #ffeb00;
+  color: #000000;
+}
+/* line 155, ../sass/about-us.scss */
+#about-us-main-section .career a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 165, ../sass/about-us.scss */
+  #about-us-main-section .welcome-to-team {
+    background: url("../img/about-us/our-team.png") 0 100%/100% no-repeat;
+    min-height: 950px;
+  }
+  /* line 169, ../sass/about-us.scss */
+  #about-us-main-section .with-bg {
+    min-height: inherit;
+    background: none;
+  }
+}
+@media screen and (min-width: 991px) {
+  /* line 177, ../sass/about-us.scss */
+  #about-us-main-section .welcome-to-team {
+    background: url("../img/about-us/our-team.png") 0 40%/33.33% no-repeat;
+    min-height: inherit;
+  }
+  /* line 181, ../sass/about-us.scss */
+  #about-us-main-section .front-end {
+    letter-spacing: normal;
+    word-spacing: normal;
+    font: 600 0.9em/1em "CenturyGothic";
+  }
+}
+@media screen and (min-width: 1199px) {
+  /* line 191, ../sass/about-us.scss */
+  #about-us-main-section .welcome-to-team {
+    background: url("../img/about-us/our-team.png") 0 0/35% no-repeat;
+    min-height: inherit;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 29, ../sass/contact.scss */
+body {
+  background-color: #f6f6f6;
+}
+
+/* line 33, ../sass/contact.scss */
+.related-posts-header {
+  text-transform: uppercase;
+  color: #ffeb00;
+  background-color: #403f46;
+  font: 600 1.1em/1em "CenturyGothic";
+  padding: 5px 10px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+/* line 43, ../sass/contact.scss */
+.send-message input, .send-message textarea {
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 5px 5px 5px 0;
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+  background-color: #ffffff;
+}
+/* line 52, ../sass/contact.scss */
+.send-message .firstname, .send-message .text-area {
+  outline: none;
+  width: 100%;
+}
+/* line 55, ../sass/contact.scss */
+.send-message .firstname::-webkit-input-placeholder, .send-message .text-area::-webkit-input-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 59, ../sass/contact.scss */
+.send-message .firstname::-moz-placeholder, .send-message .text-area::-moz-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 63, ../sass/contact.scss */
+.send-message .firstname:-moz-placeholder, .send-message .text-area:-moz-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 67, ../sass/contact.scss */
+.send-message .firstname:-ms-input-placeholder, .send-message .text-area:-ms-input-placeholder {
+  font: 500 0.9em/1em "CenturyGothic";
+  color: #000000;
+}
+/* line 72, ../sass/contact.scss */
+.send-message .text-area {
+  padding-bottom: 40px;
+  outline: none;
+}
+/* line 76, ../sass/contact.scss */
+.send-message .submit {
+  outline: none;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}
+/* line 81, ../sass/contact.scss */
+.send-message .submit:hover {
+  background-color: #ffeb00;
+  color: #000000;
+}
+
+/* line 87, ../sass/contact.scss */
+.for-feedback-icons {
+  float: left;
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+
+/* line 96, ../sass/contact.scss */
+.for-information {
+  line-height: 1.3em;
+  margin: 5px 0 5px 35px;
+  padding: 0;
+  font: 400 13px/21px "CenturyGothic";
+}
+/* line 101, ../sass/contact.scss */
+.for-information a {
+  text-decoration: none;
+  color: #424147;
+}
+/* line 105, ../sass/contact.scss */
+.for-information .mail-link {
+  color: #ffeb00;
+  background-color: #403f46;
+  padding: 5px;
+}
+/* line 110, ../sass/contact.scss */
+.for-information .second-number {
+  display: block;
+  padding: 0 0 0 50px;
+}
+
+@media screen and (max-width: 766px) {
+  /* line 117, ../sass/contact.scss */
+  .map-section .map-xsmall {
+    display: block;
+  }
+  /* line 120, ../sass/contact.scss */
+  .map-section .map-small {
+    display: none;
+  }
+  /* line 123, ../sass/contact.scss */
+  .map-section .map-medium {
+    display: none;
+  }
+  /* line 126, ../sass/contact.scss */
+  .map-section .map-large {
+    display: none;
+  }
+  /* line 129, ../sass/contact.scss */
+  .map-section .map-xlarge {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  /* line 136, ../sass/contact.scss */
+  .map-section .map-xsmall {
+    display: none;
+  }
+  /* line 139, ../sass/contact.scss */
+  .map-section .map-small {
+    display: block;
+  }
+  /* line 142, ../sass/contact.scss */
+  .map-section .map-medium {
+    display: none;
+  }
+  /* line 145, ../sass/contact.scss */
+  .map-section .map-large {
+    display: none;
+  }
+  /* line 148, ../sass/contact.scss */
+  .map-section .map-xlarge {
+    display: none;
+  }
+
+  /* line 153, ../sass/contact.scss */
+  .send-message .submit {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    transition: all ease 0.5s;
+    font: 500 0.8em/1em "CenturyGothic";
+    word-spacing: -0.1rem;
+  }
+  /* line 160, ../sass/contact.scss */
+  .send-message .submit:hover {
+    background-color: #ffeb00;
+    color: #000000;
+  }
+}
+@media screen and (min-width: 991px) {
+  /* line 169, ../sass/contact.scss */
+  .map-section .map-xsmall {
+    display: none;
+  }
+  /* line 172, ../sass/contact.scss */
+  .map-section .map-small {
+    display: none;
+  }
+  /* line 175, ../sass/contact.scss */
+  .map-section .map-medium {
+    display: block;
+  }
+  /* line 178, ../sass/contact.scss */
+  .map-section .map-large {
+    display: none;
+  }
+  /* line 181, ../sass/contact.scss */
+  .map-section .map-xlarge {
+    display: none;
+  }
+}
+@media screen and (min-width: 1199px) {
+  /* line 188, ../sass/contact.scss */
+  .map-section .map-xsmall {
+    display: none;
+  }
+  /* line 191, ../sass/contact.scss */
+  .map-section .map-small {
+    display: none;
+  }
+  /* line 194, ../sass/contact.scss */
+  .map-section .map-medium {
+    display: none;
+  }
+  /* line 197, ../sass/contact.scss */
+  .map-section .map-large {
+    display: block;
+  }
+  /* line 200, ../sass/contact.scss */
+  .map-section .map-xlarge {
+    display: none;
+  }
+
+  /* line 205, ../sass/contact.scss */
+  .send-message input, .send-message textarea {
+    border: none;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    font: 500 0.9em/1em "CenturyGothic";
+    color: #000000;
+    background-color: #ffffff;
+  }
+  /* line 213, ../sass/contact.scss */
+  .send-message .firstname, .send-message .text-area {
+    width: 100%;
+  }
+  /* line 216, ../sass/contact.scss */
+  .send-message .text-area {
+    padding-bottom: 140px;
+  }
+  /* line 219, ../sass/contact.scss */
+  .send-message .submit {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    transition: all ease 0.5s;
+    font: 500 0.8em/1em "CenturyGothic";
+    word-spacing: -0.1rem;
+  }
+  /* line 226, ../sass/contact.scss */
+  .send-message .submit:hover {
+    background-color: #ffeb00;
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1439px) {
+  /* line 235, ../sass/contact.scss */
+  .map-section .map-xsmall {
+    display: none;
+  }
+  /* line 238, ../sass/contact.scss */
+  .map-section .map-small {
+    display: none;
+  }
+  /* line 241, ../sass/contact.scss */
+  .map-section .map-medium {
+    display: none;
+  }
+  /* line 244, ../sass/contact.scss */
+  .map-section .map-large {
+    display: none;
+  }
+  /* line 247, ../sass/contact.scss */
+  .map-section .map-xlarge {
+    display: block;
+  }
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic/CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url("../fonts/Code-Light/Code-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Code-Light/Code-Light.otf") format("opentype"), url("../fonts/Code-Light/Code-Light.woff") format("woff"), url("../fonts/Code-Light/Code-Light.ttf") format("truetype"), url("../fonts/Code-Light/Code-Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

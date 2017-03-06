@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e89038ba-b018-4d86-8a01-efbd7c55e52e" name="Default" comment="" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hw9-compass" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>container-fluid</find>
+      <find>row</find>
+      <find>&lt;p class=&quot;icon-holder&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/p&gt;</find>
+      <find>col-sm-6</find>
+      <find>&lt;a href=&quot;#&quot;&gt;</find>
+      <find>single-content</find>
+      <find>.related-posts-header</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/jquery.flexslider-min.js" />
+        <option value="$PROJECT_DIR$/stylesheets/_contacts.scss" />
+        <option value="$PROJECT_DIR$/gitmanual.txt" />
+        <option value="$PROJECT_DIR$/sass/_about.scss" />
+        <option value="$PROJECT_DIR$/sass/_portfolio.scss" />
+        <option value="$PROJECT_DIR$/sass/_partners.scss" />
+        <option value="$PROJECT_DIR$/sass/_contacts.scss" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/sass/404.scss" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/sass/_contacts-section.scss" />
+        <option value="$PROJECT_DIR$/sass/_footer.scss" />
+        <option value="$PROJECT_DIR$/sass/_welcome.scss" />
+        <option value="$PROJECT_DIR$/js/slick.min.js" />
+        <option value="$PROJECT_DIR$/js/project.js" />
+        <option value="$PROJECT_DIR$/flex/flexslider.css" />
+        <option value="$PROJECT_DIR$/sass/portfolio.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/blog.js" />
+        <option value="$PROJECT_DIR$/sass/_for-page-header.scss" />
+        <option value="$PROJECT_DIR$/sass/blog.scss" />
+        <option value="$PROJECT_DIR$/sass/project.scss" />
+        <option value="$PROJECT_DIR$/project.html" />
+        <option value="$PROJECT_DIR$/portfolio.html" />
+        <option value="$PROJECT_DIR$/blog.html" />
+        <option value="$PROJECT_DIR$/sass/_nav.scss" />
+        <option value="$PROJECT_DIR$/about-us.html" />
+        <option value="$PROJECT_DIR$/sass/about-us.scss" />
+        <option value="$PROJECT_DIR$/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/sass/blog-single.scss" />
+        <option value="$PROJECT_DIR$/single-post.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/sass/contact.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skokov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skokov" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Swante\Desktop\hw9-compass\sass" />
+      <recent name="F:\GeekHub\hw9-compass\js\libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e89038ba-b018-4d86-8a01-efbd7c55e52e" name="Default" comment="" />
+      <created>1481965864199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481965864199</updated>
+      <workItem from="1481965869451" duration="395000" />
+      <workItem from="1482044754593" duration="13691000" />
+      <workItem from="1482067074202" duration="19144000" />
+      <workItem from="1482128853082" duration="26833000" />
+      <workItem from="1482166700174" duration="2559000" />
+      <workItem from="1482180668000" duration="10564000" />
+      <workItem from="1482212132959" duration="827000" />
+      <workItem from="1482262205972" duration="12967000" />
+      <workItem from="1482349353311" duration="11405000" />
+      <workItem from="1482403371829" duration="97000" />
+      <workItem from="1482440761905" duration="4888000" />
+      <workItem from="1482494266238" duration="16860000" />
+      <workItem from="1482518375848" duration="707000" />
+      <workItem from="1482519150470" duration="22111000" />
+      <workItem from="1482788011121" duration="2987000" />
+      <workItem from="1482868455859" duration="9803000" />
+      <workItem from="1482952565266" duration="4558000" />
+      <workItem from="1482995634468" duration="20043000" />
+      <workItem from="1483019107651" duration="7323000" />
+      <workItem from="1483034760005" duration="7833000" />
+      <workItem from="1483088092993" duration="638000" />
+      <workItem from="1483099561088" duration="9046000" />
+      <workItem from="1483112903519" duration="20501000" />
+      <workItem from="1483189293191" duration="20609000" />
+      <workItem from="1483272421088" duration="2460000" />
+      <workItem from="1483295679738" duration="14218000" />
+      <workItem from="1483878381990" duration="9314000" />
+      <workItem from="1483895504783" duration="10770000" />
+      <workItem from="1483910936139" duration="4381000" />
+      <workItem from="1483944506202" duration="2602000" />
+      <workItem from="1487517670491" duration="985000" />
+      <workItem from="1487519850136" duration="516000" />
+      <workItem from="1487529988613" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="291749000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17549168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16768293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gitmanual.txt" />
+    <entry file="file://$PROJECT_DIR$/sass/print.scss" />
+    <entry file="file://$PROJECT_DIR$/stylesheets/screen.css" />
+    <entry file="file://$PROJECT_DIR$/img/slider-1-bg-1.png" />
+    <entry file="file://$PROJECT_DIR$/libs/slick-1.6.0/slick/slick-theme.css" />
+    <entry file="file://D:/downloads/hw9-compass-20161219T231042Z/hw9-compass/sass/_welcome.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_portfolio.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_contacts.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_about.scss" />
+    <entry file="file://$PROJECT_DIR$/stylesheets/portfolio.css" />
+    <entry file="file://$PROJECT_DIR$/../Home_work_7/Home_work_7/index.html" />
+    <entry file="file://$PROJECT_DIR$/../Home_work_7/Home_work_7/sass/screen.scss" />
+    <entry file="file://$PROJECT_DIR$/../hw8-portfolio/hw8-portfolio/index.html" />
+    <entry file="file://$PROJECT_DIR$/../hw8-portfolio/hw8-portfolio/sass/screen.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/ie.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_portfolio-section.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_partners.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/projet.scss" />
+    <entry file="file://$PROJECT_DIR$/js/slick.js" />
+    <entry file="file://$PROJECT_DIR$/js/slick.min.js" />
+    <entry file="file://$PROJECT_DIR$/404.html" />
+    <entry file="file://$PROJECT_DIR$/sass/404.scss" />
+    <entry file="file://$PROJECT_DIR$/flex/flexslider.css" />
+    <entry file="file://$PROJECT_DIR$/js/project.js" />
+    <entry file="file://$PROJECT_DIR$/img/project/arrow.png" />
+    <entry file="file://$PROJECT_DIR$/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/img/blog/-----1.png" />
+    <entry file="file://$PROJECT_DIR$/js/masonry.pkgd.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/blog.js" />
+    <entry file="file://$PROJECT_DIR$/sass/portfolio.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_for-page-header.scss" />
+    <entry file="file://$PROJECT_DIR$/../brajeshwar-paginate-fe41ac2/index.html" />
+    <entry file="file://$PROJECT_DIR$/sass/_about-section.scss" />
+    <entry file="file://$PROJECT_DIR$/project.html" />
+    <entry file="file://$PROJECT_DIR$/portfolio.html" />
+    <entry file="file://$PROJECT_DIR$/sass/_welcome.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_nav.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/project.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/blog.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/screen.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/about-us.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_footer.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/blog-single.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/_contacts-section.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/contact.scss" />
+    <entry file="file://$PROJECT_DIR$/contact.html" />
+    <entry file="file://$PROJECT_DIR$/single-post.html" />
+    <entry file="file://$PROJECT_DIR$/about-us.html" />
+    <entry file="file://$PROJECT_DIR$/blog.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
