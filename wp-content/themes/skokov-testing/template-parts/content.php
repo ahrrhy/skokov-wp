@@ -13,9 +13,6 @@
 	<header class="entry-header">
 		<?php
 		if ( is_single() ) :
-            the_post_thumbnail('', array( 'src' => $src,
-                'class' => "header-img img-responsive",
-                'alt' => trim(strip_tags( $wp_postmeta->_wp_attachment_image_alt )),));
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
@@ -37,12 +34,10 @@
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 
-            if(! is_single() ){
-                wp_link_pages( array(
-                    'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'skokov-testing' ),
-                    'after'  => '</div>',
-                ) );
-            }
+			wp_link_pages( array(
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'skokov-testing' ),
+				'after'  => '</div>',
+			) );
 		?>
 	</div><!-- .entry-content -->
 
