@@ -20,12 +20,10 @@
 		<?php
 			the_content();
 
-        if(! is_single() ){
-            wp_link_pages( array(
-                'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'skokov-testing' ),
-                'after'  => '</div>',
-            ) );
-        }
+			wp_link_pages( array(
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'skokov-testing' ),
+				'after'  => '</div>',
+			) );
 		?>
 	</div><!-- .entry-content -->
 
