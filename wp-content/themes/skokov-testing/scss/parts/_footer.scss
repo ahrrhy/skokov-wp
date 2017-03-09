@@ -1,6 +1,7 @@
 .site-footer{
+  background-color: #403f46;
   .footer-widget-area{
-    background-color: #403f46;
+
     font-family: $century;
     font-size: 0.8em;
     color: #ffffff;
@@ -55,6 +56,8 @@
 }
 .article-paragraph{
   margin: 0 0 2% 0;
+  color: #424147;
+  font: 400 1em/2em $century;
 }
 .widget_twitter_timeline{
   .aside-section-header{
@@ -153,4 +156,7 @@
     height: 25px;
     padding: 5px;
   }
+}
+.color-white{
+  color: $white;
 }

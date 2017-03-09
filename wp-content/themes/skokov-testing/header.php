@@ -50,7 +50,16 @@
 
         </header><!-- #masthead -->
 
-        <div id="content" class="container site-content">
+        <div id="content" class="container-fluid site-content">
             <h1 class="row page-title" style="background: url(' <?php echo get_theme_mod('img-upload'); ?>') 0 0/100% no-repeat ;" >
-                <span class="word-bg"><?php wp_title('');; ?></span>
+               <div class="container">
+                    <span class="word-bg">
+                    <?php
+                    if (is_single()){
+                        echo 'Blog';
+                    } else wp_title(''); ?>
+                </span>
+               </div>
             </h1>
+            <div class="container">
+                <div class="row"><!--row-->

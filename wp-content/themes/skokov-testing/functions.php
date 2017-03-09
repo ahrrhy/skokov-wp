@@ -519,6 +519,15 @@ class WP_Widget_Archives_Custom extends WP_Widget {
         <?php
     }
 }
+//makes thumbnail a link
+add_filter( 'post_thumbnail_html', 'my_post_image_html', 10, 3 );
+
+function my_post_image_html( $html, $post_id, $post_image_id ) {
+
+    $html = '<a href="' . get_permalink( $post_id ) . '" title="' . esc_attr( get_post_field( 'post_title', $post_id ) ) . '">' . $html . '</a>';
+    return $html;
+
+}
 // Add Footer Widget Area
     function footerWidgets(){
         register_sidebar(array(
@@ -550,3 +559,25 @@ class WP_Widget_Archives_Custom extends WP_Widget {
         ));
     }
     add_action('widgets_init', 'footerWidgets');
+// Add single-post widgets
+    function single_post_widgets(){
+        register_sidebar(array(
+            'name' => 'Single Page Share',
+            'id' => 'share-widget',
+            'description'   => esc_html__( 'Add widgets here.', 'skokov-testing' ),
+            'before_widget' => '<section id="%1$s" class=" widget-single %2$s">',
+            'after_widget'  => '</section>',
+            'before_title'  => '<h2 class="single-widget-header share-it">',
+            'after_title'   => '</h2>'
+        ));
+        register_sidebar(array(
+            'name' => 'Single Page Related',
+            'id' => 'related-widget',
+            'description'   => esc_html__( 'Add widgets here.', 'skokov-testing' ),
+            'before_widget' => '<section id="%1$s" class=" widget-single %2$s">',
+            'after_widget'  => '</section>',
+            'before_title'  => '<h2 class="related-posts-header">',
+            'after_title'   => '</h2>'
+        ));
+    }
+    add_action('widgets_init', 'single_post_widgets');
