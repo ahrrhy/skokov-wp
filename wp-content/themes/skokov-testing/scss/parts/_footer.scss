@@ -1,7 +1,6 @@
 .site-footer{
   background-color: #403f46;
   .footer-widget-area{
-
     font-family: $century;
     font-size: 0.8em;
     color: #ffffff;
@@ -13,14 +12,12 @@
 
   }
   .copyright{
-    font: 400 14px/32px $century;
+    font: 400 14px/14px $century;
   }
   .footer-menu{
     & ul{
-      display: flex;
-      justify-content: space-between;
       & li{
-        font: 400 16px/32px "Code-Light";
+        font: 400 14px/28px "Code-Light";
         text-transform: uppercase;
         text-align: center;
         &:hover{
@@ -72,13 +69,13 @@
     font-size: 1.2em;
     font-weight: 700;
     line-height: 0.9em;
-    display: inline-block;
-    float: left;
+    display: block;
     margin-right: 5%;
-
+    vertical-align: middle;
   }
   & ul > li{
     display: inline-block;
+    vertical-align: bottom;
     margin: 3px;
     padding: 5px;
     background-color: #000000;
@@ -88,6 +85,12 @@
       line-height: 1.2em;
     }
   }
+}
+.aside-section-header{
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 0.9em;
+  margin: 5% 0;
 }
 #bwp_gallery-2{
   & h2.aside-section-header{
@@ -159,4 +162,62 @@
 }
 .color-white{
   color: $white;
+}
+.bwg_standart_thumb_0{
+  max-width: 50%;
+}
+@media screen and (min-width: 768px){
+  .bwg_standart_thumb_0{
+    max-width: 30%;
+  }
+  #wpcom_social_media_icons_widget-2{
+    & h2.aside-section-header{
+      font-size: 1.2em;
+      font-weight: 700;
+      line-height: 0.9em;
+      display: inline-block;
+      float: left;
+      margin-right: 5%;
+
+    }
+    & ul > li{
+      display: inline-block;
+      margin: 3px;
+      padding: 5px;
+      background-color: #000000;
+      & > a{
+        color: $white;
+        font-size: 1.2em;
+        line-height: 1.2em;
+      }
+    }
+  }
+  .site-footer{
+    .site-info{
+      background-color: $black;
+      padding: 15px 3px;
+      color: $white;
+    }
+    .copyright{
+      font: 400 14px/32px $century;
+    }
+    .footer-menu{
+      & ul{
+        display: flex;
+        justify-content: space-between;
+        & li{
+          font: 400 16px/32px "Code-Light";
+          text-transform: uppercase;
+          text-align: center;
+          &:hover{
+            background-color: $yellow * 0.5;
+          }
+          & a{
+            text-decoration: none;
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
 }

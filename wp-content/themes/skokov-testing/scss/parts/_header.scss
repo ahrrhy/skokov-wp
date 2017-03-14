@@ -4,17 +4,16 @@
     background-color: $yellow;
   }
   .main-navigation {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0;
     background: none;
     & ul{
-      display: flex;
-      justify-content: space-between;
+      margin-left: -15px;
+      margin-right: -15px;
       & li{
-        font: 400 1.5em/1em "Code-Light";
+        display: list-item;
+        font: 400 14px/14px "Code-Light";
         text-transform: uppercase;
-        text-align: center;
-        padding: 20px 3px;
+        padding: 20px 2px;
         color: #000000;
         &:hover{
           background-color: $yellow;
@@ -27,8 +26,6 @@
     }
   }
 }
-li.main-nav-item{
-}
 .word-bg{
   display: inline-block;
   font: 400 1.8em/1.2em "CenturyGothic";
@@ -37,4 +34,29 @@ li.main-nav-item{
   text-transform: uppercase;
   padding: 10px 40px 10px 10px;
   margin: 20px 0;
+}
+@media screen and (min-width: 768px){
+  .site-header{
+    .main-navigation {
+      & ul{
+        & li{
+          float: left;
+          position: relative;
+          display: block;
+          font: 400 1.5em/1em "Code-Light";
+          text-transform: uppercase;
+          text-align: center;
+          padding: 40px 5px;
+          color: #000000;
+          &:hover{
+            background-color: $yellow;
+          }
+          & a{
+            text-decoration: none;
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
 }

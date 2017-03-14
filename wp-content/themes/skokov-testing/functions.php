@@ -581,3 +581,10 @@ function my_post_image_html( $html, $post_id, $post_image_id ) {
         ));
     }
     add_action('widgets_init', 'single_post_widgets');
+/**
+ * Adding widget recent post
+ */
+require get_template_directory() . '/inc/recent-post.php';
+
+
+

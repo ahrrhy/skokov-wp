@@ -660,7 +660,7 @@ class BWGViewGalleries_bwg {
               <input type="hidden" id="preview_image" name="preview_image" value="<?php echo $row->preview_image; ?>" style="display:inline-block;"/>
               <img id="img_preview_image"
                    style="max-height:90px; max-width:120px; vertical-align:middle;"
-                   src="<?php echo site_url() . '/' . $WD_BWG_UPLOAD_DIR . $row->preview_image; ?>">
+                   src="<?php echo $row->preview_image ? (site_url() . '/' . $WD_BWG_UPLOAD_DIR . $row->preview_image) : ''; ?>" />
               <span id="delete_preview_image" class="spider_delete_img"
                     onclick="spider_remove_url('button_preview_image', 'preview_image', 'delete_preview_image', 'img_preview_image')"></span>
             </td>

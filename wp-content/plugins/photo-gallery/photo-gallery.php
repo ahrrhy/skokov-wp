@@ -4,7 +4,7 @@
  * Plugin Name: Photo Gallery
  * Plugin URI: https://web-dorado.com/products/wordpress-photo-gallery-plugin.html
  * Description: This plugin is a fully responsive gallery plugin with advanced functionality.  It allows having different image galleries for your posts and pages. You can create unlimited number of galleries, combine them into albums, and provide descriptions and tags.
- * Version: 1.3.30
+ * Version: 1.3.31
  * Author: WebDorado
  * Author URI: https://web-dorado.com/
  * License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -456,8 +456,7 @@ function bwg_shortcode($params) {
       die();
     }
   }
-
-  if ($params['gallery_type'] != 'slideshow') {
+  
     shortcode_atts(array(
         'popup_fullscreen' => 0,
         'popup_autoplay' => 0,
@@ -483,7 +482,6 @@ function bwg_shortcode($params) {
         'watermark_type' => 'none',
         'popup_effect_duration' => 1,
       ), $params);
-  }
 
   switch ($params['watermark_type']) {
     case 'text': {
@@ -523,8 +521,8 @@ function bwg_shortcode($params) {
   }
   ob_start();
   bwg_front_end($params);
-  return str_replace(array("\r\n", "\n", "\r"), '', ob_get_clean());
-  // return ob_get_clean();
+  // return str_replace(array("\r\n", "\n", "\r"), '', ob_get_clean());
+  return ob_get_clean();
 }
 add_shortcode('Best_Wordpress_Gallery', 'bwg_shortcode');
 
@@ -1619,7 +1617,7 @@ function bwg_activate() {
     ));
   }
   $version = get_option('wd_bwg_version');
-  $new_version = '1.3.30';
+  $new_version = '1.3.31';
   if ($version && version_compare($version, $new_version, '<')) {
     require_once WD_BWG_DIR . "/update/bwg_update.php";
     bwg_update($version);
@@ -1671,7 +1669,7 @@ wp_oembed_add_provider( '#https://instagr(\.am|am\.com)/p/.*#i', 'https://api.in
 
 function bwg_update_hook() {
   $version = get_option('wd_bwg_version');
-  $new_version = '1.3.30';
+  $new_version = '1.3.31';
   if ($version && version_compare($version, $new_version, '<')) {
     require_once WD_BWG_DIR . "/update/bwg_update.php";
     bwg_update($version);

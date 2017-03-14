@@ -77,23 +77,16 @@ body {
   .site-header .active {
     background-color: #ffeb00; }
   .site-header .main-navigation {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0;
     background: none; }
     .site-header .main-navigation ul {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
+      margin-left: -15px;
+      margin-right: -15px; }
       .site-header .main-navigation ul li {
-        font: 400 1.5em/1em "Code-Light";
+        display: list-item;
+        font: 400 14px/14px "Code-Light";
         text-transform: uppercase;
-        text-align: center;
-        padding: 20px 3px;
+        padding: 20px 2px;
         color: #000000; }
         .site-header .main-navigation ul li:hover {
           background-color: #ffeb00; }
@@ -109,6 +102,22 @@ body {
   text-transform: uppercase;
   padding: 10px 40px 10px 10px;
   margin: 20px 0; }
+
+@media screen and (min-width: 768px) {
+  .site-header .main-navigation ul li {
+    float: left;
+    position: relative;
+    display: block;
+    font: 400 1.5em/1em "Code-Light";
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 5px;
+    color: #000000; }
+    .site-header .main-navigation ul li:hover {
+      background-color: #ffeb00; }
+    .site-header .main-navigation ul li a {
+      text-decoration: none;
+      color: inherit; } }
 
 .blog-site-main {
   padding-top: 80px;
@@ -142,11 +151,6 @@ body {
     padding-top: 5px;
     float: right; }
 
-/* fluid 2 columns */
-.grid-sizer,
-.grid-item {
-  width: 50%; }
-
 .news-description-holder {
   background-color: #ffeb00;
   padding: 15px;
@@ -158,9 +162,11 @@ body {
   color: #000000; }
 
 .arrow_box {
-  position: relative; }
+  position: relative;
+  z-index: 9; }
 
 .arrow_box:after, .arrow_box:before {
+  z-index: 9;
   bottom: 115%;
   right: 20%;
   border: solid transparent;
@@ -169,6 +175,33 @@ body {
   width: 0;
   position: absolute;
   pointer-events: none; }
+
+.entry-header .arrow_box {
+  position: relative;
+  z-index: 9; }
+
+.entry-header .arrow_box:after, .entry-header .arrow_box:before {
+  z-index: 9;
+  bottom: 115%;
+  right: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.entry-header h1.arrow_box:after {
+  border-color: rgba(213, 130, 66, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -15px; }
+
+.entry-header h1.arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -16px; }
 
 .arrow_box:after {
   border-color: rgba(213, 130, 66, 0);
@@ -189,9 +222,8 @@ body {
 
 .meta-info {
   color: #5e5e5e;
-  font: 700 0.7em/0.8em "CenturyGothic"; }
+  font: 700 10px/10px "CenturyGothic"; }
   .meta-info span {
-    float: right;
     color: #000000; }
 
 .page-numbers li {
@@ -215,6 +247,16 @@ body {
     float: left; }
   .pagination-wrap ul li:last-child {
     float: right; }
+
+@media screen and (min-width: 768px) {
+  /* fluid 2 columns */
+  .grid-sizer,
+  .grid-item {
+    width: 50%; }
+  .meta-info {
+    font: 700 0.7em/0.8em "CenturyGothic"; }
+    .meta-info span {
+      float: right; } }
 
 .blog-aside {
   padding-top: 80px;
@@ -283,7 +325,8 @@ body {
     text-align: center;
     font: 400 32px/32px "CenturyGothic"; }
   .category .for-cat-name {
-    padding: 0 0 15px 15px; }
+    padding: 0 0 15px 15px;
+    vertical-align: middle; }
   .category a {
     color: inherit;
     text-decoration: none;
@@ -310,25 +353,16 @@ body {
     padding: 15px 3px;
     color: #ffffff; }
   .site-footer .copyright {
-    font: 400 14px/32px "CenturyGothic"; }
-  .site-footer .footer-menu ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .site-footer .footer-menu ul li {
-      font: 400 16px/32px "Code-Light";
-      text-transform: uppercase;
-      text-align: center; }
-      .site-footer .footer-menu ul li:hover {
-        background-color: #807600; }
-      .site-footer .footer-menu ul li a {
-        text-decoration: none;
-        color: inherit; }
+    font: 400 14px/14px "CenturyGothic"; }
+  .site-footer .footer-menu ul li {
+    font: 400 14px/28px "Code-Light";
+    text-transform: uppercase;
+    text-align: center; }
+    .site-footer .footer-menu ul li:hover {
+      background-color: #807600; }
+    .site-footer .footer-menu ul li a {
+      text-decoration: none;
+      color: inherit; }
 
 .article-header {
   font-size: 1.2em;
@@ -364,12 +398,13 @@ body {
   font-size: 1.2em;
   font-weight: 700;
   line-height: 0.9em;
-  display: inline-block;
-  float: left;
-  margin-right: 5%; }
+  display: block;
+  margin-right: 5%;
+  vertical-align: middle; }
 
 #wpcom_social_media_icons_widget-2 ul > li {
   display: inline-block;
+  vertical-align: bottom;
   margin: 3px;
   padding: 5px;
   background-color: #000000; }
@@ -377,6 +412,12 @@ body {
     color: #ffffff;
     font-size: 1.2em;
     line-height: 1.2em; }
+
+.aside-section-header {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 0.9em;
+  margin: 5% 0; }
 
 #bwp_gallery-2 h2.aside-section-header {
   font-size: 1.2em;
@@ -438,49 +479,100 @@ body {
 .color-white {
   color: #ffffff; }
 
-.entry-header {
-  overflow: hidden; }
-  .entry-header .single-article-header {
-    background-color: #ffeb00;
-    display: block; }
-  .entry-header .header-description {
-    display: block;
-    font: 700 1.5em/1.5em "CenturyGothic";
-    text-transform: uppercase;
-    color: #000000;
-    padding: 20px 0 10px 20px;
-    margin-bottom: 0; }
-  .entry-header .header-info {
-    display: block;
-    text-align: right;
-    margin-top: 0;
-    padding: 0 15px 15px 0;
-    font: 700 0.9em/1em "CenturyGothic";
-    background-color: #ffeb00; }
-    .entry-header .header-info a {
-      color: inherit;
-      text-decoration: none; }
-  .entry-header .arrow_box {
-    position: relative; }
-  .entry-header .arrow_box:after, .entry-header .arrow_box:before {
-    bottom: 100%;
-    right: 20%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none; }
-  .entry-header .arrow_box:after {
-    border-color: rgba(213, 130, 66, 0);
-    border-bottom-color: #ffeb00;
-    border-width: 15px;
-    margin-left: -15px; }
-  .entry-header .arrow_box:before {
-    border-color: rgba(194, 225, 245, 0);
-    border-bottom-color: #ffeb00;
-    border-width: 15px;
-    margin-left: -16px; }
+.bwg_standart_thumb_0 {
+  max-width: 50%; }
+
+@media screen and (min-width: 768px) {
+  .bwg_standart_thumb_0 {
+    max-width: 30%; }
+  #wpcom_social_media_icons_widget-2 h2.aside-section-header {
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 0.9em;
+    display: inline-block;
+    float: left;
+    margin-right: 5%; }
+  #wpcom_social_media_icons_widget-2 ul > li {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+    background-color: #000000; }
+    #wpcom_social_media_icons_widget-2 ul > li > a {
+      color: #ffffff;
+      font-size: 1.2em;
+      line-height: 1.2em; }
+  .site-footer .site-info {
+    background-color: #000000;
+    padding: 15px 3px;
+    color: #ffffff; }
+  .site-footer .copyright {
+    font: 400 14px/32px "CenturyGothic"; }
+  .site-footer .footer-menu ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .site-footer .footer-menu ul li {
+      font: 400 16px/32px "Code-Light";
+      text-transform: uppercase;
+      text-align: center; }
+      .site-footer .footer-menu ul li:hover {
+        background-color: #807600; }
+      .site-footer .footer-menu ul li a {
+        text-decoration: none;
+        color: inherit; } }
+
+.entry-header .single-article-header {
+  background-color: #ffeb00;
+  display: block; }
+
+.entry-header .header-description {
+  display: block;
+  font: 700 1.5em/1.5em "CenturyGothic";
+  text-transform: uppercase;
+  color: #000000;
+  padding: 20px 0 10px 20px;
+  margin-bottom: 0; }
+
+.entry-header .header-info {
+  display: block;
+  text-align: right;
+  margin-top: 0;
+  padding: 0 15px 15px 0;
+  font: 700 0.9em/1em "CenturyGothic";
+  background-color: #ffeb00; }
+  .entry-header .header-info a {
+    color: inherit;
+    text-decoration: none; }
+
+.entry-header .arrow_box {
+  position: relative; }
+
+.entry-header .arrow_box:after, .entry-header .arrow_box:before {
+  bottom: 100%;
+  right: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.entry-header .arrow_box:after {
+  border-color: rgba(213, 130, 66, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 23px;
+  margin-left: -15px; }
+
+.entry-header .arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -16px; }
 
 .share-it {
   text-transform: uppercase;
@@ -529,8 +621,116 @@ body {
   margin: 20px 0;
   display: inline-block; }
 
+.related-post .arrow_box:after, .related-post .arrow_box:before {
+  bottom: 100%;
+  right: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.related-post .arrow_box:after {
+  border-color: rgba(213, 130, 66, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -15px; }
+
+.related-post .arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #ffeb00;
+  border-width: 15px;
+  margin-left: -16px; }
+
+.related-post-description {
+  background-color: #ffeb00;
+  font: 400 0.9em/1em CenturyGothic;
+  color: #000000;
+  padding: 10px;
+  margin-top: -10px; }
+  .related-post-description a {
+    color: inherit;
+    text-decoration: none; }
+
 .recent-posts-related .rpwe-li h3.rpwe-title {
   background-color: #ffeb00;
   font: 700 0.9em/1em "CenturyGothic";
   color: #000000;
   padding: 10px; }
+
+.comments-wrap {
+  border-bottom: 1px solid #cacaca; }
+
+.commentaries-list .commentary-holder {
+  margin: 10px 0; }
+  .commentaries-list .commentary-holder:nth-child(4) {
+    margin-bottom: 20px; }
+
+.commentaries-list .text-comment p {
+  margin: 0 0 0 55px;
+  color: #424147;
+  font: 400 0.88em/0.9em "CenturyGothic"; }
+
+.commentaries-list .avatar {
+  width: 50px;
+  float: left;
+  margin: 0 5px 5px 0;
+  display: inline-block; }
+
+.commentaries-list .commentary-header {
+  color: #000000;
+  font: 500 0.9em/1em "CenturyGothic";
+  margin: 0 0 10px 0; }
+
+.commentaries-list .comment {
+  margin: 0 0 0 55px;
+  color: #424147;
+  font: 400 0.88em/0.9em "CenturyGothic"; }
+
+.commentaries-list a {
+  color: inherit;
+  text-decoration: none; }
+
+.comment-respond {
+  overflow: hidden; }
+  .comment-respond input, .comment-respond textarea {
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    font: 500 0.9em/1em "CenturyGothic";
+    color: #000000;
+    background-color: #ffffff; }
+  .comment-respond .firstname, .comment-respond .text-area {
+    outline: none;
+    width: 100%; }
+    .comment-respond .firstname::-webkit-input-placeholder, .comment-respond .text-area::-webkit-input-placeholder {
+      font: 500 0.9em/1em "CenturyGothic";
+      color: #000000; }
+    .comment-respond .firstname::-moz-placeholder, .comment-respond .text-area::-moz-placeholder {
+      font: 500 0.9em/1em "CenturyGothic";
+      color: #000000; }
+    .comment-respond .firstname:-moz-placeholder, .comment-respond .text-area:-moz-placeholder {
+      font: 500 0.9em/1em "CenturyGothic";
+      color: #000000; }
+    .comment-respond .firstname:-ms-input-placeholder, .comment-respond .text-area:-ms-input-placeholder {
+      font: 500 0.9em/1em "CenturyGothic";
+      color: #000000; }
+  .comment-respond .text-area {
+    padding-bottom: 40px;
+    outline: none;
+    resize: none; }
+  .comment-respond .submit {
+    width: 30%;
+    float: right;
+    display: inline-block;
+    margin: 5px 5px 25px 0;
+    outline: none;
+    background-color: #000000;
+    border-bottom: 2px solid #ffeb00;
+    color: #ffffff; }
+    .comment-respond .submit:hover {
+      background-color: #ffeb00;
+      color: #000000;
+      border-bottom: 2px solid #000000; }

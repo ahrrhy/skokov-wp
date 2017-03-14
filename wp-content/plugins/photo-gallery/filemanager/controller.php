@@ -36,13 +36,13 @@ class FilemanagerController {
     ////////////////////////////////////////////////////////////////////////////////////////
     // Public Methods                                                                     //
     ////////////////////////////////////////////////////////////////////////////////////////
-    public function execute($ajax = false, $load_count = 0) {
+    public function execute() {
       $task = isset($_REQUEST['task']) ? stripslashes(esc_html($_REQUEST['task'])) : 'display';
       if (method_exists($this, $task)) {
-        $this->$task($ajax, $load_count);
+        $this->$task();
       }
       else {
-        $this->display($ajax, $load_count);
+        $this->display();
       }
     }
 
@@ -54,20 +54,13 @@ class FilemanagerController {
       return $this->uploads_url;
     }
 
-    public function display($ajax = false, $load_count = 0) {
+    public function display() {
       require_once WD_BWG_DIR . '/filemanager/model.php';
       $model = new FilemanagerModel($this);
 
       require_once WD_BWG_DIR . '/filemanager/view.php';
       $view = new FilemanagerView($this, $model);
-      $view->display($ajax, $load_count);
-    }
-
-    public function get_images($load_count){
-      require_once WD_BWG_DIR . '/filemanager/model.php';
-      $model = new FilemanagerModel($this);
-      $file_manager_data = $model->get_file_manager_data(true, $load_count);
-      return $file_manager_data;
+      $view->display();
     }
 
     public function make_dir() {

@@ -1,0 +1,551 @@
+0000.002 (0) Opened log file at time: Sun, 12 Mar 2017 08:04:10 +0000 on http://localhost/wordpress
+0000.033 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.35 WP: 4.7.2 PHP: 7.1.1 (apache2handler, Windows NT SWANTE-ой 6.1 build 7601 (Windows 7 Professional Edition Service Pack 1) i586) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.1.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.8M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.034 (0) Free space on disk containing Updraft's temporary directory: 6172.6 MB
+0000.060 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.112 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.245 (0) Set semaphore last lock (fd) time to 2017-03-12 08:04:11
+0000.312 (0) Semaphore lock (fd) complete
+0000.522 (0) Backup run: resumption=0, nonce=020adccba398, begun at=1489305850 (1s ago), job type=backup
+0000.692 (0) Scheduling a resumption (1) after 600 seconds (1489306451) in case this run gets aborted
+0000.759 (0) Checking if we have a zip executable available
+0000.955 (0) Creation of backups of directories: beginning
+0001.468 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0008.124 (0) Total entities for the zip file: 508 directories, 3262 files (0 skipped as non-modified), 46.1 MB
+0008.277 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0008.561 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 100 files added (on-disk size: 90.7 KB)
+0008.777 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 200 files added (on-disk size: 90.7 KB)
+0009.005 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 300 files added (on-disk size: 90.7 KB)
+0009.233 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 400 files added (on-disk size: 90.7 KB)
+0009.553 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 500 files added (on-disk size: 90.7 KB)
+0009.611 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 3262 files batched, 501 (502) added so far); re-opening (prior size: 90.7 KB)
+0011.191 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 600 files added (on-disk size: 3125.7 KB)
+0011.436 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 700 files added (on-disk size: 3125.7 KB)
+0011.700 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 800 files added (on-disk size: 3125.7 KB)
+0011.965 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 900 files added (on-disk size: 3125.7 KB)
+0012.283 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1000 files added (on-disk size: 3125.7 KB)
+0012.375 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 3262 files batched, 501 (1003) added so far); re-opening (prior size: 3125.7 KB)
+0013.147 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1100 files added (on-disk size: 4148.2 KB)
+0013.424 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1200 files added (on-disk size: 4148.2 KB)
+0013.704 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1300 files added (on-disk size: 4148.2 KB)
+0013.960 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1400 files added (on-disk size: 4148.2 KB)
+0014.245 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1500 files added (on-disk size: 4148.2 KB)
+0014.285 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 MB, 3262 files batched, 501 (1504) added so far); re-opening (prior size: 4148.2 KB)
+0016.419 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1600 files added (on-disk size: 7178 KB)
+0016.685 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1700 files added (on-disk size: 7178 KB)
+0016.945 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1800 files added (on-disk size: 7178 KB)
+0017.586 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 1900 files added (on-disk size: 7178 KB)
+0018.049 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2000 files added (on-disk size: 7178 KB)
+0018.113 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.9 MB, 3262 files batched, 501 (2005) added so far); re-opening (prior size: 7178 KB)
+0022.031 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2100 files added (on-disk size: 12181.3 KB)
+0022.596 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2200 files added (on-disk size: 12181.3 KB)
+0023.087 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2300 files added (on-disk size: 12181.3 KB)
+0023.496 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2400 files added (on-disk size: 12181.3 KB)
+0023.926 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2500 files added (on-disk size: 12181.3 KB)
+0024.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 3262 files batched, 501 (2506) added so far); re-opening (prior size: 12181.3 KB)
+0024.988 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2600 files added (on-disk size: 12874.2 KB)
+0025.345 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2700 files added (on-disk size: 12874.2 KB)
+0025.670 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2800 files added (on-disk size: 12874.2 KB)
+0025.970 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 2900 files added (on-disk size: 12874.2 KB)
+0026.283 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 3000 files added (on-disk size: 12874.2 KB)
+0026.415 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 MB, 3262 files batched, 501 (3007) added so far); re-opening (prior size: 12874.2 KB)
+0027.814 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 3100 files added (on-disk size: 14463.9 KB)
+0028.091 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip.tmp: 3200 files added (on-disk size: 14463.9 KB)
+0028.844 (0) Created plugins zip (0) - 14950.9 KB in 27.3 s (547.1 KB/s) (SHA1 checksum: 8b0b8c64449f21fb0d49eec1f3e5e216b1139328)
+0028.946 (0) Beginning creation of dump of themes (split every: 400 MB)
+0077.690 (0) Total entities for the zip file: 3848 directories, 24058 files (0 skipped as non-modified), 168.9 MB
+0077.795 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0078.273 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 100 files added (on-disk size: 685.7 KB)
+0078.738 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 200 files added (on-disk size: 685.7 KB)
+0079.182 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 300 files added (on-disk size: 685.7 KB)
+0079.541 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 400 files added (on-disk size: 685.7 KB)
+0079.819 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 500 files added (on-disk size: 685.7 KB)
+0079.901 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.3 MB, 24058 files batched, 501 (502) added so far); re-opening (prior size: 685.7 KB)
+0081.832 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 600 files added (on-disk size: 11713.2 KB)
+0082.123 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 700 files added (on-disk size: 11713.2 KB)
+0082.346 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.7 MB, 24058 files batched, 255 (757) added so far); re-opening (prior size: 11713.2 KB)
+0083.201 (0) A useful amount of data was added after this amount of zip processing: 2.1 s (normalised: 2 s, rate: 12815.2 KB/s)
+0083.354 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.0518000125885, normalised_time=1.997632934847, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=78736387)
+0083.571 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 800 files added (on-disk size: 36970.6 KB)
+0083.826 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 900 files added (on-disk size: 36970.6 KB)
+0084.138 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1000 files added (on-disk size: 36970.6 KB)
+0084.427 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1100 files added (on-disk size: 36970.6 KB)
+0084.694 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1200 files added (on-disk size: 36970.6 KB)
+0084.923 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.4 MB, 24058 files batched, 501 (1258) added so far); re-opening (prior size: 36970.6 KB)
+0086.755 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1300 files added (on-disk size: 38484.8 KB)
+0087.022 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1400 files added (on-disk size: 38484.8 KB)
+0087.299 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1500 files added (on-disk size: 38484.8 KB)
+0087.591 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1600 files added (on-disk size: 38484.8 KB)
+0087.894 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1700 files added (on-disk size: 38484.8 KB)
+0088.152 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 MB, 24058 files batched, 501 (1759) added so far); re-opening (prior size: 38484.8 KB)
+0089.362 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1800 files added (on-disk size: 39264.7 KB)
+0089.678 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 1900 files added (on-disk size: 39264.7 KB)
+0090.058 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2000 files added (on-disk size: 39264.7 KB)
+0090.500 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2100 files added (on-disk size: 39264.7 KB)
+0090.781 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2200 files added (on-disk size: 39264.7 KB)
+0090.994 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.8 MB, 24058 files batched, 501 (2260) added so far); re-opening (prior size: 39264.7 KB)
+0095.126 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2300 files added (on-disk size: 41597.9 KB)
+0095.479 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2400 files added (on-disk size: 41597.9 KB)
+0095.784 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2500 files added (on-disk size: 41597.9 KB)
+0096.157 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2600 files added (on-disk size: 41597.9 KB)
+0096.556 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2700 files added (on-disk size: 41597.9 KB)
+0096.801 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.9 MB, 24058 files batched, 501 (2761) added so far); re-opening (prior size: 41597.9 KB)
+0098.640 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2800 files added (on-disk size: 42621.2 KB)
+0098.967 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 2900 files added (on-disk size: 42621.2 KB)
+0099.301 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3000 files added (on-disk size: 42621.2 KB)
+0099.587 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3100 files added (on-disk size: 42621.2 KB)
+0099.867 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3200 files added (on-disk size: 42621.2 KB)
+0100.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 24058 files batched, 501 (3262) added so far); re-opening (prior size: 42621.2 KB)
+0101.252 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3300 files added (on-disk size: 43268.1 KB)
+0101.643 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3400 files added (on-disk size: 43268.1 KB)
+0102.017 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3500 files added (on-disk size: 43268.1 KB)
+0102.400 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3600 files added (on-disk size: 43268.1 KB)
+0102.886 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3700 files added (on-disk size: 43268.1 KB)
+0103.152 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 486 (3748) files added so far); re-opening (prior size: 43268.1 KB)
+0104.166 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3800 files added (on-disk size: 43804 KB)
+0104.496 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 3900 files added (on-disk size: 43804 KB)
+0104.763 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4000 files added (on-disk size: 43804 KB)
+0105.147 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4100 files added (on-disk size: 43804 KB)
+0105.487 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4200 files added (on-disk size: 43804 KB)
+0105.613 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 24058 files batched, 501 (4249) added so far); re-opening (prior size: 43804 KB)
+0106.874 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4300 files added (on-disk size: 44446.6 KB)
+0107.155 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4400 files added (on-disk size: 44446.6 KB)
+0107.446 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4500 files added (on-disk size: 44446.6 KB)
+0107.781 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4600 files added (on-disk size: 44446.6 KB)
+0108.162 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4700 files added (on-disk size: 44446.6 KB)
+0108.350 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 24058 files batched, 501 (4750) added so far); re-opening (prior size: 44446.6 KB)
+0109.817 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4800 files added (on-disk size: 45238.8 KB)
+0110.110 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 4900 files added (on-disk size: 45238.8 KB)
+0110.374 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5000 files added (on-disk size: 45238.8 KB)
+0110.659 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5100 files added (on-disk size: 45238.8 KB)
+0110.939 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5200 files added (on-disk size: 45238.8 KB)
+0111.164 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 MB, 24058 files batched, 501 (5251) added so far); re-opening (prior size: 45238.8 KB)
+0112.478 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5300 files added (on-disk size: 45917.1 KB)
+0112.740 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5400 files added (on-disk size: 45917.1 KB)
+0113.060 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5500 files added (on-disk size: 45917.1 KB)
+0113.449 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5600 files added (on-disk size: 45917.1 KB)
+0113.742 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5700 files added (on-disk size: 45917.1 KB)
+0113.956 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 MB, 24058 files batched, 501 (5752) added so far); re-opening (prior size: 45917.1 KB)
+0115.475 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5800 files added (on-disk size: 46697.7 KB)
+0115.771 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 5900 files added (on-disk size: 46697.7 KB)
+0116.058 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6000 files added (on-disk size: 46697.7 KB)
+0116.349 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6100 files added (on-disk size: 46697.7 KB)
+0116.640 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6200 files added (on-disk size: 46697.7 KB)
+0116.798 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.3 MB, 24058 files batched, 501 (6253) added so far); re-opening (prior size: 46697.7 KB)
+0118.047 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6300 files added (on-disk size: 47213.6 KB)
+0118.318 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6400 files added (on-disk size: 47213.6 KB)
+0118.705 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6500 files added (on-disk size: 47213.6 KB)
+0119.098 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6600 files added (on-disk size: 47213.6 KB)
+0119.479 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6700 files added (on-disk size: 47213.6 KB)
+0119.697 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.7 MB, 24058 files batched, 501 (6754) added so far); re-opening (prior size: 47213.6 KB)
+0121.546 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6800 files added (on-disk size: 48042.6 KB)
+0122.340 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 6900 files added (on-disk size: 48042.6 KB)
+0122.707 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7000 files added (on-disk size: 48042.6 KB)
+0123.027 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7100 files added (on-disk size: 48042.6 KB)
+0123.183 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 347 (7101) files added so far); re-opening (prior size: 48042.6 KB)
+0125.222 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7200 files added (on-disk size: 48170.3 KB)
+0125.697 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7300 files added (on-disk size: 48170.3 KB)
+0126.075 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7400 files added (on-disk size: 48170.3 KB)
+0126.419 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7500 files added (on-disk size: 48170.3 KB)
+0126.756 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7600 files added (on-disk size: 48170.3 KB)
+0126.824 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1 MB, 24058 files batched, 501 (7602) added so far); re-opening (prior size: 48170.3 KB)
+0128.391 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7700 files added (on-disk size: 48601.7 KB)
+0128.724 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7800 files added (on-disk size: 48601.7 KB)
+0129.037 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 7900 files added (on-disk size: 48601.7 KB)
+0129.402 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8000 files added (on-disk size: 48601.7 KB)
+0129.709 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8100 files added (on-disk size: 48601.7 KB)
+0129.736 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 24058 files batched, 501 (8103) added so far); re-opening (prior size: 48601.7 KB)
+0131.822 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8200 files added (on-disk size: 49914.8 KB)
+0132.081 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8300 files added (on-disk size: 49914.8 KB)
+0132.394 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8400 files added (on-disk size: 49914.8 KB)
+0132.694 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8500 files added (on-disk size: 49914.8 KB)
+0132.929 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8600 files added (on-disk size: 49914.8 KB)
+0133.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 24058 files batched, 501 (8604) added so far); re-opening (prior size: 49914.8 KB)
+0134.914 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8700 files added (on-disk size: 50872 KB)
+0135.215 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8800 files added (on-disk size: 50872 KB)
+0135.510 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 8900 files added (on-disk size: 50872 KB)
+0135.842 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9000 files added (on-disk size: 50872 KB)
+0136.218 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9100 files added (on-disk size: 50872 KB)
+0136.297 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 24058 files batched, 501 (9105) added so far); re-opening (prior size: 50872 KB)
+0138.880 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9200 files added (on-disk size: 52262.5 KB)
+0139.204 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9300 files added (on-disk size: 52262.5 KB)
+0139.583 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9400 files added (on-disk size: 52262.5 KB)
+0139.994 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9500 files added (on-disk size: 52262.5 KB)
+0140.413 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9600 files added (on-disk size: 52262.5 KB)
+0140.498 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 MB, 24058 files batched, 501 (9606) added so far); re-opening (prior size: 52262.5 KB)
+0142.147 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9700 files added (on-disk size: 52708.1 KB)
+0142.607 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9800 files added (on-disk size: 52708.1 KB)
+0143.021 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 9900 files added (on-disk size: 52708.1 KB)
+0143.374 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10000 files added (on-disk size: 52708.1 KB)
+0143.688 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10100 files added (on-disk size: 52708.1 KB)
+0143.755 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.9 MB, 24058 files batched, 501 (10107) added so far); re-opening (prior size: 52708.1 KB)
+0145.438 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10200 files added (on-disk size: 53109.6 KB)
+0145.818 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10300 files added (on-disk size: 53109.6 KB)
+0146.117 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10400 files added (on-disk size: 53109.6 KB)
+0146.523 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10500 files added (on-disk size: 53109.6 KB)
+0146.837 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10600 files added (on-disk size: 53109.6 KB)
+0146.892 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1 MB, 24058 files batched, 501 (10608) added so far); re-opening (prior size: 53109.6 KB)
+0148.614 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10700 files added (on-disk size: 53638.6 KB)
+0148.993 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10800 files added (on-disk size: 53638.6 KB)
+0149.326 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 10900 files added (on-disk size: 53638.6 KB)
+0149.628 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11000 files added (on-disk size: 53638.6 KB)
+0150.000 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11100 files added (on-disk size: 53638.6 KB)
+0150.071 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 24058 files batched, 501 (11109) added so far); re-opening (prior size: 53638.6 KB)
+0151.984 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11200 files added (on-disk size: 54580.7 KB)
+0152.193 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11300 files added (on-disk size: 54580.7 KB)
+0152.436 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11400 files added (on-disk size: 54580.7 KB)
+0152.695 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11500 files added (on-disk size: 54580.7 KB)
+0152.923 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11600 files added (on-disk size: 54580.7 KB)
+0153.028 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 24058 files batched, 501 (11610) added so far); re-opening (prior size: 54580.7 KB)
+0154.721 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11700 files added (on-disk size: 55471.8 KB)
+0154.941 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11800 files added (on-disk size: 55471.8 KB)
+0155.155 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 11900 files added (on-disk size: 55471.8 KB)
+0155.368 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12000 files added (on-disk size: 55471.8 KB)
+0155.628 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12100 files added (on-disk size: 55471.8 KB)
+0155.674 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 MB, 24058 files batched, 501 (12111) added so far); re-opening (prior size: 55471.8 KB)
+0157.644 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12200 files added (on-disk size: 58049.1 KB)
+0157.968 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12300 files added (on-disk size: 58049.1 KB)
+0158.197 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12400 files added (on-disk size: 58049.1 KB)
+0158.504 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12500 files added (on-disk size: 58049.1 KB)
+0158.775 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12600 files added (on-disk size: 58049.1 KB)
+0158.857 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.9 MB, 24058 files batched, 501 (12612) added so far); re-opening (prior size: 58049.1 KB)
+0161.756 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12700 files added (on-disk size: 59764.1 KB)
+0162.058 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12800 files added (on-disk size: 59764.1 KB)
+0162.391 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 12900 files added (on-disk size: 59764.1 KB)
+0162.687 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13000 files added (on-disk size: 59764.1 KB)
+0163.017 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13100 files added (on-disk size: 59764.1 KB)
+0163.092 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 MB, 24058 files batched, 501 (13113) added so far); re-opening (prior size: 59764.1 KB)
+0165.092 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13200 files added (on-disk size: 60554.1 KB)
+0165.474 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13300 files added (on-disk size: 60554.1 KB)
+0165.738 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13400 files added (on-disk size: 60554.1 KB)
+0166.004 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13500 files added (on-disk size: 60554.1 KB)
+0166.423 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13600 files added (on-disk size: 60554.1 KB)
+0166.547 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.9 MB, 24058 files batched, 501 (13614) added so far); re-opening (prior size: 60554.1 KB)
+0170.679 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13700 files added (on-disk size: 62829 KB)
+0170.959 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13800 files added (on-disk size: 62829 KB)
+0171.229 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 13900 files added (on-disk size: 62829 KB)
+0171.513 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14000 files added (on-disk size: 62829 KB)
+0171.793 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14100 files added (on-disk size: 62829 KB)
+0171.894 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 24058 files batched, 501 (14115) added so far); re-opening (prior size: 62829 KB)
+0174.016 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14200 files added (on-disk size: 63643 KB)
+0174.317 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14300 files added (on-disk size: 63643 KB)
+0174.552 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14400 files added (on-disk size: 63643 KB)
+0174.808 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14500 files added (on-disk size: 63643 KB)
+0175.001 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14600 files added (on-disk size: 63643 KB)
+0175.089 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 24058 files batched, 501 (14616) added so far); re-opening (prior size: 63643 KB)
+0177.583 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14700 files added (on-disk size: 64576.7 KB)
+0177.872 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14800 files added (on-disk size: 64576.7 KB)
+0178.167 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 14900 files added (on-disk size: 64576.7 KB)
+0178.499 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15000 files added (on-disk size: 64576.7 KB)
+0179.004 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15100 files added (on-disk size: 64576.7 KB)
+0179.085 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 24058 files batched, 501 (15117) added so far); re-opening (prior size: 64576.7 KB)
+0180.961 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15200 files added (on-disk size: 65244.6 KB)
+0181.266 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15300 files added (on-disk size: 65244.6 KB)
+0181.555 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15400 files added (on-disk size: 65244.6 KB)
+0181.857 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15500 files added (on-disk size: 65244.6 KB)
+0182.166 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15600 files added (on-disk size: 65244.6 KB)
+0182.276 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.3 MB, 24058 files batched, 501 (15618) added so far); re-opening (prior size: 65244.6 KB)
+0184.234 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15700 files added (on-disk size: 65769.8 KB)
+0184.502 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15800 files added (on-disk size: 65769.8 KB)
+0184.738 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 15900 files added (on-disk size: 65769.8 KB)
+0185.085 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16000 files added (on-disk size: 65769.8 KB)
+0185.494 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16100 files added (on-disk size: 65769.8 KB)
+0185.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.4 MB, 24058 files batched, 501 (16119) added so far); re-opening (prior size: 65769.8 KB)
+0187.596 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16200 files added (on-disk size: 66349.3 KB)
+0187.815 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16300 files added (on-disk size: 66349.3 KB)
+0188.112 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16400 files added (on-disk size: 66349.3 KB)
+0188.331 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16500 files added (on-disk size: 66349.3 KB)
+0188.651 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16600 files added (on-disk size: 66349.3 KB)
+0188.783 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.4 MB, 24058 files batched, 501 (16620) added so far); re-opening (prior size: 66349.3 KB)
+0190.765 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16700 files added (on-disk size: 66981.3 KB)
+0191.105 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16800 files added (on-disk size: 66981.3 KB)
+0191.372 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 16900 files added (on-disk size: 66981.3 KB)
+0191.602 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17000 files added (on-disk size: 66981.3 KB)
+0191.905 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17100 files added (on-disk size: 66981.3 KB)
+0191.998 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 24058 files batched, 501 (17121) added so far); re-opening (prior size: 66981.3 KB)
+0193.966 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17200 files added (on-disk size: 67726.1 KB)
+0194.218 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17300 files added (on-disk size: 67726.1 KB)
+0194.500 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17400 files added (on-disk size: 67726.1 KB)
+0194.799 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17500 files added (on-disk size: 67726.1 KB)
+0195.126 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17600 files added (on-disk size: 67726.1 KB)
+0195.289 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2 MB, 24058 files batched, 501 (17622) added so far); re-opening (prior size: 67726.1 KB)
+0198.188 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17700 files added (on-disk size: 68433.4 KB)
+0198.447 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17800 files added (on-disk size: 68433.4 KB)
+0198.720 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 17900 files added (on-disk size: 68433.4 KB)
+0198.939 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18000 files added (on-disk size: 68433.4 KB)
+0199.154 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18100 files added (on-disk size: 68433.4 KB)
+0199.236 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 24058 files batched, 501 (18123) added so far); re-opening (prior size: 68433.4 KB)
+0201.512 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18200 files added (on-disk size: 69265.7 KB)
+0201.833 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18300 files added (on-disk size: 69265.7 KB)
+0202.105 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18400 files added (on-disk size: 69265.7 KB)
+0202.579 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18500 files added (on-disk size: 69265.7 KB)
+0202.910 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18600 files added (on-disk size: 69265.7 KB)
+0203.083 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 24058 files batched, 501 (18624) added so far); re-opening (prior size: 69265.7 KB)
+0205.522 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18700 files added (on-disk size: 70054.1 KB)
+0205.836 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18800 files added (on-disk size: 70054.1 KB)
+0206.122 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 18900 files added (on-disk size: 70054.1 KB)
+0206.382 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19000 files added (on-disk size: 70054.1 KB)
+0206.672 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19100 files added (on-disk size: 70054.1 KB)
+0206.800 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.9 MB, 24058 files batched, 501 (19125) added so far); re-opening (prior size: 70054.1 KB)
+0208.947 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19200 files added (on-disk size: 70428.1 KB)
+0209.331 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19300 files added (on-disk size: 70428.1 KB)
+0209.611 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19400 files added (on-disk size: 70428.1 KB)
+0209.940 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19500 files added (on-disk size: 70428.1 KB)
+0210.258 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19600 files added (on-disk size: 70428.1 KB)
+0210.388 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 24058 files batched, 501 (19626) added so far); re-opening (prior size: 70428.1 KB)
+0212.596 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19700 files added (on-disk size: 71025.4 KB)
+0212.850 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19800 files added (on-disk size: 71025.4 KB)
+0213.112 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 19900 files added (on-disk size: 71025.4 KB)
+0213.383 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20000 files added (on-disk size: 71025.4 KB)
+0213.588 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20100 files added (on-disk size: 71025.4 KB)
+0213.667 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.7 MB, 24058 files batched, 501 (20127) added so far); re-opening (prior size: 71025.4 KB)
+0216.499 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20200 files added (on-disk size: 72620 KB)
+0216.757 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20300 files added (on-disk size: 72620 KB)
+0217.004 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20400 files added (on-disk size: 72620 KB)
+0217.358 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20500 files added (on-disk size: 72620 KB)
+0217.644 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20600 files added (on-disk size: 72620 KB)
+0217.775 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.4 MB, 24058 files batched, 501 (20628) added so far); re-opening (prior size: 72620 KB)
+0219.991 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20700 files added (on-disk size: 73192.3 KB)
+0220.426 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20800 files added (on-disk size: 73192.3 KB)
+0220.759 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 20900 files added (on-disk size: 73192.3 KB)
+0221.084 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21000 files added (on-disk size: 73192.3 KB)
+0221.341 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21100 files added (on-disk size: 73192.3 KB)
+0221.449 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.7 MB, 24058 files batched, 501 (21129) added so far); re-opening (prior size: 73192.3 KB)
+0224.837 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21200 files added (on-disk size: 74672.7 KB)
+0225.193 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21300 files added (on-disk size: 74672.7 KB)
+0225.526 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21400 files added (on-disk size: 74672.7 KB)
+0225.854 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21500 files added (on-disk size: 74672.7 KB)
+0226.132 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21600 files added (on-disk size: 74672.7 KB)
+0226.247 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.7 MB, 24058 files batched, 501 (21630) added so far); re-opening (prior size: 74672.7 KB)
+0229.377 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21700 files added (on-disk size: 74979 KB)
+0229.810 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21800 files added (on-disk size: 74979 KB)
+0230.142 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 21900 files added (on-disk size: 74979 KB)
+0230.512 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22000 files added (on-disk size: 74979 KB)
+0230.784 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22100 files added (on-disk size: 74979 KB)
+0230.914 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (0.6 MB, 24058 files batched, 501 (22131) added so far); re-opening (prior size: 74979 KB)
+0233.342 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22200 files added (on-disk size: 75338.3 KB)
+0233.602 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22300 files added (on-disk size: 75338.3 KB)
+0233.914 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22400 files added (on-disk size: 75338.3 KB)
+0234.163 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22500 files added (on-disk size: 75338.3 KB)
+0234.398 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22600 files added (on-disk size: 75338.3 KB)
+0234.543 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 24058 files batched, 501 (22632) added so far); re-opening (prior size: 75338.3 KB)
+0237.063 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22700 files added (on-disk size: 76232.5 KB)
+0237.355 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22800 files added (on-disk size: 76232.5 KB)
+0237.671 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 22900 files added (on-disk size: 76232.5 KB)
+0237.963 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23000 files added (on-disk size: 76232.5 KB)
+0238.218 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23100 files added (on-disk size: 76232.5 KB)
+0238.350 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 MB, 24058 files batched, 501 (23133) added so far); re-opening (prior size: 76232.5 KB)
+0241.049 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23200 files added (on-disk size: 77045.2 KB)
+0241.384 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23300 files added (on-disk size: 77045.2 KB)
+0241.669 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23400 files added (on-disk size: 77045.2 KB)
+0241.979 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23500 files added (on-disk size: 77045.2 KB)
+0242.282 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23600 files added (on-disk size: 77045.2 KB)
+0242.414 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3 MB, 24058 files batched, 501 (23634) added so far); re-opening (prior size: 77045.2 KB)
+0245.018 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23700 files added (on-disk size: 78276.9 KB)
+0245.435 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23800 files added (on-disk size: 78276.9 KB)
+0245.699 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 23900 files added (on-disk size: 78276.9 KB)
+0245.997 (0) Zip: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip.tmp: 24000 files added (on-disk size: 78276.9 KB)
+0248.839 (0) Created themes zip (0) - 82383.8 KB in 219.9 s (374.7 KB/s) (SHA1 checksum: 171b5ae16ec38fea052f8a708d39311e67705342)
+0248.988 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0249.068 (0) Looking for candidates to back up in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0249.494 (0) finding files: 2017: adding to list (1)
+0249.641 (0) finding files: mc4wp-debug-log.php: adding to list (2)
+0249.905 (0) finding files: photo-gallery: adding to list (3)
+0250.078 (0) finding files: wc-logs: adding to list (4)
+0250.321 (0) finding files: woocommerce_uploads: adding to list (5)
+0250.443 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0250.903 (0) Total entities for the zip file: 8 directories, 97 files (0 skipped as non-modified), 9.7 MB
+0251.511 (0) Created uploads zip (0) - 9940.7 KB in 0.9 s (11478.8 KB/s) (SHA1 checksum: f6c413f5d4f8c902030dbd7b8a38287b47e87abd)
+0251.565 (0) Beginning backup of other directories found in the content directory (index: 0)
+0251.635 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0251.665 (0) Looking for candidates to back up in: C:\xampp\htdocs\wordpress/wp-content
+0251.716 (0) finding files: index.php: adding to list (1)
+0251.746 (0) finding files: plugins: skipping: this is the plugins directory
+0251.771 (0) finding files: themes: skipping: this is the themes directory
+0251.798 (0) finding files: updraft: skipping: this is the updraft directory
+0251.871 (0) finding files: upgrade: skipping: excluded by options
+0251.902 (0) finding files: uploads: skipping: this is the uploads directory
+0251.985 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0252.834 (0) Created others zip (0) - 0.1 KB in 0.9 s (0.2 KB/s) (SHA1 checksum: 2aba5a5bc7b40b7cedd9ea2e1ef0a14b5cee7cf5)
+0253.695 (0) Saving backup status to database (elements: 8)
+0254.076 (0) Beginning creation of database dump (WordPress DB)
+0254.398 (0) Table wp_options: Total expected rows (approximate): 379
+0254.505 (0) Table wp_options: Total rows added: 383 in 0.08 seconds
+0254.539 (0) Table wp_options: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_options.table.gz - 149 KB)
+0254.743 (0) Table wp_users: Total expected rows (approximate): 0
+0254.811 (0) Table wp_users: Total rows added: 1 in 0.01 seconds
+0254.872 (0) Table wp_users: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_users.table.gz - 0.5 KB)
+0254.966 (0) Table wp_usermeta: Total expected rows (approximate): 32
+0255.011 (0) Table wp_usermeta: Total rows added: 32 in 0.01 seconds
+0255.170 (0) Table wp_usermeta: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_usermeta.table.gz - 1.5 KB)
+0255.784 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0255.912 (0) Table wp_commentmeta: Total rows added: 2 in 0.01 seconds
+0255.973 (0) Table wp_commentmeta: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0256.335 (0) Table wp_comments: Total expected rows (approximate): 0
+0256.373 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0256.406 (0) Table wp_comments: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_comments.table.gz - 0.7 KB)
+0256.559 (0) Table wp_links: Total expected rows (approximate): 0
+0256.648 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0256.678 (0) Table wp_links: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_links.table.gz - 0.4 KB)
+0256.887 (0) Table wp_postmeta: Total expected rows (approximate): 246
+0256.941 (0) Table wp_postmeta: Total rows added: 249 in 0.01 seconds
+0256.966 (0) Table wp_postmeta: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_postmeta.table.gz - 3.5 KB)
+0257.592 (0) Table wp_posts: Total expected rows (approximate): 96
+0258.052 (0) Table wp_posts: Total rows added: 96 in 0.34 seconds
+0258.575 (0) Table wp_posts: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_posts.table.gz - 7.9 KB)
+0259.804 (0) Table wp_term_relationships: Total expected rows (approximate): 39
+0260.573 (0) Table wp_term_relationships: Total rows added: 43 in 0.23 seconds
+0260.834 (0) Table wp_term_relationships: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0261.518 (0) Table wp_term_taxonomy: Total expected rows (approximate): 28
+0261.649 (0) Table wp_term_taxonomy: Total rows added: 29 in 0.04 seconds
+0261.777 (0) Table wp_term_taxonomy: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0262.064 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0262.401 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0262.623 (0) Table wp_termmeta: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_termmeta.table.gz - 0.4 KB)
+0262.887 (0) Table wp_terms: Total expected rows (approximate): 28
+0262.973 (0) Table wp_terms: Total rows added: 29 in 0.01 seconds
+0263.012 (0) Table wp_terms: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_terms.table.gz - 0.7 KB)
+0263.301 (0) Skipping table (lacks our prefix (wp_)): b2s_post_sched_settings
+0263.334 (0) Skipping table (lacks our prefix (wp_)): b2s_posts
+0263.364 (0) Skipping table (lacks our prefix (wp_)): b2s_posts_network_details
+0263.434 (0) Skipping table (lacks our prefix (wp_)): b2s_posts_sched_details
+0263.498 (0) Skipping table (lacks our prefix (wp_)): b2s_user
+0263.522 (0) Skipping table (lacks our prefix (wp_)): b2s_user_contact
+0263.554 (0) Skipping table (lacks our prefix (wp_)): b2s_user_network_settings
+0263.735 (0) Table wp_bwg_album: Total expected rows (approximate): 0
+0263.773 (0) Table wp_bwg_album: Total rows added: 0 in 0.01 seconds
+0263.798 (0) Table wp_bwg_album: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_album.table.gz - 0.3 KB)
+0263.943 (0) Table wp_bwg_album_gallery: Total expected rows (approximate): 0
+0263.984 (0) Table wp_bwg_album_gallery: Total rows added: 0 in 0.01 seconds
+0264.009 (0) Table wp_bwg_album_gallery: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_album_gallery.table.gz - 0.3 KB)
+0264.488 (0) Table wp_bwg_gallery: Total expected rows (approximate): 0
+0264.530 (0) Table wp_bwg_gallery: Total rows added: 1 in 0.01 seconds
+0264.602 (0) Table wp_bwg_gallery: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_gallery.table.gz - 0.5 KB)
+0264.864 (0) Table wp_bwg_image: Total expected rows (approximate): 6
+0264.951 (0) Table wp_bwg_image: Total rows added: 6 in 0.02 seconds
+0265.024 (0) Table wp_bwg_image: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image.table.gz - 0.7 KB)
+0265.421 (0) Table wp_bwg_image_comment: Total expected rows (approximate): 0
+0265.499 (0) Table wp_bwg_image_comment: Total rows added: 0 in 0.03 seconds
+0265.546 (0) Table wp_bwg_image_comment: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image_comment.table.gz - 0.3 KB)
+0265.806 (0) Table wp_bwg_image_rate: Total expected rows (approximate): 0
+0265.929 (0) Table wp_bwg_image_rate: Total rows added: 0 in 0.01 seconds
+0265.979 (0) Table wp_bwg_image_rate: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image_rate.table.gz - 0.3 KB)
+0266.329 (0) Table wp_bwg_image_tag: Total expected rows (approximate): 0
+0266.397 (0) Table wp_bwg_image_tag: Total rows added: 0 in 0.02 seconds
+0266.446 (0) Table wp_bwg_image_tag: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image_tag.table.gz - 0.3 KB)
+0266.774 (0) Table wp_bwg_shortcode: Total expected rows (approximate): 0
+0266.830 (0) Table wp_bwg_shortcode: Total rows added: 1 in 0.01 seconds
+0266.891 (0) Table wp_bwg_shortcode: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_shortcode.table.gz - 0.7 KB)
+0267.114 (0) Table wp_bwg_theme: Total expected rows (approximate): 2
+0267.330 (0) Table wp_bwg_theme: Total rows added: 2 in 0.04 seconds
+0267.399 (0) Table wp_bwg_theme: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_theme.table.gz - 3.4 KB)
+0267.627 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0267.784 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.04 seconds
+0267.858 (0) Table wp_woocommerce_api_keys: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0268.002 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0268.057 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.01 seconds
+0268.176 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0268.423 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0268.470 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.01 seconds
+0268.502 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0268.978 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0269.031 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.01 seconds
+0269.215 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0269.469 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0269.543 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.01 seconds
+0269.601 (0) Table wp_woocommerce_order_items: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0270.021 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0270.081 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.01 seconds
+0270.165 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0270.399 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0270.443 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.01 seconds
+0270.510 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0270.798 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 0
+0270.859 (0) Table wp_woocommerce_sessions: Total rows added: 0 in 0.01 seconds
+0270.910 (0) Table wp_woocommerce_sessions: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_sessions.table.gz - 0.3 KB)
+0271.346 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0271.462 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.01 seconds
+0271.504 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0271.766 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0271.809 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.01 seconds
+0271.834 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0272.146 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0272.352 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.02 seconds
+0272.416 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0272.734 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0272.942 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.01 seconds
+0272.990 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0273.248 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0273.293 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.01 seconds
+0273.402 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0273.563 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_options.table.gz (1/41): adding to final database dump
+0273.718 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_users.table.gz (2/41): adding to final database dump
+0273.831 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_usermeta.table.gz (3/41): adding to final database dump
+0273.932 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_commentmeta.table.gz (4/41): adding to final database dump
+0274.046 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_comments.table.gz (5/41): adding to final database dump
+0274.104 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_links.table.gz (6/41): adding to final database dump
+0274.159 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_postmeta.table.gz (7/41): adding to final database dump
+0274.188 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_posts.table.gz (8/41): adding to final database dump
+0274.219 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_term_relationships.table.gz (9/41): adding to final database dump
+0274.286 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_term_taxonomy.table.gz (10/41): adding to final database dump
+0274.315 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_termmeta.table.gz (11/41): adding to final database dump
+0274.342 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_terms.table.gz (12/41): adding to final database dump
+0274.370 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_album.table.gz (13/41): adding to final database dump
+0274.426 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_album_gallery.table.gz (14/41): adding to final database dump
+0274.453 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_gallery.table.gz (15/41): adding to final database dump
+0274.481 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image.table.gz (16/41): adding to final database dump
+0274.513 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image_comment.table.gz (17/41): adding to final database dump
+0274.537 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image_rate.table.gz (18/41): adding to final database dump
+0274.567 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_image_tag.table.gz (19/41): adding to final database dump
+0274.704 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_shortcode.table.gz (20/41): adding to final database dump
+0274.761 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_bwg_theme.table.gz (21/41): adding to final database dump
+0274.888 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_api_keys.table.gz (22/41): adding to final database dump
+0274.948 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_attribute_taxonomies.table.gz (23/41): adding to final database dump
+0275.009 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (24/41): adding to final database dump
+0275.064 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_order_itemmeta.table.gz (25/41): adding to final database dump
+0275.191 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_order_items.table.gz (26/41): adding to final database dump
+0275.237 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_payment_tokenmeta.table.gz (27/41): adding to final database dump
+0275.264 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_payment_tokens.table.gz (28/41): adding to final database dump
+0275.320 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_sessions.table.gz (29/41): adding to final database dump
+0275.348 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_shipping_zone_locations.table.gz (30/41): adding to final database dump
+0275.376 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_shipping_zone_methods.table.gz (31/41): adding to final database dump
+0275.404 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_shipping_zones.table.gz (32/41): adding to final database dump
+0275.448 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_tax_rate_locations.table.gz (33/41): adding to final database dump
+0275.504 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db-table-wp_woocommerce_tax_rates.table.gz (34/41): adding to final database dump
+0275.536 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db.gz: finished writing out complete database file (152 KB)
+0275.702 (0) Total database tables backed up: 34 (backup_2017-03-12-1004_localhost_wordpress_020adccba398-db.gz, size: 173449, checksum (SHA1): 7de0d3b5904c636e2a01932e0d596b56ba017d43)
+0275.860 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0275.886 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0275.958 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0275.998 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-others.zip: others: This file has not yet been successfully uploaded: will queue
+0276.070 (0) backup_2017-03-12-1004_localhost_wordpress_020adccba398-db.gz: db: This file has not yet been successfully uploaded: will queue
+0276.157 (0) Saving backup history. Total backup size: 104.9 MB
+0276.286 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0276.371 (0) Cloud backup selection (1/1): none (last)
+0276.397 (0) No remote despatch: user chose no remote backup service
+0276.497 (0) Recording as successfully uploaded: backup_2017-03-12-1004_localhost_wordpress_020adccba398-plugins.zip (566066f1680a23a02aae2784e622d7cc)
+0276.804 (0) Recording as successfully uploaded: backup_2017-03-12-1004_localhost_wordpress_020adccba398-themes.zip (a6e069d67a7e2c14b270720dc8137efc)
+0276.997 (0) Recording as successfully uploaded: backup_2017-03-12-1004_localhost_wordpress_020adccba398-uploads.zip (477e3f5acc6858d7d621ffe0ec605b5b)
+0277.163 (0) Recording as successfully uploaded: backup_2017-03-12-1004_localhost_wordpress_020adccba398-others.zip (5bd9d1ab6dd230f1d8bb8e7cf7b6b819)
+0277.314 (0) Recording as successfully uploaded: backup_2017-03-12-1004_localhost_wordpress_020adccba398-db.gz (7bce2a30f3f420ae40c5632687ea8172)
+0277.487 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0277.539 (0) Number of backup sets in history: 2; groups (db): 1
+0277.578 (0) Examining (for databases) backup set with group_id=0, nonce=020adccba398, datestamp=1489305850 (Mar 12 2017 08:04:10)
+0277.641 (0) This backup set is the backup set just made, so will not be deleted.
+0277.708 (0) Examining (for databases) backup set with group_id=0, nonce=67b0ddfbe232, datestamp=1489304384 (Mar 12 2017 07:39:44)
+0277.770 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0277.819 (0) Number of backup sets in history: 2; groups (files): 1
+0277.849 (0) Examining (for files) backup set with nonce=020adccba398, datestamp=1489305850 (Mar 12 2017 08:04:10)
+0277.930 (0) This backup set is the backup set just made, so will not be deleted.
+0277.975 (0) This backup set is the backup set just made, so will not be deleted.
+0277.975 (0) This backup set is the backup set just made, so will not be deleted.
+0277.975 (0) This backup set is the backup set just made, so will not be deleted.
+0277.975 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0278.019 (0) Examining (for files) backup set with nonce=67b0ddfbe232, datestamp=1489304384 (Mar 12 2017 07:39:44)
+0278.060 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0278.122 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0278.241 (0) Resume backup (020adccba398, 0): finish run
+0278.419 (0) Decremented the semaphore (fd) by 1
+0278.507 (0) Semaphore (fd) unlocked
+0278.662 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0279.351 (0) No email will/can be sent - the user has not configured an email address.
+0279.417 (0) The backup apparently succeeded and is now complete

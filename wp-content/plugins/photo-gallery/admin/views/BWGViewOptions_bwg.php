@@ -218,7 +218,7 @@ class BWGViewOptions_bwg {
                   </td>
                 </tr>
                 <tr>
-                  <td class="spider_label_options"><label><?php _e("Thumbnail click action:", 'bwg_back'); ?> </label></td>
+                  <td class="spider_label_options"><label><?php _e("Image click action:", 'bwg_back'); ?> </label></td>
                   <td>
                     <input type="radio" name="thumb_click_action" id="thumb_click_action_1" value="open_lightbox" <?php if ($row->thumb_click_action == 'open_lightbox') echo 'checked="checked"'; ?> onClick="bwg_enable_disable('none', 'tr_thumb_link_target', 'thumb_click_action_1')" /><label for="thumb_click_action_1"><?php _e("Open lightbox", 'bwg_back'); ?></label>
                     <input type="radio" name="thumb_click_action" id="thumb_click_action_2" value="redirect_to_url" <?php if ($row->thumb_click_action == 'redirect_to_url') echo 'checked="checked"'; ?> onClick="bwg_enable_disable('', 'tr_thumb_link_target', 'thumb_click_action_2')" /><label for="thumb_click_action_2"><?php _e("Redirect to url", 'bwg_back'); ?></label>

@@ -18,7 +18,7 @@
                 'alt' => trim(strip_tags( $wp_postmeta->_wp_attachment_image_alt )),));
 			the_title( '<h1 class="entry-title single-article-header"> <span class="header-description arrow_box">', '</span></h1>' );
 		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h2 class="entry-title arrow_box"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>

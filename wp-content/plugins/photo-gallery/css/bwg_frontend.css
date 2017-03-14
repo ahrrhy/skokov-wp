@@ -360,3 +360,7 @@ div[id^="bwg_search_container_1_"] div[id^="bwg_search_container_2_"] .bwg_searc
   max-width: 100%;
 }
 /* end sort */
+
+.spider_popup_wrap .wd_error {
+  color: #CCCCCC;
+}

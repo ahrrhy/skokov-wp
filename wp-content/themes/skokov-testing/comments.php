@@ -9,77 +9,124 @@
  *
  * @package skokov-testing
  */
-
-/*
+/**
  * If the current post is protected by a password and
  * the visitor has not yet entered the password we will
  * return early without loading the comments.
  */
 if ( post_password_required() ) {
-	return;
+    return;
 }
 ?>
 
-<div id="comments" class="comments-area">
+    <div id="comments" class="comments-area commentaries">
 
-	<?php
-	// You can start editing here -- including this comment!
-	if ( have_comments() ) : ?>
-		<h2 class="comments-title">
-			<?php
-				printf( // WPCS: XSS OK.
-					esc_html( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'skokov-testing' ) ),
-					number_format_i18n( get_comments_number() ),
-					'<span>' . get_the_title() . '</span>'
-				);
-			?>
-		</h2><!-- .comments-title -->
+        <?php
+        // You can start editing here -- including this comment!
+        if ( have_comments() ) : ?>
+            <h2 class="related-posts-header">
+                <?php comments_number('No comments', '1 comment', '% comments');?>
+            </h2><!-- .comments-title -->
 
-		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
-		<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
-			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'skokov-testing' ); ?></h2>
-			<div class="nav-links">
+            <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
+                <nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
+                    <h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'skokov-testing' ); ?></h2>
+                    <div class="nav-links">
 
-				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'skokov-testing' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'skokov-testing' ) ); ?></div>
+                        <div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'skokov-testing' ) ); ?></div>
+                        <div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'skokov-testing' ) ); ?></div>
 
-			</div><!-- .nav-links -->
-		</nav><!-- #comment-nav-above -->
-		<?php endif; // Check for comment navigation. ?>
+                    </div><!-- .nav-links -->
+                </nav><!-- #comment-nav-above -->
+            <?php endif; // Check for comment navigation. ?>
 
-		<ol class="comment-list">
-			<?php
-				wp_list_comments( array(
-					'style'      => 'ol',
-					'short_ping' => true,
-				) );
-			?>
-		</ol><!-- .comment-list -->
+            <div class="comments-wrap">
+                <ul class="commentaries-list row">
+                    <?php
+                    wp_list_comments( 'type=comment&callback=mytheme_comment');
+                    ?>
+                </ul><!-- .comment-list -->
+            </div>
 
-		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
-		<nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
-			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'skokov-testing' ); ?></h2>
-			<div class="nav-links">
+            <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
+                <nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
+                    <h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'skokov-testing' ); ?></h2>
+                    <div class="nav-links">
 
-				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'skokov-testing' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'skokov-testing' ) ); ?></div>
+                        <div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'skokov-testing' ) ); ?></div>
+                        <div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'skokov-testing' ) ); ?></div>
 
-			</div><!-- .nav-links -->
-		</nav><!-- #comment-nav-below -->
-		<?php
-		endif; // Check for comment navigation.
+                    </div><!-- .nav-links -->
+                </nav><!-- #comment-nav-below -->
+                <?php
+            endif; // Check for comment navigation.
+        endif; // Check for have_comments().
+        // If comments are closed and there are comments, let's leave a little note, shall we?
+        if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
 
-	endif; // Check for have_comments().
+            <p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'skokov-testing' ); ?></p>
+            <?php
+        endif;
+        $defaults = array(
+            'fields' => array(
+                    'author' => '<div class="row"><p class="form-holder col-sm-6">' . '<input id="author" class="firstname" name="author" type="text" placeholder="name ..."  value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . $html_req . ' /></p>', 'email'  => '<p class="comment-form-email col-sm-6">' . '<input class="firstname" id="email" name="email" placeholder="email ..."' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30" aria-describedby="email-notes"' . $aria_req . $html_req  . ' /></p></div>',
+            ),
+            'comment_field'        => '<p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" class="text-area" rows="8"  aria-required="true" required="required" placeholder="comment ..."></textarea></p>',
+            'comment_notes_before' => '',
+            'comment_notes_after'  => '',
+            'class_form'           => 'text-area',
+            'class_submit'         => 'submit',
+            'title_reply'          => __( 'Leave a comment' ),
+            'title_reply_to'       => __( '' ),
+            'title_reply_before'   => '<h2 class="related-posts-header" id="reply-title" =>',
+            'title_reply_after'    => '</h2>',
+            'cancel_reply_link'    => __( 'Cancel reply' ),
+            'label_submit'         => __( 'Add a comment' ),
+        );
+        add_filter('comment_form_fields', 'kama_reorder_comment_fields' );
+        function kama_reorder_comment_fields( $fields ){
+            $new_fields = array();
+            $myorder = array('author','email', 'comment'); // The desired order of the fields
+            foreach( $myorder as $key ){
+                $new_fields[ $key ] = $fields[ $key ];
+                unset( $fields[ $key ] );
+            }
+            if( $fields )
+                foreach( $fields as $key => $val )
+                    $new_fields[ $key ] = $val;
+            return $new_fields;
+        }
+        comment_form( $defaults );
+        ?>
 
+    </div><!-- #comments -->
 
-	// If comments are closed and there are comments, let's leave a little note, shall we?
-	if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
+<?php
+function mytheme_comment($comment, $args, $depth){
+    $GLOBALS['comment'] = $comment; ?>
+<li class="commentary-holder col-sm-12" <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
+    <div id="comment-<?php comment_ID(); ?>" class="commentary">
+        <div class="avatar">
+            <?php echo get_avatar( $comment, $size='50', $default='<path_to_url>' ); ?>
+        </div>
+        <div class="text-comment">
+            <div class="commentary-header">
+                <cite class="autor"><?php echo get_comment_author_link() ?> /</cite>
+                <a class="time" href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php printf( '%1$s', get_comment_date('M j, Y @ G:i')) ?> / </a>
+                <?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth'], 'reply_text'  => 'reply'))) ?>
+            </div>
 
-		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'skokov-testing' ); ?></p>
-	<?php
-	endif;
+            <?php if ($comment->comment_approved == '0') : ?>
+                <p><em>Your comment is awaiting validation.</em></p>
+            <?php endif; ?>
 
-	comment_form();
-	?>
+            <div class="comment-meta commentmetadata comment">
+                <?php edit_comment_link('(Edit)', '  ', '') ?>
+            </div>
 
-</div><!-- #comments -->
+            <?php comment_text() ?>
+        </div>
+    </div>
+    <?php
+}
+?>

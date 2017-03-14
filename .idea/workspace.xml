@@ -1,7 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90f93a70-1ef7-4b8b-872f-221fc4ede307" name="Default" comment="" />
+    <list default="true" id="90f93a70-1ef7-4b8b-872f-221fc4ede307" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/css/hover/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/css/hover/hover-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/css/hover/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/easylogo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/js/easylogo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/js/retina.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/easylogo/uninstall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/bwg_shortcode.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget-rtl.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget-rtl.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm-rtl.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm-rtl.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-rtl.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-rtl.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners-rtl.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners-rtl.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons-rtl.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons-rtl.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-admin-bar-rtl.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-admin-bar-rtl.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-admin-bar.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-admin-bar.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-rtl.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-rtl.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc.css.min.map" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/best-wordpress-gallery.png" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/best-wordpress-gallery.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/gallery-icon.png" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/images/icons/gallery-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/images/bwg_edit_but.png" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/images/bwg_edit_but.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpresslocal.sql" afterPath="$PROJECT_DIR$/wordpresslocal.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/about.php" afterPath="$PROJECT_DIR$/wp-admin/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-press-this.php" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-press-this.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/image.php" afterPath="$PROJECT_DIR$/wp-admin/includes/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/media.php" afterPath="$PROJECT_DIR$/wp-admin/includes/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/common.js" afterPath="$PROJECT_DIR$/wp-admin/js/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/common.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/common.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/editor.js" afterPath="$PROJECT_DIR$/wp-admin/js/editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/editor.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/editor.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/tags-box.js" afterPath="$PROJECT_DIR$/wp-admin/js/tags-box.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/tags-box.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/tags-box.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/plugins.php" afterPath="$PROJECT_DIR$/wp-admin/plugins.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config-sample.php" afterPath="$PROJECT_DIR$/wp-config-sample.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/3rd-party/woocommerce-services.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/3rd-party/woocommerce-services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/admin.dops-style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/admin.dops-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/admin.dops-style.rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/admin.dops-style.rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/static-ie-notice.html" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/static-ie-notice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/static-noscript-notice.html" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/static-noscript-notice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/static-version-notice.html" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/static-version-notice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/style.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/style.min.rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/build/style.min.rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/jetpack-strings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/jetpack-strings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/admin-pages/class.jetpack-react-page.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/admin-pages/class.jetpack-react-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/class.core-rest-api-endpoints.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/class.core-rest-api-endpoints.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/class.media-summary.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/class.media-summary.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/core-api/class.jetpack-core-api-module-endpoints.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/core-api/class.jetpack-core-api-module-endpoints.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/tonesque.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/tonesque.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/tracks/client.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/_inc/lib/tracks/client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/changelog.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/changelog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.frame-nonce-preview.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.frame-nonce-preview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-cli.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-cli.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-client-server.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-client-server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-debugger.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-debugger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-jitm.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-jitm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-network-sites-list-table.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-network-sites-list-table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-network.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-network.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-post-images.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-post-images.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-twitter-cards.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-twitter-cards.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-xmlrpc-server.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack-xmlrpc-server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.jetpack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.json-api-endpoints.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.json-api-endpoints.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.json-api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/class.json-api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/dashboard-widget.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-jitm.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-admin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-banners.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-icons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-idc.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/css/jetpack.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/functions.opengraph.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/functions.opengraph.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/functions.photon.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/functions.photon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/jetpack.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/jetpack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-site-settings-endpoint.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-site-settings-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-update-taxonomy-endpoint.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-update-taxonomy-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-update-term-endpoint.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/class.wpcom-json-api-update-term-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-get-post-backup-endpoint.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-get-post-backup-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-sync-endpoint.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-sync-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-themes-endpoint.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/class.jetpack-json-api-themes-endpoint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/json-api-jetpack-endpoints.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/json-endpoints/jetpack/json-api-jetpack-endpoints.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/languages/json/jetpack-ary.json" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/languages/json/jetpack-ary.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/languages/json/jetpack-bg_BG.json" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/languages/json/jetpack-bg_BG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/after-the-deadline/atd-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/after-the-deadline/atd-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/after-the-deadline/atd.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/after-the-deadline/atd.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/comments/comments.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/comments/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/contact-form/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/contact-form/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/contact-form/js/grunion.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/contact-form/js/grunion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/csstidy/cssparse.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css-4.7.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css-4.7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css/css/codemirror-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css/css/codemirror-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css/css/codemirror.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/custom-css/css/codemirror.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/migrate-to-core.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-css/migrate-to-core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/portfolios.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/portfolios.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/testimonial.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/custom-post-types/testimonial.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/holiday-snow.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/holiday-snow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/infinite-scroll.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/infinite-scroll.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/likes.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/likes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/markdown.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/markdown.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/notes.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/notes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/protect.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/protect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/protect/protect-dashboard-widget-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/protect/protect-dashboard-widget-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/protect/protect-dashboard-widget.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/protect/protect-dashboard-widget.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/assets/publicize-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/assets/publicize-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/assets/publicize.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/assets/publicize.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/publicize-jetpack.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/publicize-jetpack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/ui.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/publicize/ui.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/related-posts/jetpack-related-posts.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/related-posts/jetpack-related-posts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/admin-sharing-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/admin-sharing-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/admin-sharing.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/admin-sharing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/admin-sharing.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/admin-sharing.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharedaddy.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharedaddy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing-service.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing-service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing-sources.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing-sources.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/class.filter-embedded-html-objects.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/class.filter-embedded-html-objects.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/googleplus.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/googleplus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/js/recipes-printthis.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/js/recipes-printthis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/js/slideshow-shortcode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/js/slideshow-shortcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/recipe.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/recipe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/slideshare.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/slideshare.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/slideshow.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/slideshow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/twitchtv.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/shortcodes/twitchtv.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sso/jetpack-sso-login-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sso/jetpack-sso-login-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sso/jetpack-sso-login.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/sso/jetpack-sso-login.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/stats.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/stats.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/theme-tools/content-options.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/theme-tools/content-options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/theme-tools/social-menu.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/theme-tools/social-menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/theme-tools/social-menu/social-menu.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/theme-tools/social-menu/social-menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/videopress/class.jetpack-videopress.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/videopress/class.jetpack-videopress.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/videopress/class.videopress-cli.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/videopress/class.videopress-cli.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/videopress/utility-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/videopress/utility-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions.js" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions/widget-conditions.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/contact-info.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/contact-info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/facebook-likebox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/facebook-likebox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/gallery/css/admin-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/gallery/css/admin-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/gallery/css/admin.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/gallery/css/admin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/image-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/image-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/top-posts.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/top-posts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/wordpress-post-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/widgets/wordpress-post-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/wordads/css/style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/wordads/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/wordads/php/widgets.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/wordads/php/widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/wordads/wordads.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/modules/wordads/wordads.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/sal/class.json-api-post-base.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/sal/class.json-api-post-base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/sal/class.json-api-post-jetpack.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/sal/class.json-api-post-jetpack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-actions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-actions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-defaults.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-defaults.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-listener.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-listener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-woocommerce.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-woocommerce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-sender.php" afterPath="$PROJECT_DIR$/wp-content/plugins/jetpack/sync/class.jetpack-sync-sender.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewBWGShortcode.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewBWGShortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewGalleries_bwg.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewGalleries_bwg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewOptions_bwg.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/admin/views/BWGViewOptions_bwg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_frontend.css" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_frontend.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_tables.css" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/bwg_tables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/css/default.css" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/js/default.js" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/js/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/model.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/view.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/filemanager/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewGalleryBox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewGalleryBox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewSlideshow.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/frontend/views/BWGViewSlideshow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg.js" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_editor_button.js" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_editor_button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_embed.js" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_embed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_shortcode.js" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/js/bwg_shortcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/pages/blog.scss" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/pages/blog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_aside.scss" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_aside.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_footer.scss" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_single.scss" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_single.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/stylesheets/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-walker-page.php" afterPath="$PROJECT_DIR$/wp-includes/class-walker-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-nav-menus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-setting.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-setting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-http-requests-hooks.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-http-requests-hooks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-imagick.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-image-editor-imagick.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-taxonomy.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-taxonomy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/embed.php" afterPath="$PROJECT_DIR$/wp-includes/embed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/formatting.php" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.php" afterPath="$PROJECT_DIR$/wp-includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-preview.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-preview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-preview.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-preview.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-selective-refresh.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-views.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-views.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-views.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-views.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media-views.js" afterPath="$PROJECT_DIR$/wp-includes/js/media-views.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/media-views.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/media-views.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/wp-api.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/wp-api.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-api.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/media.php" afterPath="$PROJECT_DIR$/wp-includes/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/class-wp-rest-request.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/class-wp-rest-request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/theme.php" afterPath="$PROJECT_DIR$/wp-includes/theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/version.php" afterPath="$PROJECT_DIR$/wp-includes/version.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,50 +264,58 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5169779">
+    <splitter split-orientation="horizontal" split-proportion="0.765625">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9163">
-                  <caret line="527" column="58" lean-forward="false" selection-start-line="527" selection-start-column="58" selection-end-line="527" selection-end-column="58" />
-                  <caret line="536" column="58" lean-forward="false" selection-start-line="536" selection-start-column="58" selection-end-line="536" selection-end-column="58" />
-                  <caret line="545" column="58" lean-forward="false" selection-start-line="545" selection-start-column="58" selection-end-line="545" selection-end-column="58" />
+                <state relative-caret-position="456">
+                  <caret line="590" column="0" lean-forward="true" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
                   <folding>
                     <element signature="e#6#161#0#PHP" expanded="true" />
-                    <marker date="1488718863961" expanded="true" signature="10149:10153" ph="&gt;" />
-                    <marker date="1488718863961" expanded="true" signature="16077:16081" ph="&gt;" />
+                    <marker date="1489482358670" expanded="true" signature="10149:10153" ph="&gt;" />
+                    <marker date="1489482358670" expanded="true" signature="16077:16081" ph="&gt;" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/page.php">
+          <file leaf-file-name="recent-post.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/recent-post.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blog.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/pages/blog.scss">
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="2" column="23" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
+                <state relative-caret-position="765">
+                  <caret line="53" column="121" lean-forward="false" selection-start-line="53" selection-start-column="121" selection-end-line="53" selection-end-column="121" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov/blog.html">
+          <file leaf-file-name="_single.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_single.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1564">
-                  <caret line="92" column="34" lean-forward="false" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+                <state relative-caret-position="3876">
+                  <caret line="228" column="18" lean-forward="false" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -66,10 +324,10 @@
           <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+                <state relative-caret-position="238">
+                  <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
                   <folding>
-                    <marker date="1488786692502" expanded="true" signature="822:828" ph="→" />
+                    <marker date="1489314419438" expanded="true" signature="1383:1389" ph="→" />
                   </folding>
                 </state>
               </provider>
@@ -83,7 +341,7 @@
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content-blog.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="867">
-                  <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+                  <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="45" />
                   <folding>
                     <element signature="e#8#42#0#PHP" expanded="true" />
                   </folding>
@@ -94,8 +352,8 @@
           <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/sidebar.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+                <state relative-caret-position="153">
+                  <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -104,8 +362,8 @@
           <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov/blog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5032">
-                  <caret line="296" column="29" lean-forward="false" selection-start-line="288" selection-start-column="24" selection-end-line="296" selection-end-column="29" />
+                <state relative-caret-position="3162">
+                  <caret line="186" column="27" lean-forward="false" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -114,21 +372,18 @@
           <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-                  <folding>
-                    <marker date="1488718879997" expanded="true" signature="1008:1076" ph="..." />
-                    <marker date="1488718879997" expanded="true" signature="1151:1194" ph="..." />
-                  </folding>
+                <state relative-caret-position="170">
+                  <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2601">
-                  <caret line="153" column="16" lean-forward="false" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
+                <state relative-caret-position="17">
+                  <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -137,19 +392,21 @@
           <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/single.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+                <state relative-caret-position="340">
+                  <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/comments.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-                  <folding />
+                <state relative-caret-position="1156">
+                  <caret line="77" column="45" lean-forward="false" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#6#269#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -157,10 +414,10 @@
           <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="238">
+                  <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
                   <folding>
-                    <marker date="1488786692502" expanded="true" signature="822:828" ph="→" />
+                    <marker date="1489314419438" expanded="true" signature="1383:1389" ph="→" />
                   </folding>
                 </state>
               </provider>
@@ -170,7 +427,7 @@
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
-                  <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="16" />
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -179,8 +436,8 @@
           <file leaf-file-name="_aside.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_aside.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="29" />
+                <state relative-caret-position="1139">
+                  <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -193,6 +450,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>@font-face</find>
+      <find>skokov</find>
+      <find>respond</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,31 +479,36 @@
         <option value="$PROJECT_DIR$/wp-content/themes/testing/scss/parts/_header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/testing/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/custom-header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/testing/scss/style.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov/blog.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/js/blog.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/js/masonry.pkgd.min.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content-blog.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/pages/blog.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/searchform.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/class-my-recent-post-widget.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_aside.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/style.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_footer.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_singl.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/template-tags.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/recent-post.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/comments.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_single.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_header.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/pages/blog.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_aside.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_footer.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/skokov-testing/functions.php" />
       </list>
     </option>
   </component>
@@ -282,7 +546,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,8 +558,23 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,17 +676,25 @@
       <workItem from="1488788299018" duration="552000" />
       <workItem from="1488788872166" duration="567000" />
       <workItem from="1488789868767" duration="357000" />
+      <workItem from="1488821437814" duration="1605000" />
+      <workItem from="1488835311153" duration="17345000" />
+      <workItem from="1488958312599" duration="9334000" />
+      <workItem from="1489045868821" duration="1206000" />
+      <workItem from="1489311410149" duration="11854000" />
+      <workItem from="1489341884089" duration="26089000" />
+      <workItem from="1489423661682" duration="5987000" />
+      <workItem from="1489477647028" duration="896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215874000" />
+    <option name="totallyTimeSpent" value="290190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18078668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21482602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -440,27 +726,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/testing/js/libs.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/testing/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/testing/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/testing/stylesheets/libs.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -503,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6307">
-          <caret line="892" column="18" lean-forward="false" selection-start-line="892" selection-start-column="18" selection-end-line="892" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/testing/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
@@ -531,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/jetpack.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -556,13 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/custom-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -617,45 +861,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/template-tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/customizer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/extras.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/class-my-recent-post-widget.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#349#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="47" column="199" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="199" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content-search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -677,17 +883,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_header.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="221">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/extras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5171">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content-blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="45" />
           <folding>
             <element signature="e#8#42#0#PHP" expanded="true" />
           </folding>
@@ -696,41 +931,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_aside.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9163">
-          <caret line="527" column="58" lean-forward="false" selection-start-line="527" selection-start-column="58" selection-end-line="527" selection-end-column="58" />
-          <caret line="536" column="58" lean-forward="false" selection-start-line="536" selection-start-column="58" selection-end-line="536" selection-end-column="58" />
-          <caret line="545" column="58" lean-forward="false" selection-start-line="545" selection-start-column="58" selection-end-line="545" selection-end-column="58" />
-          <folding>
-            <element signature="e#6#161#0#PHP" expanded="true" />
-            <marker date="1488718863961" expanded="true" signature="10149:10153" ph="&gt;" />
-            <marker date="1488718863961" expanded="true" signature="16077:16081" ph="&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
-            <marker date="1488718879997" expanded="true" signature="1008:1076" ph="..." />
-            <marker date="1488718879997" expanded="true" signature="1151:1194" ph="..." />
+            <marker date="1489314419438" expanded="true" signature="1383:1389" ph="→" />
           </folding>
         </state>
       </provider>
@@ -738,67 +957,130 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5032">
-          <caret line="296" column="29" lean-forward="false" selection-start-line="288" selection-start-column="24" selection-end-line="296" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="153" column="16" lean-forward="false" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="340">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/template-parts/content.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/recent-post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="186" column="27" lean-forward="false" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/custom-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3927">
+          <caret line="63" column="3" lean-forward="true" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="77" column="45" lean-forward="false" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
           <folding>
-            <marker date="1488786692502" expanded="true" signature="822:828" ph="→" />
+            <element signature="e#6#269#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/page.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="53" column="121" lean-forward="false" selection-start-line="53" selection-start-column="121" selection-end-line="53" selection-end-column="121" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/pages/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="153" column="19" lean-forward="false" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/inc/template-tags.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="187">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_single.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="18" lean-forward="false" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_aside.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/scss/parts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/skokov-testing/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="590" column="0" lean-forward="true" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#161#0#PHP" expanded="true" />
+            <marker date="1489482358670" expanded="true" signature="10149:10153" ph="&gt;" />
+            <marker date="1489482358670" expanded="true" signature="16077:16081" ph="&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
